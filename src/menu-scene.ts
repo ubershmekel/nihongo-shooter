@@ -42,7 +42,7 @@ export class MenuScene extends Phaser.Scene {
   update(): void {
     if (this.startKey.isDown) {
       this.sound.play('gasp');
-      this.scene.start(this);
+      this.scene.start("GameScene");
     }
 
     for (let i = 0; i < this.sprites.length; i++) {

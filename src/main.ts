@@ -10,16 +10,20 @@ import './style.css'
 
 import 'phaser';
 import { MenuScene } from './menu-scene';
+import { GameScene } from './game-scene';
 
 const GameConfig: Phaser.Types.Core.GameConfig = {
   title: 'ExampleGame',
   url: 'https://github.com/digitsensitive/phaser3-typescript',
   version: '2.0',
-  width: 800,
+  width: 400,
   height: 600,
   type: Phaser.AUTO,
   parent: 'app',
-  scene: [MenuScene],
+  scene: [
+    MenuScene,
+    GameScene,
+  ],
   input: {
     keyboard: true
   },
