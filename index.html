@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite Phaser Game</title>
+  </head>
+  <body>
+    <h1>Vite Phaser Game</h1>
+    <p>This is an example of setting up a Phaser, TypeScript, Vite game. See <a href="https://github.com/ubershmekel/vite-phaser-ts-starter">source on github</a>.</p>
+    <div class="window-controls">
+      <button onclick="_game.scale.toggleFullscreen()">fullscreen</button>
+      <button onclick="_game.sound.mute = !_game.sound.mute">mute</button>
+      <button onclick="window.location.reload(true)">refresh</button>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
