@@ -5,10 +5,10 @@ import hiraganaWordsTxt from '../assets/jp-words.txt?raw'
 
 export function test() {
   // console.log("words", wordsTxt.slice(0, 100));
-  console.log(parseHiragana()[5]);
+  console.log(getWords()[5]);
 }
 
-function parseHiragana() {
+export function getWords() {
   const lines = hiraganaWordsTxt.split('\n');
   const wordObjects = [];
   for (const line of lines) {

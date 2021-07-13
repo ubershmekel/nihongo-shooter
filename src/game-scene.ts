@@ -9,6 +9,8 @@ import { test } from './words';
 export class GameScene extends Phaser.Scene {
   private startKey!: Phaser.Input.Keyboard.Key;
   private sprites: {s: Phaser.GameObjects.Image, r: number }[] = [];
+  private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
+  private ship!: Phaser.GameObjects.Container;
 
   constructor() {
     super({
@@ -50,8 +52,10 @@ export class GameScene extends Phaser.Scene {
   }
 
   create(): void {
-    this.add.text(0, 0, 'Press S to restart scene', {
-      fontSize: '60px',
+    this.cursors = this.input.keyboard.createCursorKeys();
+
+    this.add.text(0, 0, 'Press arrow keys to move', {
+      fontSize: '20px',
       fontFamily: "Helvetica",
     });
 
@@ -72,7 +76,7 @@ export class GameScene extends Phaser.Scene {
       frameRate: 5,
       repeat: -1
     });
-    const ship = this.add.sprite(100, 100, 'ship');
+    const ship = this.add.sprite(0, 0, 'ship');
     ship.play('player-idle');
 
     this.anims.create({
@@ -81,15 +85,31 @@ export class GameScene extends Phaser.Scene {
       frameRate: 4,
       repeat: -1
     });
-    const thrust = this.add.sprite(100, 120, 'ship-thrust');
+    const thrust = this.add.sprite(0, 20, 'ship-thrust');
     thrust.play('thrust-idle');
+
+    this.ship = this.add.container(0, 0, [ship, thrust]);
+    this.ship.x = this.game.scale.width / 2;
+    this.ship.y = this.game.scale.height * 0.8;
+
   }
 
   update(): void {
-    if (this.startKey.isDown) {
-      this.sound.play('gasp');
-      this.scene.start(this);
+    if (this.cursors.left.isDown) {
+        this.ship.x = 0.2 * this.game.scale.width;
     }
+    if (this.cursors.up.isDown) {
+        this.ship.x = 0.5 * this.game.scale.width;
+    }
+    if (this.cursors.right.isDown) {
+        this.ship.x = 0.8 * this.game.scale.width;
+    }
+
+
+    // if (this.startKey.isDown) {
+    //   this.sound.play('gasp');
+    //   this.scene.start(this);
+    // }
 
     for (let i = 0; i < this.sprites.length; i++) {
         const sprite = this.sprites[i].s;
