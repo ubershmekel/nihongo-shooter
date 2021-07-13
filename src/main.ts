@@ -11,6 +11,9 @@ import './style.css'
 import 'phaser';
 import { MenuScene } from './menu-scene';
 import { GameScene } from './game-scene';
+import { init } from './words';
+
+init();
 
 const GameConfig: Phaser.Types.Core.GameConfig = {
   title: 'ExampleGame',

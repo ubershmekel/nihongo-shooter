@@ -3,7 +3,8 @@ import particleUrl from '../assets/particle.png';
 import shipUrl from '../assets/ship-01.png';
 import shipThrustUrl from '../assets/ship-01-thrust.png';
 import gaspUrl from '../assets/gasp.mp3';
-import { test } from './words';
+import { AnswerButton } from './answer-button';
+import { globalWords } from './words';
 
 
 export class GameScene extends Phaser.Scene {
@@ -11,6 +12,7 @@ export class GameScene extends Phaser.Scene {
   private sprites: {s: Phaser.GameObjects.Image, r: number }[] = [];
   private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
   private ship!: Phaser.GameObjects.Container;
+  private buttons!: AnswerButton[];
 
   constructor() {
     super({
@@ -19,7 +21,8 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload(): void {
-    test();
+    this.buttons = [];
+    
     this.startKey = this.input.keyboard.addKey(
       Phaser.Input.Keyboard.KeyCodes.S,
     );
@@ -54,12 +57,17 @@ export class GameScene extends Phaser.Scene {
   create(): void {
     this.cursors = this.input.keyboard.createCursorKeys();
 
+    for (const i of [0, 1, 2]) {
+      const button = new AnswerButton(this);
+      button.setText(globalWords[i].hiragana + '\n' + globalWords[i].kanji);
+      button.setXY(50 + 100 * i, 50 + (i % 2) * 80);
+      this.buttons.push(button);
+    }
+
     this.add.text(0, 0, 'Press arrow keys to move', {
       fontSize: '20px',
       fontFamily: "Helvetica",
     });
-
-    this.add.image(100, 100, 'particle');
 
     for (let i = 0; i < 10; i++) {
         const x = Phaser.Math.Between(-64, 800);
@@ -90,7 +98,7 @@ export class GameScene extends Phaser.Scene {
 
     this.ship = this.add.container(0, 0, [ship, thrust]);
     this.ship.x = this.game.scale.width / 2;
-    this.ship.y = this.game.scale.height * 0.8;
+    this.ship.y = this.game.scale.height * 0.86;
 
   }
 
@@ -111,14 +119,16 @@ export class GameScene extends Phaser.Scene {
     //   this.scene.start(this);
     // }
 
+    const debrisMaxY = this.game.scale.height + 100;
+    const debrisMinY = -100
     for (let i = 0; i < this.sprites.length; i++) {
         const sprite = this.sprites[i].s;
 
-        sprite.y -= this.sprites[i].r;
+        sprite.y += this.sprites[i].r;
 
-        if (sprite.y < -256)
+        if (sprite.y > debrisMaxY)
         {
-            sprite.y = 700;
+            sprite.y = debrisMinY;
         }
     }
 

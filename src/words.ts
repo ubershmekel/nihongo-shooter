@@ -3,12 +3,21 @@
 // import wordsTxt from '../assets/words.txt?raw' 
 import hiraganaWordsTxt from '../assets/jp-words.txt?raw' 
 
-export function test() {
-  // console.log("words", wordsTxt.slice(0, 100));
-  console.log(getWords()[5]);
+export interface Word {
+  english: string;
+  kanji: string;
+  hiragana: string;
 }
 
-export function getWords() {
+export let globalWords: Word[] = [];
+
+export function init() {
+  if (globalWords.length === 0) {
+    globalWords = getWords();
+  }
+}
+
+function getWords(): Word[] {
   const lines = hiraganaWordsTxt.split('\n');
   const wordObjects = [];
   for (const line of lines) {
