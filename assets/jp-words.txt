@@ -1,7 +1,7 @@
 行く:いく:go
 見る:みる:see, look at
 多い:おおい:a lot of, many
-家:いえ:home, household
+家:いえ:home, household, house, dwelling
 :これ:this, this one
 :それ:that, that one
 私:わたし:I
@@ -29,7 +29,7 @@
 高い:たかい:high, tall
 子供:こども:child
 :そう:so, that way
-:もう:already, yet
+:もう:already, yet, another, again
 学生:がくせい:student
 熱い:あつい:hot to touch
 :どうぞ:please
@@ -49,7 +49,7 @@
 学校:がっこう:school
 :くれる:be given
 始める:はじめる:start something
-起きる:おきる:get up, get out of bed
+起きる:おきる:get up, get out of bed, occur, happen
 春:はる:spring
 午前:ごぜん:morning, a.m.
 別:べつ:another, different
@@ -168,8 +168,8 @@
 女の子:おんな:の:こ:little girl
 男の子:おとこ:の:こ:boy
 私たち:わたしたち:we
-近く:ちかく:near, close to
-:やる:do, give
+近く:ちかく:near, close to, in the near future, before long
+:やる:do, give, give to an inferior
 :かなり:fairly, rather
 国:くに:country
 起こる:おこる:happen
@@ -184,7 +184,7 @@
 閉める:しめる:shut, close doors, windows, etc.
 続く:つずく:continue, follow
 お医者さん:おいしゃさん:doctor
-円:えん:Japanese yen
+円:えん:Japanese yen, circle
 :ここ:here
 待つ:まつ:wait, wait for
 低い:ひくい:low, short
@@ -215,11 +215,9 @@
 背:せ:height, stature
 手伝う:てつだう:help, assist
 鼻:はな:nose
-起きる:おきる:occur, happen
 載せる:のせる:place, put on
 悲しい:かなしい:sad
 :しゃべる:chat, talk
-近く:ちかく:in the near future, before long
 甘い:あまい:sweet
 :テーブル:table
 食べ物:たべもの:food
@@ -401,7 +399,6 @@
 問題:もんだい:problem, question
 必要:ひつよう:need, necessary
 :もつ:last long, be durable
-開く:ひらく:open
 昨年:さくねん:last year , often used in writing
 治る:なおる:be cured, get well
 :ドル:dollar
@@ -410,7 +407,6 @@
 最近:さいきん:recent, latest
 世界:せかい:world
 :コンピューター:computer
-:やる:give to an inferior
 意味:いみ:meaning, sense
 増える:ふえる:increase, accrue
 選ぶ:えらぶ:choose, elect
@@ -419,11 +415,9 @@
 続ける:つずける:continue, keep up
 :ほとんど:almost, hardly
 会社:かいしゃ:company, corporation
-家:いえ:house, dwelling
 多く:おおく:much, largely
 話:はなし:talk, story
 上がる:あがる:go up, rise physical movement
-:もう:another, again
 集める:あつめる:collect, gather
 声:こえ:voice, sound
 初めて:はじめて:for the first time
@@ -503,7 +497,6 @@
 夜中:よなか:midnight
 来週:らいしゅう:next week
 誰か:だれか:someone
-何:なに:what
 今朝:けさ:this morning
 寿司:すし:sushi
 履く:はく:put on shoes, wear pants, skirt
@@ -721,11 +714,10 @@
 :どなた:who
 許す:ゆるす:permit, forgive
 分ける:わける:divide, share
-自然:しぜん:nature
+自然:しぜん:nature, natural
 :アパート:apartment, flat
 :ホテル:hotel
 :パソコン:personal computer
-:うまい:good at
 明るい:あかるい:bright, cheerful
 急ぐ:いそぐ:hurry, do quickly
 歌:うた:song
@@ -774,7 +766,7 @@
 昼間:ひるま:daytime, during the day
 いつ頃:いつごろ:about when, about what time
 字:じ:individual character, letter
-七:なんあ:seven Chinese origin
+七:しち:seven Chinese origin
 お釣り:おつり:change of money
 名字:みょうじ:surname, family name
 :おじ:one’s own uncle
@@ -791,14 +783,13 @@
 青:あお:blue, green
 赤:あか:red color
 信号:しんごう:signal, traffic light
-円:えん:circle
 非常に:ひじょうに:very, extremely
 複雑:ふくざつ:complicated, intricate
 平和:へいわ:peace, harmony
 回る:まわる:turn round, go around
 若者:わかもの:young person, youth
 雪:ゆき:snow, snowfall
-:うまい:sweet, delicious
+:うまい:sweet, delicious, skillful
 思い出す:おもいだす:recollect, recall
 聞こえる:きこえる:hear, be heard
 借りる:かりる:borrow
@@ -885,7 +876,6 @@
 島:しま:island Japanese origin
 海岸:かいがん:seashore, coast
 :ガラス:glass material
-自然:しぜん:natural
 風:かぜ:wind
 科学:かがく:science
 太陽:たいよう:sun
