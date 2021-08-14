@@ -5,6 +5,7 @@ import shipThrustUrl from '../assets/ship-01-thrust.png';
 import gaspUrl from '../assets/gasp.mp3';
 import { AnswerButton } from './answer-button';
 import { WordGame } from './words';
+import { Rays } from './rays';
 
 
 export class GameScene extends Phaser.Scene {
@@ -16,6 +17,10 @@ export class GameScene extends Phaser.Scene {
   private definitionBox!: AnswerButton;
   private wordsGame!: WordGame;
   private scoreText!: Phaser.GameObjects.Text;
+  private rays = new Rays();
+  private stuff = [
+    this.rays,
+  ];
 
   constructor() {
     super({
@@ -24,6 +29,8 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload(): void {
+    this.stuff.map(thing => thing.preload(this));
+
     this.wordsGame = new WordGame();
     this.buttons = [];
     
@@ -34,6 +41,7 @@ export class GameScene extends Phaser.Scene {
     this.load.image('particle', particleUrl);
     // this.load.image('ship', shipUrl);
     // this.load.image('ship-thrust', shipThrustUrl);
+
     this.load.spritesheet(
       "ship-sheet",
       shipUrl,
@@ -56,17 +64,22 @@ export class GameScene extends Phaser.Scene {
     );
 
     this.load.audio('gasp', gaspUrl);
+
   }
 
-  evenWidthX() {
-    // const padding = this.game.scale.width * 0.2;
-    // this.game.scale.width / itemCount;
+  enemyX(index: number) {
     const wi = this.game.scale.width;
-    return [wi * 0.25, wi * 0.5, wi * 0.75];
+    const enemies = [wi * 0.25, wi * 0.5, wi * 0.75];
+    return enemies[index];
   }
 
   guessAnswer(index: number) {
     const success = this.wordsGame.tryAnswer(index);
+
+    this.ship.setX(this.enemyX(index))
+    this.rays.setX(this.enemyX(index));
+    this.rays.fire();
+
     if (success) {
       console.log("YES!");
     } else {
@@ -77,11 +90,10 @@ export class GameScene extends Phaser.Scene {
   }
 
   updateWordButtons() {
-    const xplaces = this.evenWidthX();
     for (const [index, word] of this.wordsGame.buttonWords.entries()) {
       const button = this.buttons[index];
       button.setText(word.kanji + '\n' + word.hiragana);
-      button.setXY(xplaces[index], 80 + (index % 2) * 80);
+      button.setXY(this.enemyX(index), 80 + (index % 2) * 80);
       button.onPress = () => {
         console.log('press', index, word.id);
         this.guessAnswer(index);
@@ -95,6 +107,8 @@ export class GameScene extends Phaser.Scene {
   }
 
   create(): void {
+    this.stuff.map(thing => thing.create(this));
+
     this.cursors = this.input.keyboard.createCursorKeys();
 
     for (const _ of this.wordsGame.buttonWords) {
@@ -146,17 +160,6 @@ export class GameScene extends Phaser.Scene {
   }
 
   update(): void {
-    const xplaces = this.evenWidthX();
-
-    if (this.cursors.left.isDown) {
-        this.ship.x = xplaces[0];
-    }
-    if (this.cursors.up.isDown) {
-      this.ship.x = xplaces[1];
-    }
-    if (this.cursors.right.isDown) {
-      this.ship.x = xplaces[2];
-    }
 
     if (Phaser.Input.Keyboard.JustDown(this.cursors.left)) {
       this.guessAnswer(0);
