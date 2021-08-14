@@ -1,6 +1,7 @@
 import raysUrl from '../assets/rays.png';
+import { Stuff } from './stuff';
 
-export class Rays {
+export class Rays implements Stuff {
   private rays!: Phaser.GameObjects.Sprite[];
 
   preload(scene: Phaser.Scene) {

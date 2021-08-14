@@ -12,7 +12,7 @@ not learning.
 
 * v Anim correct zap
 * v Anim wrong zap
-* Anim background
+* v Anim background
 * Menu of levels (e.g. 6x11 where each level has 15 words)
 * Store total points
 * Store level progress
@@ -26,3 +26,4 @@ not learning.
 * ship-01.png - https://www.patreon.com/ansimuz
 * rays.png - Topview Sci-Fi Patreon Collection
 * explosion.png - Lunar Lander Upload mattwalkden.itch.io
+* space-debris.png - Topview Sci-Fi Patreon Collection, lol why the strang spritesheet size

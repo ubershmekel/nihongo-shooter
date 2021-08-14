@@ -7,6 +7,8 @@ import { AnswerButton } from './answer-button';
 import { WordGame } from './words';
 import { Rays } from './rays';
 import { Explosion } from './fx-explosion';
+import { Background } from './fx-background';
+import { Stuff } from './stuff';
 
 
 export class GameScene extends Phaser.Scene {
@@ -20,9 +22,11 @@ export class GameScene extends Phaser.Scene {
   private scoreText!: Phaser.GameObjects.Text;
   private rays = new Rays();
   private explosion = new Explosion();
-  private stuff = [
+  private background = new Background();
+  private stuff: Stuff[] = [
     this.rays,
     this.explosion,
+    this.background,
   ];
 
   constructor() {
@@ -140,15 +144,6 @@ export class GameScene extends Phaser.Scene {
 
     this.updateWordButtons();
 
-    for (let i = 0; i < 10; i++) {
-        const x = Phaser.Math.Between(-64, 800);
-        const y = Phaser.Math.Between(-64, 600);
-
-        const image = this.add.image(x, y, 'particle');
-        image.setBlendMode(Phaser.BlendModes.ADD);
-        this.sprites.push({ s: image, r: 2 + Math.random() * 6 });
-    }
-
     this.anims.create({
       key: "player-idle",
       frames: this.anims.generateFrameNumbers("ship-sheet", {frames: [0, 1, 0, 3, 4, 0]}),
@@ -174,6 +169,9 @@ export class GameScene extends Phaser.Scene {
   }
 
   update(): void {
+    this.stuff.map(thing => {
+      if (thing.update) thing.update(this)
+    });
 
     if (Phaser.Input.Keyboard.JustDown(this.cursors.left)) {
       this.guessAnswer(0);
@@ -189,19 +187,6 @@ export class GameScene extends Phaser.Scene {
     //   this.sound.play('gasp');
     //   this.scene.start(this);
     // }
-
-    const debrisMaxY = this.game.scale.height + 100;
-    const debrisMinY = -100
-    for (let i = 0; i < this.sprites.length; i++) {
-        const sprite = this.sprites[i].s;
-
-        sprite.y += this.sprites[i].r;
-
-        if (sprite.y > debrisMaxY)
-        {
-            sprite.y = debrisMinY;
-        }
-    }
 
   }
 }

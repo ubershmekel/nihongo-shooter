@@ -1,4 +1,5 @@
 import explosionUrl from '../assets/explosion.png';
+import { Stuff } from './stuff';
 
 const keys = {
   sheet: "explosion-sheet",
@@ -6,7 +7,7 @@ const keys = {
   animShield: "shield",
 }
 
-export class Explosion {
+export class Explosion implements Stuff {
   sprite!: Phaser.GameObjects.Sprite;
 
   preload(scene: Phaser.Scene) {
