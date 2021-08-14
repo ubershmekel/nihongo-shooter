@@ -6,6 +6,7 @@ import gaspUrl from '../assets/gasp.mp3';
 import { AnswerButton } from './answer-button';
 import { WordGame } from './words';
 import { Rays } from './rays';
+import { Explosion } from './fx-explosion';
 
 
 export class GameScene extends Phaser.Scene {
@@ -18,8 +19,10 @@ export class GameScene extends Phaser.Scene {
   private wordsGame!: WordGame;
   private scoreText!: Phaser.GameObjects.Text;
   private rays = new Rays();
+  private explosion = new Explosion();
   private stuff = [
     this.rays,
+    this.explosion,
   ];
 
   constructor() {
@@ -73,16 +76,26 @@ export class GameScene extends Phaser.Scene {
     return enemies[index];
   }
 
+  enemyY(index: number) {
+    // one up, one down
+    return 80 + (index % 2) * 80;
+  }
+
   guessAnswer(index: number) {
     const success = this.wordsGame.tryAnswer(index);
 
     this.ship.setX(this.enemyX(index))
     this.rays.setX(this.enemyX(index));
-    this.rays.fire();
+    this.explosion.sprite.x = this.enemyX(index);
+    this.explosion.sprite.y = this.enemyY(index);
 
     if (success) {
+      this.rays.fire();
+      this.explosion.fire();
       console.log("YES!");
     } else {
+      this.rays.fireBlocked();
+      this.explosion.shield();
       console.log("no :(");
     }
     console.log("score", this.wordsGame.score);
@@ -93,7 +106,7 @@ export class GameScene extends Phaser.Scene {
     for (const [index, word] of this.wordsGame.buttonWords.entries()) {
       const button = this.buttons[index];
       button.setText(word.kanji + '\n' + word.hiragana);
-      button.setXY(this.enemyX(index), 80 + (index % 2) * 80);
+      button.setXY(this.enemyX(index), this.enemyY(index));
       button.onPress = () => {
         console.log('press', index, word.id);
         this.guessAnswer(index);
@@ -109,6 +122,7 @@ export class GameScene extends Phaser.Scene {
   create(): void {
     this.stuff.map(thing => thing.create(this));
 
+    this.explosion.sprite.depth = 20;
     this.cursors = this.input.keyboard.createCursorKeys();
 
     for (const _ of this.wordsGame.buttonWords) {

@@ -25,7 +25,7 @@ export class AnswerButton {
     this.graphics = this.scene.add.graphics();
     this.graphics.setScrollFactor(0);
 
-    // Buttons should be in front of most things
+    // Buttons should be in front of most things, z-index, layer
     this.sceneText.depth = 10;
     this.graphics.depth = 9;
 

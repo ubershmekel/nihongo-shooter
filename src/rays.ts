@@ -49,4 +49,10 @@ export class Rays {
     this.rays.map(i => i.setVisible(true));
     this.rays.map(i => i.play('rays-fire'))
   }
+
+  fireBlocked() {
+    this.rays.map(i => i.setVisible(true));
+    this.rays[0].setVisible(false);
+    this.rays.map(i => i.play('rays-fire'))
+  }
 }
