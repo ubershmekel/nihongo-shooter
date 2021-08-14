@@ -12,8 +12,8 @@ import { Stuff } from './stuff';
 
 
 export class GameScene extends Phaser.Scene {
+  private level: number = 1;
   private startKey!: Phaser.Input.Keyboard.Key;
-  private sprites: {s: Phaser.GameObjects.Image, r: number }[] = [];
   private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
   private ship!: Phaser.GameObjects.Container;
   private buttons!: AnswerButton[];
@@ -35,7 +35,12 @@ export class GameScene extends Phaser.Scene {
     });
   }
 
+  init(props: any) {
+    this.level = props.level || 1;
+  }
+
   preload(): void {
+    console.log('level', this.level);
     this.stuff.map(thing => thing.preload(this));
 
     this.wordsGame = new WordGame();
@@ -165,7 +170,6 @@ export class GameScene extends Phaser.Scene {
     this.ship = this.add.container(0, 0, [ship, thrust]);
     this.ship.x = this.game.scale.width / 2;
     this.ship.y = this.game.scale.height * 0.86;
-
   }
 
   update(): void {

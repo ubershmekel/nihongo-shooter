@@ -40,10 +40,11 @@ export class Explosion implements Stuff {
       // yoyo: true,
     });
     this.sprite = scene.add.sprite(100, 100, keys.animBoom);
-    this.sprite.play(keys.animBoom);
     this.sprite.scale = 2.5;
     this.sprite.alpha = 0.8;
+    this.sprite.setVisible(false);
     // this.rays.map(i => i.setRotation(Math.PI));
+    // this.sprite.play(keys.animBoom);
     // this.rays.map(i => i.setVisible(false));
     // this.rays.map(i => i.play('rays-charging'))
   }

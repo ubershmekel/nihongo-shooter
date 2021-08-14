@@ -1,10 +1,17 @@
 import 'phaser';
 import particleUrl from '../assets/particle.png';
 import gaspUrl from '../assets/gasp.mp3';
+import { Background } from './fx-background';
+import { Stuff } from './stuff';
+import { AnswerButton } from './answer-button';
 
 export class MenuScene extends Phaser.Scene {
   private startKey!: Phaser.Input.Keyboard.Key;
-  private sprites: {s: Phaser.GameObjects.Image, r: number }[] = [];
+  private background = new Background();
+  private stuff: Stuff[] = [
+    this.background,
+  ];
+  private buttons: AnswerButton[] = [];
 
   constructor() {
     super({
@@ -13,6 +20,7 @@ export class MenuScene extends Phaser.Scene {
   }
 
   preload(): void {
+    this.stuff.map(thing => thing.preload(this));
     this.startKey = this.input.keyboard.addKey(
       Phaser.Input.Keyboard.KeyCodes.S,
     );
@@ -22,38 +30,35 @@ export class MenuScene extends Phaser.Scene {
   }
 
   create(): void {
-    this.add.text(0, 0, 'Press S to restart scene', {
-      fontSize: '60px',
+    this.stuff.map(thing => thing.create(this));
+    const title = this.add.text(this.game.scale.width / 2, 60, 'Nihongo Shooter', {
+      fontSize: '40px',
       fontFamily: "Helvetica",
+      align: "center",
     });
+    title.setOrigin(0.5);
 
-    this.add.image(100, 100, 'particle');
-
-    for (let i = 0; i < 300; i++) {
-        const x = Phaser.Math.Between(-64, 800);
-        const y = Phaser.Math.Between(-64, 600);
-
-        const image = this.add.image(x, y, 'particle');
-        image.setBlendMode(Phaser.BlendModes.ADD);
-        this.sprites.push({ s: image, r: 2 + Math.random() * 6 });
+    const maxLevel = 44;
+    const columnCount = 6;
+    for (let index = 0; index < maxLevel; index++) {
+      const level = index + 1;
+      const button = new AnswerButton(this);
+      this.buttons.push(button);
+      button.setText('' + (level + 1));
+      button.setXY(40 + 60 * (index % columnCount), 140 + 60 * Math.floor(index / columnCount));
+      button.onPress = () => {
+        console.log('press', level);
+        this.sound.play('gasp');
+        this.scene.start("GameScene", { level });  
+      };
     }
   }
 
   update(): void {
+    this.stuff.map(thing => {
+      if (thing.update) thing.update(this)
+    });
     if (this.startKey.isDown) {
-      this.sound.play('gasp');
-      this.scene.start("GameScene");
-    }
-
-    for (let i = 0; i < this.sprites.length; i++) {
-        const sprite = this.sprites[i].s;
-
-        sprite.y -= this.sprites[i].r;
-
-        if (sprite.y < -256)
-        {
-            sprite.y = 700;
-        }
     }
 
   }
