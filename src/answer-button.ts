@@ -1,3 +1,5 @@
+import { gameHeight, gameWidth } from "./config";
+
 const borderThickness = 3;
 const borderColor = 0x404798;
 const borderAlpha = 1;
@@ -5,7 +7,7 @@ const boxAlpha = 0.8;
 const boxRestColor = 0x373737;
 const boxActiveColor = 0x903030;
 const boxHoverColor = 0x603030;
-const padding = 10;
+const padding = gameHeight / 60;
 
 export class AnswerButton {
   scene: Phaser.Scene;
@@ -17,10 +19,11 @@ export class AnswerButton {
   constructor(scene: Phaser.Scene) {
     this.scene = scene;
     this.sceneText = scene.add.text(50, 50, "asdf");
-    this.sceneText.setFontSize(20);
+    this.sceneText.setFontSize(gameHeight / 30);
     this.sceneText.setAlign('center');
     this.sceneText.setOrigin(0.5);
     this.sceneText.setInteractive();
+    this.sceneText.setWordWrapWidth(80 * gameWidth / 100, true);
 
     this.graphics = this.scene.add.graphics();
     this.graphics.setScrollFactor(0);

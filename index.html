@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nihongo Shooter</title>
-  </head>
-  <body>
-    <h1>Nihongo Shooter</h1>
-    <p>Speed run Japanese vocabulary learning. I made this game because the slow animations in Duolingo and other apps tire me. See <a href="https://github.com/ubershmekel/nihongo-shooter">source on github</a>.</p>
-    <div class="window-controls">
-      <button onclick="_game.scale.toggleFullscreen()">fullscreen</button>
-      <button onclick="_game.sound.mute = !_game.sound.mute">mute</button>
-      <button onclick="window.location.reload(true)">refresh</button>
-    </div>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nihongo Shooter</title>
+</head>
+
+<body>
+  <h1>Nihongo Shooter</h1>
+  <p>Speed run Japanese vocabulary learning. I made this game because the slow animations in Duolingo and other apps
+    tire me. See <a href="https://github.com/ubershmekel/nihongo-shooter">source on github</a>.</p>
+  <div class="window-controls">
+    <button onclick="window.toggleFullscreen()">fullscreen</button>
+    <button onclick="_game.sound.mute = !_game.sound.mute">mute</button>
+    <button onclick="window.location.reload(true)">refresh</button>
+  </div>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>

@@ -5,6 +5,7 @@ import { Background } from './fx-background';
 import { Stuff } from './stuff';
 import { AnswerButton } from './answer-button';
 import { maxLevel } from './words';
+import { gameHeight, gameWidth } from './config';
 
 export const menuSceneKey = 'MenuScene';
 
@@ -34,8 +35,8 @@ export class MenuScene extends Phaser.Scene {
 
   create(): void {
     this.stuff.map(thing => thing.create(this));
-    const title = this.add.text(this.game.scale.width / 2, 60, 'Nihongo Shooter', {
-      fontSize: '40px',
+    const title = this.add.text(gameWidth / 2, gameHeight / 30, 'Nihongo Shooter', {
+      fontSize: (0.05 * gameHeight) + 'px',
       fontFamily: "Helvetica",
       align: "center",
     });
@@ -47,7 +48,9 @@ export class MenuScene extends Phaser.Scene {
       const button = new AnswerButton(this);
       this.buttons.push(button);
       button.setText('' + level);
-      button.setXY(48 + 60 * (index % columnCount), 140 + 60 * Math.floor(index / columnCount));
+      const x = (1.5 + 1.4 * (index % columnCount)) * gameWidth / 10;
+      const y = (1.5 + 1 * Math.floor(index / columnCount)) * gameHeight / 10;
+      button.setXY(x, y);
       button.onPress = () => {
         this.sound.play('gasp');
         this.scene.start("GameScene", { level });

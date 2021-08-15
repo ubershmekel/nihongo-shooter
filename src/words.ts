@@ -52,7 +52,7 @@ export class WordGame {
   mistakes = 0;
 
   constructor(level: number) {
-    this.level = level;
+    this.level = level || 1;
     init();
 
     // `Math.floor` here guarantees we'll have wordCount of words each level

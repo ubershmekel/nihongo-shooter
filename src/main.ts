@@ -12,18 +12,19 @@ import 'phaser';
 import { MenuScene } from './menu-scene';
 import { GameScene } from './game-scene';
 import { LevelDoneScene } from './level-done-scene';
+import { gameHeight, gameWidth } from './config';
 
 const GameConfig: Phaser.Types.Core.GameConfig = {
-  title: 'ExampleGame',
-  url: 'https://github.com/digitsensitive/phaser3-typescript',
+  title: 'Nihongo Shooter',
+  url: 'https://github.com/ubershmekel/nihongo-shooter',
   version: '2.0',
-  width: 400,
-  height: 600,
+  width: gameWidth,
+  height: gameHeight,
   type: Phaser.AUTO,
   parent: 'app',
   scene: [
-    MenuScene,
     GameScene,
+    MenuScene,
     LevelDoneScene,
   ],
   input: {
@@ -48,10 +49,18 @@ const GameConfig: Phaser.Types.Core.GameConfig = {
   },
 };
 
-
 export class Game extends Phaser.Game {
   constructor(config: Phaser.Types.Core.GameConfig) {
     super(config);
+  }
+}
+
+(window as any).toggleFullscreen = () => {
+  if (document["exitFullscreen"]) {
+    (window as any)._game.scale.toggleFullscreen();
+  } else {
+    // iphones do not support fullscreen, so just scroll down.
+    document.getElementById('app')?.scrollIntoView();
   }
 }
 

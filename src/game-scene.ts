@@ -9,6 +9,7 @@ import { Explosion } from './fx-explosion';
 import { Background } from './fx-background';
 import { Stuff } from './stuff';
 import { LevelDoneData, levelDoneSceneKey } from './level-done-scene';
+import { gameHeight, gameWidth } from './config';
 
 const gameSceneKey = 'GameScene';
 
@@ -87,7 +88,7 @@ export class GameScene extends Phaser.Scene {
 
   enemyY(index: number) {
     // one up, one down
-    return 80 + (index % 2) * 80;
+    return (10 + (index % 2) * 14) * gameHeight / 100;
   }
 
   guessAnswer(index: number) {
@@ -155,7 +156,7 @@ export class GameScene extends Phaser.Scene {
     this.definitionBox.setXY(this.game.scale.width / 2, this.game.scale.height * 0.7);
 
     this.scoreText = this.add.text(0, 0, 'Score: 0', {
-      fontSize: '20px',
+      fontSize: (3 * gameHeight / 100) + 'px',
       fontFamily: "Helvetica",
     });
 
@@ -180,8 +181,9 @@ export class GameScene extends Phaser.Scene {
     thrust.play('thrust-idle');
 
     this.ship = this.add.container(0, 0, [ship, thrust]);
-    this.ship.x = this.game.scale.width / 2;
-    this.ship.y = this.game.scale.height * 0.86;
+    this.ship.x = gameWidth / 2;
+    this.ship.y = gameHeight * 0.86;
+    this.ship.scale = gameHeight / 600;
   }
 
   update(): void {
