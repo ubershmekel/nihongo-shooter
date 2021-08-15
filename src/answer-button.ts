@@ -12,7 +12,7 @@ export class AnswerButton {
   sceneText: Phaser.GameObjects.Text;
   graphics: Phaser.GameObjects.Graphics;
   boxColor = boxRestColor;
-  onPress = () => {};
+  onPress = () => { };
 
   constructor(scene: Phaser.Scene) {
     this.scene = scene;
@@ -32,13 +32,13 @@ export class AnswerButton {
     this.fixGraphics();
     this.setXY(0, 0);
 
-    this.sceneText.on('pointerover', () => this.enterButtonHoverState() )
-    .on('pointerout', () => this.enterButtonRestState() )
-    .on('pointerdown', () => this.enterButtonActiveState() )
-    .on('pointerup', () => {
-      this.enterButtonHoverState();
-      this.onPress();
-    });
+    this.sceneText.on('pointerover', () => this.enterButtonHoverState())
+      .on('pointerout', () => this.enterButtonRestState())
+      .on('pointerdown', () => this.enterButtonActiveState())
+      .on('pointerup', () => {
+        this.enterButtonHoverState();
+        this.onPress();
+      });
   }
 
   enterButtonHoverState() {
