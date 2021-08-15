@@ -144,7 +144,7 @@
 遅い:おそい:slow, late
 首:くび:neck
 速い:はやい:fast
-一緒に:いっしょ:に:together, at the same time
+一緒に:いっしょに:together, at the same time
 今月:こんげつ:this month
 遊ぶ:あそぶ:play
 遠い:とおい:far, distant
@@ -165,8 +165,8 @@
 緑:みどり:green
 腕:うで:arm
 :ドア:door loan word
-女の子:おんな:の:こ:little girl
-男の子:おとこ:の:こ:boy
+女の子:おんなのこ:little girl
+男の子:おとこのこ:boy
 私たち:わたしたち:we
 近く:ちかく:near, close to, in the near future, before long
 :やる:do, give, give to an inferior
@@ -285,7 +285,7 @@
 お姉さん:おねさん:older sister
 直る:なおる:be repaired, get fixed
 :ちょっと:just a moment, just a little
-四:よん:four Japanese origin
+四:よん:four (Japanese origin)
 :これから:from now on, after this
 考える:かんがえる:think, consider
 戻る:もどる:return to a point of departure
@@ -316,7 +316,7 @@
 高校生:ここせい:high school student
 上手:じょうず:good, skilled
 強い:つよい:strong
-七:なんあ:seven Japanese origin
+七:なんあ:seven (Japanese origin)
 二十日:はつか:days, th of the month
 左:ひだり:left
 二日:ふつか:two days, second of the month
@@ -335,7 +335,7 @@
 答える:こたえる:give an answer
 先:さき:ahead, first
 寒い:さむい:cold temperature of the air
-四:し:four Chinese origin
+四:し:four (Chinese origin)
 三日:みっか:three days, third of the month
 下:した:under, below
 大丈夫:だいじょうぶ:all right, OK
@@ -359,7 +359,7 @@
 一日:ついたち:first of the month
 九日:ここのか:nine days, ninth of the month
 方:ほう:direction, side
-他:ほか:other Japanese origin
+他:ほか:other (Japanese origin)
 僕:ぼく:I, me usually used by young males
 欲しい:ほしい:want, desire of the speaker
 万:まん:ten thousand
@@ -599,7 +599,7 @@
 簡単:かんたん:simple, easy
 似ている:にている:look like, resemble
 驚く:おどろく:be surprised, be startled
-嫌:いや/:きらーい:dislike situational
+嫌:いや/きらーい:dislike situational
 喧嘩:けんか:fight, argument
 遅れる:おくれる:be late
 :にんじん:carrot
@@ -766,7 +766,7 @@
 昼間:ひるま:daytime, during the day
 いつ頃:いつごろ:about when, about what time
 字:じ:individual character, letter
-七:しち:seven Chinese origin
+七:しち:seven (Chinese origin)
 お釣り:おつり:change of money
 名字:みょうじ:surname, family name
 :おじ:one’s own uncle
@@ -873,7 +873,7 @@
 季節:きせつ:season
 穴:あな:hole
 裏:うら:the back, the reverse side
-島:しま:island Japanese origin
+島:しま:island (Japanese origin)
 海岸:かいがん:seashore, coast
 :ガラス:glass material
 風:かぜ:wind
@@ -895,7 +895,7 @@
 横:よこ:side, width across
 :つまらない:boring, dull
 素晴らしい:すばらしい:excellent, wonderful
-毎年:まいとし/:まいねん:every year
+毎年:まいとし/まいねん:every year
 来月:らいげつ:next month
 日時:にちじ:date and time
 夕方:ゆうがた:early evening, at dusk
