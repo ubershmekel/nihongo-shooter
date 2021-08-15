@@ -11,6 +11,7 @@ import './style.css'
 import 'phaser';
 import { MenuScene } from './menu-scene';
 import { GameScene } from './game-scene';
+import { LevelDoneScene } from './level-done-scene';
 
 const GameConfig: Phaser.Types.Core.GameConfig = {
   title: 'ExampleGame',
@@ -23,6 +24,7 @@ const GameConfig: Phaser.Types.Core.GameConfig = {
   scene: [
     MenuScene,
     GameScene,
+    LevelDoneScene,
   ],
   input: {
     keyboard: true

@@ -34,9 +34,10 @@ export class Background implements Stuff {
 
       const image = scene.add.image(x, y, keys.sheet, Math.floor(Math.random() * 4));
       image.setTint(0x666666); // darken, wish I knew how to not make it transparent
+      // image.setTint(0x660000); // darken, wish I knew how to not make it transparent
       image.scale = 0.2 + 2 * Math.random();
 
-      image.setBlendMode(Phaser.BlendModes.ADD);
+      // image.setBlendMode(Phaser.BlendModes.ADD);
       this.sprites.push({
         s: image,
         velocity: 0.5 + Math.random() * 1,

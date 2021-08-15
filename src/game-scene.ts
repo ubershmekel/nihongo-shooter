@@ -1,5 +1,4 @@
 import 'phaser';
-import particleUrl from '../assets/particle.png';
 import shipUrl from '../assets/ship-01.png';
 import shipThrustUrl from '../assets/ship-01-thrust.png';
 import gaspUrl from '../assets/gasp.mp3';
@@ -9,7 +8,9 @@ import { Rays } from './rays';
 import { Explosion } from './fx-explosion';
 import { Background } from './fx-background';
 import { Stuff } from './stuff';
+import { LevelDoneData, levelDoneSceneKey } from './level-done-scene';
 
+const gameSceneKey = 'GameScene';
 
 export class GameScene extends Phaser.Scene {
   private level: number = 1;
@@ -28,31 +29,30 @@ export class GameScene extends Phaser.Scene {
     this.explosion,
     this.background,
   ];
+  private startTime!: number;
 
   constructor() {
     super({
-      key: 'GameScene'
+      key: gameSceneKey,
     });
   }
 
   init(props: any) {
     this.level = props.level || 1;
+    this.startTime = Date.now();
   }
 
   preload(): void {
     console.log('level', this.level);
     this.stuff.map(thing => thing.preload(this));
 
-    this.wordsGame = new WordGame();
+    this.wordsGame = new WordGame(this.level);
     this.buttons = [];
-    
+
     this.startKey = this.input.keyboard.addKey(
       Phaser.Input.Keyboard.KeyCodes.S,
     );
     this.startKey.isDown = false;
-    this.load.image('particle', particleUrl);
-    // this.load.image('ship', shipUrl);
-    // this.load.image('ship-thrust', shipThrustUrl);
 
     this.load.spritesheet(
       "ship-sheet",
@@ -91,14 +91,14 @@ export class GameScene extends Phaser.Scene {
   }
 
   guessAnswer(index: number) {
-    const success = this.wordsGame.tryAnswer(index);
+    const result = this.wordsGame.tryAnswer(index);
 
     this.ship.setX(this.enemyX(index))
     this.rays.setX(this.enemyX(index));
     this.explosion.sprite.x = this.enemyX(index);
     this.explosion.sprite.y = this.enemyY(index);
 
-    if (success) {
+    if (result.success) {
       this.rays.fire();
       this.explosion.fire();
       console.log("YES!");
@@ -107,8 +107,20 @@ export class GameScene extends Phaser.Scene {
       this.explosion.shield();
       console.log("no :(");
     }
-    console.log("score", this.wordsGame.score);
-    this.updateWordButtons();
+
+    if (result.gameOver) {
+      const endTime = Date.now();
+      const durationSeconds = (endTime - this.startTime) / 1000.0;
+      const data: LevelDoneData = {
+        duration: durationSeconds,
+        mistakes: this.wordsGame.mistakes,
+        corrects: this.wordsGame.corrects,
+      };
+      console.log("level over", data);
+      this.scene.start(levelDoneSceneKey, data);
+    } else {
+      this.updateWordButtons();
+    }
   }
 
   updateWordButtons() {
@@ -125,7 +137,7 @@ export class GameScene extends Phaser.Scene {
     const answerWord = this.wordsGame.getAnswerWord();
     this.definitionBox.setText(answerWord.english);
 
-    this.scoreText.setText("Score: " + this.wordsGame.score);
+    this.scoreText.setText("Score: " + this.wordsGame.score());
   }
 
   create(): void {
@@ -141,7 +153,7 @@ export class GameScene extends Phaser.Scene {
 
     this.definitionBox = new AnswerButton(this);
     this.definitionBox.setXY(this.game.scale.width / 2, this.game.scale.height * 0.7);
-    
+
     this.scoreText = this.add.text(0, 0, 'Score: 0', {
       fontSize: '20px',
       fontFamily: "Helvetica",
@@ -151,7 +163,7 @@ export class GameScene extends Phaser.Scene {
 
     this.anims.create({
       key: "player-idle",
-      frames: this.anims.generateFrameNumbers("ship-sheet", {frames: [0, 1, 0, 3, 4, 0]}),
+      frames: this.anims.generateFrameNumbers("ship-sheet", { frames: [0, 1, 0, 3, 4, 0] }),
       frameRate: 5,
       repeat: -1
     });
@@ -160,7 +172,7 @@ export class GameScene extends Phaser.Scene {
 
     this.anims.create({
       key: "thrust-idle",
-      frames: this.anims.generateFrameNumbers("ship-thrust-sheet", {frames: [0, 1]}),
+      frames: this.anims.generateFrameNumbers("ship-thrust-sheet", { frames: [0, 1] }),
       frameRate: 4,
       repeat: -1
     });
@@ -191,6 +203,5 @@ export class GameScene extends Phaser.Scene {
     //   this.sound.play('gasp');
     //   this.scene.start(this);
     // }
-
   }
 }

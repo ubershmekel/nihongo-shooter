@@ -1,7 +1,7 @@
 
 
 // import wordsTxt from '../assets/words.txt?raw' 
-import hiraganaWordsTxt from '../assets/jp-words.txt?raw' 
+import hiraganaWordsTxt from '../assets/jp-words.txt?raw'
 
 export interface Word {
   id: string;
@@ -33,102 +33,112 @@ function getWords(): Word[] {
   return wordObjects;
 }
 
-const maxLearningWordsAtOnce = 10;
-const questionsAtOnce = 3;
+// const maxLearningWordsAtOnce = 10;
+export const questionsAtOnce = 3;
+export const maxLevel = 48;
+export interface GuessResult {
+  success: boolean;
+  gameOver: boolean;
+}
 
 export class WordGame {
-  nextGlobalWordIndex = 0;
+  level = 1;
   learningWords: Word[] = [];
 
   buttonWords: Word[] = [];
   nextQuestionIndex = 0;
   correctWordIndex = 0;
-  score = 0;
-  wordSuccessCount: { [id: string]: number } = {};
+  corrects = 0;
+  mistakes = 0;
 
-  constructor() {
+  constructor(level: number) {
+    this.level = level;
     init();
-    this.reset();
+
+    // `Math.floor` here guarantees we'll have wordCount of words each level
+    // though we might skip the last few words. Not a problem because the list
+    // is sorted by word popularity.
+    const wordCount = Math.floor(globalWords.length / maxLevel);
+    const firstIndex = (level - 1) * wordCount;
+    this.learningWords = globalWords.slice(firstIndex, firstIndex + wordCount);
+    shuffle(this.learningWords);
+    if (this.learningWords.length <= questionsAtOnce) {
+      throw new Error("popNextWord will have an infinite loop");
+    }
+    this.fillButtonWords();
   }
 
-  nextQuestionWord() {
+  popNextWord() {
     let nextWord;
     while (true) {
       nextWord = this.learningWords[this.nextQuestionIndex];
       this.nextQuestionIndex++;
       if (this.nextQuestionIndex >= this.learningWords.length) {
         this.nextQuestionIndex = 0;
-        shuffle(this.learningWords);
       }
-      if (this.buttonWords.indexOf(nextWord) < 0) {
-        // found a new word, yay
+      if (this.buttonWords.indexOf(nextWord) >= 0) {
+        // Duplicate words in the buttons makes no sense because the user could
+        // have two correct answers for one definition, and only one answer works.
+        // TODO: one day solve this mwith a cool shuffle. I have no idea 
+        // how that algorithm would work. Probably worth defining this problem clearly.
+        continue;
+      } else {
         break;
       }
     }
-    // Raffle which word is going to be the right word for user to choose
     this.correctWordIndex = Math.floor(Math.random() * this.buttonWords.length);
     return nextWord;
   }
 
-  reset() {
-    // Fill `learningWords`
-    while (this.learningWords.length < maxLearningWordsAtOnce) {
-      if (this.nextGlobalWordIndex >= globalWords.length) {
-        console.log("finished...");
-        return;
-      }
-
-      const nextWord = globalWords[this.nextGlobalWordIndex];
-      this.learningWords.push(nextWord);
-      this.nextGlobalWordIndex++;
-    }
-
-    // Fill `questions`
+  fillButtonWords() {
     while (this.buttonWords.length < questionsAtOnce) {
-      const nextWord = this.nextQuestionWord();
+      const nextWord = this.popNextWord();
       this.buttonWords.push(nextWord);
     }
-
-    return;
   }
 
   getAnswerWord() {
     return this.buttonWords[this.correctWordIndex];
   }
 
-  tryAnswer(index: number): boolean {
-    const thisWord = this.getAnswerWord();
-    let successCount = this.wordSuccessCount[thisWord.id] || 0;
+  tryAnswer(index: number): GuessResult {
     if (index === this.correctWordIndex) {
-      this.wordSuccessCount[thisWord.id] = successCount + 1;
-      this.score += 1;
-      
-      // Remove this answer from the buttons, you got it
-      // this.buttonWords.splice(index, 1);
-      const nextWord = this.nextQuestionWord();
-      this.buttonWords[index] = nextWord;
+      this.corrects++;
 
-      if (this.wordSuccessCount[thisWord.id] > 2) {
-        // no need for this word anymore, we learned it
-        console.log("congrats, done with word");
-        const wordInLearningIndex = this.learningWords.indexOf(thisWord);
-        this.learningWords.splice(wordInLearningIndex, 1);
+      // Replace the word with whateve comes next
+      const nextWord = this.popNextWord();
+      this.buttonWords[index] = nextWord;
+      const levelLength = this.learningWords.length * 2;
+      let gameOver = false;
+      if (this.corrects >= levelLength) {
+        gameOver = true;
       }
-      this.reset();
-      return true;
+
+      this.fillButtonWords();
+      return {
+        success: true,
+        gameOver,
+      };
     } else {
       // Take away all the points earned on this word
-      this.score = this.score - 1;
-      this.wordSuccessCount[thisWord.id] = 0;
-      return false;
+      this.mistakes++;
+      return {
+        success: false,
+        gameOver: false,
+      };
     }
   }
+
+  score() {
+    return this.corrects - this.mistakes;
+  }
+
 }
 
 function shuffle(array: any[]) {
   // in-place shuffle
 
-  var currentIndex = array.length,  randomIndex;
+  var currentIndex = array.length, randomIndex;
 
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {

@@ -4,6 +4,9 @@ import gaspUrl from '../assets/gasp.mp3';
 import { Background } from './fx-background';
 import { Stuff } from './stuff';
 import { AnswerButton } from './answer-button';
+import { maxLevel } from './words';
+
+export const menuSceneKey = 'MenuScene';
 
 export class MenuScene extends Phaser.Scene {
   private startKey!: Phaser.Input.Keyboard.Key;
@@ -15,7 +18,7 @@ export class MenuScene extends Phaser.Scene {
 
   constructor() {
     super({
-      key: 'MenuScene'
+      key: menuSceneKey,
     });
   }
 
@@ -38,18 +41,16 @@ export class MenuScene extends Phaser.Scene {
     });
     title.setOrigin(0.5);
 
-    const maxLevel = 44;
     const columnCount = 6;
     for (let index = 0; index < maxLevel; index++) {
       const level = index + 1;
       const button = new AnswerButton(this);
       this.buttons.push(button);
-      button.setText('' + (level + 1));
-      button.setXY(40 + 60 * (index % columnCount), 140 + 60 * Math.floor(index / columnCount));
+      button.setText('' + level);
+      button.setXY(48 + 60 * (index % columnCount), 140 + 60 * Math.floor(index / columnCount));
       button.onPress = () => {
-        console.log('press', level);
         this.sound.play('gasp');
-        this.scene.start("GameScene", { level });  
+        this.scene.start("GameScene", { level });
       };
     }
   }
