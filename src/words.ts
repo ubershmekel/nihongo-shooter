@@ -108,7 +108,7 @@ export class WordGame {
       // Replace the word with whateve comes next
       const nextWord = this.popNextWord();
       this.buttonWords[index] = nextWord;
-      const levelLength = this.learningWords.length * 2;
+      const levelLength = this.learningWords.length;
       let gameOver = false;
       if (this.corrects >= levelLength) {
         gameOver = true;
