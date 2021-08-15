@@ -80,67 +80,6 @@ export class GameScene extends Phaser.Scene {
 
   }
 
-  enemyX(index: number) {
-    const wi = this.game.scale.width;
-    const enemies = [wi * 0.25, wi * 0.5, wi * 0.75];
-    return enemies[index];
-  }
-
-  enemyY(index: number) {
-    // one up, one down
-    return (10 + (index % 2) * 14) * gameHeight / 100;
-  }
-
-  guessAnswer(index: number) {
-    const result = this.wordsGame.tryAnswer(index);
-
-    this.ship.setX(this.enemyX(index))
-    this.rays.setX(this.enemyX(index));
-    this.explosion.sprite.x = this.enemyX(index);
-    this.explosion.sprite.y = this.enemyY(index);
-
-    if (result.success) {
-      this.rays.fire();
-      this.explosion.fire();
-      console.log("YES!");
-    } else {
-      this.rays.fireBlocked();
-      this.explosion.shield();
-      console.log("no :(");
-    }
-
-    if (result.gameOver) {
-      const endTime = Date.now();
-      const durationSeconds = (endTime - this.startTime) / 1000.0;
-      const data: LevelDoneData = {
-        duration: durationSeconds,
-        mistakes: this.wordsGame.mistakes,
-        corrects: this.wordsGame.corrects,
-      };
-      console.log("level over", data);
-      this.scene.start(levelDoneSceneKey, data);
-    } else {
-      this.updateWordButtons();
-    }
-  }
-
-  updateWordButtons() {
-    for (const [index, word] of this.wordsGame.buttonWords.entries()) {
-      const button = this.buttons[index];
-      button.setText(word.kanji + '\n' + word.hiragana);
-      button.setXY(this.enemyX(index), this.enemyY(index));
-      button.onPress = () => {
-        console.log('press', index, word.id);
-        this.guessAnswer(index);
-      }
-    }
-
-    const answerWord = this.wordsGame.getAnswerWord();
-    this.definitionBox.setText(answerWord.english);
-
-    this.scoreText.setText("Score: " + this.wordsGame.score());
-  }
-
   create(): void {
     this.stuff.map(thing => thing.create(this));
 
@@ -153,7 +92,7 @@ export class GameScene extends Phaser.Scene {
     }
 
     this.definitionBox = new AnswerButton(this);
-    this.definitionBox.setXY(this.game.scale.width / 2, this.game.scale.height * 0.7);
+    this.definitionBox.setXY(this.game.scale.width / 2, 0.3 * this.game.scale.height);
 
     this.scoreText = this.add.text(0, 0, 'Score: 0', {
       fontSize: (3 * gameHeight / 100) + 'px',
@@ -205,5 +144,66 @@ export class GameScene extends Phaser.Scene {
     //   this.sound.play('gasp');
     //   this.scene.start(this);
     // }
+  }
+
+  enemyX(index: number) {
+    const wi = this.game.scale.width;
+    const enemies = [wi * 0.25, wi * 0.5, wi * 0.75];
+    return enemies[index];
+  }
+
+  enemyY(index: number) {
+    // one up, one down
+    return (57 + (index % 2) * 14) * gameHeight / 100;
+  }
+
+  guessAnswer(index: number) {
+    const result = this.wordsGame.tryAnswer(index);
+
+    this.ship.setX(this.enemyX(index))
+    this.rays.setX(this.enemyX(index));
+    this.explosion.sprite.x = this.enemyX(index);
+    this.explosion.sprite.y = this.enemyY(index);
+
+    if (result.success) {
+      this.rays.fire();
+      this.explosion.fire();
+      console.log("YES!");
+    } else {
+      this.rays.fireBlocked();
+      this.explosion.shield();
+      console.log("no :(");
+    }
+
+    if (result.gameOver) {
+      const endTime = Date.now();
+      const durationSeconds = (endTime - this.startTime) / 1000.0;
+      const data: LevelDoneData = {
+        duration: durationSeconds,
+        mistakes: this.wordsGame.mistakes,
+        corrects: this.wordsGame.corrects,
+      };
+      console.log("level over", data);
+      this.scene.start(levelDoneSceneKey, data);
+    } else {
+      this.updateWordButtons();
+    }
+  }
+
+  updateWordButtons() {
+    for (const [index, word] of this.wordsGame.buttonWords.entries()) {
+      const button = this.buttons[index];
+      button.setText(word.kanji + '\n' + word.hiragana);
+      button.setXY(this.enemyX(index), this.enemyY(index));
+      button.onPress = () => {
+        console.log('press', index, word.id);
+        this.guessAnswer(index);
+      }
+    }
+
+    const answerWord = this.wordsGame.getAnswerWord();
+    this.definitionBox.setText(answerWord.english);
+
+    this.scoreText.setText("Score: " + this.wordsGame.score());
   }
 }

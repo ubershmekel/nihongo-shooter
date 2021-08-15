@@ -1,6 +1,7 @@
 import 'phaser';
 import gaspUrl from '../assets/gasp.mp3';
 import { AnswerButton } from './answer-button';
+import { gameHeight, gameWidth } from './config';
 import { Background } from './fx-background';
 import { menuSceneKey } from './menu-scene';
 import { Stuff } from './stuff';
@@ -39,21 +40,21 @@ export class LevelDoneScene extends Phaser.Scene {
 
   create(): void {
     this.stuff.map(thing => thing.create(this));
-    const title = this.add.text(this.game.scale.width / 2, 60, 'LEVEL COMPLETE', {
-      fontSize: '40px',
+    const title = this.add.text(gameWidth / 2, 0.05 * gameHeight, 'LEVEL COMPLETE', {
+      fontSize: 0.06 * gameHeight + 'px',
       fontFamily: "Helvetica",
       align: "center",
     });
     title.setOrigin(0.5);
 
     const rows = [
-      "Words: " + this.levelDoneData.corrects,
-      "Missed: " + this.levelDoneData.mistakes,
+      "Hits: " + this.levelDoneData.corrects,
+      "Misses: " + this.levelDoneData.mistakes,
       `In: ${this.levelDoneData.duration} seconds`,
     ];
     for (const [index, element] of rows.entries()) {
-      this.add.text(this.game.scale.width / 4, 200 + index * 50, element, {
-        fontSize: '20px',
+      this.add.text(gameWidth / 8, (20 + index * 7) * gameHeight / 100, element, {
+        fontSize: 0.04 * gameHeight + 'px',
         fontFamily: "Helvetica",
         // align: "center",
       });

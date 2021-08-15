@@ -1,4 +1,5 @@
 import imageUrl from '../assets/space-debris.png';
+import { gameHeight } from './config';
 import { Stuff } from './stuff';
 
 const keys = {
@@ -35,13 +36,13 @@ export class Background implements Stuff {
       const image = scene.add.image(x, y, keys.sheet, Math.floor(Math.random() * 4));
       image.setTint(0x666666); // darken, wish I knew how to not make it transparent
       // image.setTint(0x660000); // darken, wish I knew how to not make it transparent
-      image.scale = 0.2 + 2 * Math.random();
+      image.scale = (0.2 + 2 * Math.random()) * gameHeight / 1000;
 
       // image.setBlendMode(Phaser.BlendModes.ADD);
       this.sprites.push({
         s: image,
-        velocity: 0.5 + Math.random() * 1,
-        angularV: (0.5 - Math.random()) * 2,
+        velocity: (0.1 + Math.random() * 0.5) * gameHeight / 1000,
+        angularV: (0.5 - Math.random()) * 0.3,
       });
     }
   }
