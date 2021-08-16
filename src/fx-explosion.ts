@@ -1,4 +1,5 @@
 import explosionUrl from '../assets/explosion.png';
+import { gameWidth } from './config';
 import { Stuff } from './stuff';
 
 const keys = {
@@ -33,14 +34,14 @@ export class Explosion implements Stuff {
     });
     scene.anims.create({
       key: keys.animShield,
-      frames: scene.anims.generateFrameNumbers(keys.sheet, {frames: [3, 6, 7]}),
+      frames: scene.anims.generateFrameNumbers(keys.sheet, { frames: [3, 6, 7] }),
       frameRate: 15,
       repeat: 0,
       hideOnComplete: true,
       // yoyo: true,
     });
     this.sprite = scene.add.sprite(100, 100, keys.animBoom);
-    this.sprite.scale = 2.5;
+    this.sprite.scale = 2.5 * gameWidth / 300;
     this.sprite.alpha = 0.8;
     this.sprite.setVisible(false);
     // this.rays.map(i => i.setRotation(Math.PI));
