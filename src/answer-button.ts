@@ -13,6 +13,7 @@ export class AnswerButton {
   scene: Phaser.Scene;
   sceneText: Phaser.GameObjects.Text;
   graphics: Phaser.GameObjects.Graphics;
+  rect: Phaser.GameObjects.Rectangle;
   boxColor = boxRestColor;
   onPress = () => { };
 
@@ -28,20 +29,26 @@ export class AnswerButton {
     this.graphics = this.scene.add.graphics();
     this.graphics.setScrollFactor(0);
 
-    // Buttons should be in front of most things, z-index, layer
-    this.sceneText.depth = 10;
-    this.graphics.depth = 9;
-
-    this.fixGraphics();
-    this.setXY(0, 0);
-
-    this.sceneText.on('pointerover', () => this.enterButtonHoverState())
+    this.rect = scene.add.rectangle();
+    // this.rect.setStrokeStyle(1, 0x00ff00);
+    this.rect.setOrigin(0, 0)
+    this.rect.setScrollFactor(0);
+    this.rect.setInteractive();
+    this.rect.on('pointerover', () => this.enterButtonHoverState())
       .on('pointerout', () => this.enterButtonRestState())
       .on('pointerdown', () => this.enterButtonActiveState())
       .on('pointerup', () => {
         this.enterButtonHoverState();
         this.onPress();
       });
+
+    this.setXY(0, 0);
+
+    // Buttons should be in front of most things, z-index, layer
+    this.rect.depth = 11;
+    this.sceneText.depth = 10;
+    this.graphics.depth = 9;
+
   }
 
   enterButtonHoverState() {
@@ -62,13 +69,16 @@ export class AnswerButton {
   fixGraphics() {
     this.graphics.clear();
 
-    // const gameWidth = +this.scene.sys.game.config.width;
-    // const gameHeight = +this.scene.sys.game.config.height;
     const boxWidth = this.sceneText.width + (padding * 2);
     const boxHeight = this.sceneText.height + (padding * 2);
     const tbound = this.sceneText.getBounds();
     const boxX = tbound.x - padding;
     const boxY = tbound.y - padding;
+
+    this.rect.x = boxX;
+    this.rect.y = boxY;
+    this.rect.displayWidth = boxWidth;
+    this.rect.displayHeight = boxHeight;
 
     this.graphics.fillStyle(this.boxColor, boxAlpha);
     this.graphics.fillRect(boxX, boxY, boxWidth - 1, boxHeight - 1);
@@ -87,7 +97,5 @@ export class AnswerButton {
     this.sceneText.x = x;
     this.sceneText.y = y;
     this.fixGraphics();
-    // this.graphics.x = x;
-    // this.graphics.y = y;
   }
 }
