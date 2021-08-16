@@ -11,7 +11,5 @@ not learning.
 ## Credits
 
 * Japanese words list [posted by u/Maiqswaterwalking](https://www.reddit.com/r/japanese/comments/g87bn7/top_1000_japanese_words_kanji_romaji_english/), [hiraganafied by u/EmergencyDoctorMaria](https://pastebin.com/3BgbvHfT), cleaned by u/ubershmekel.
-* ship-01.png - https://www.patreon.com/ansimuz
-* rays.png - https://ansimuz.itch.io/patreons-top-down-collection
-* explosion.png - Lunar Lander Upload mattwalkden.itch.io
-* space-debris.png, enemies.png, explosion2.png - https://ansimuz.itch.io/patreons-top-down-collection, lol why the strange spritesheet size for the debris.
+* explosion.png - Lunar Lander Upload https://mattwalkden.itch.io
+* ship-01.png, rays.png, space-debris.png, enemies.png, explosion2.png - https://ansimuz.itch.io/patreons-top-down-collection, lol why the strange spritesheet size for the debris.
