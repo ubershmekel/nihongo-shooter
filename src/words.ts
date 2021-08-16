@@ -101,9 +101,13 @@ export class WordGame {
     return this.buttonWords[this.correctWordIndex];
   }
 
-  remaining() {
+  remainingWords() {
     const levelLength = this.learningWords.length;
     return levelLength - this.corrects;
+  }
+
+  totalWords() {
+    return this.learningWords.length;
   }
 
   tryAnswer(index: number): GuessResult {
@@ -114,7 +118,7 @@ export class WordGame {
       const nextWord = this.popNextWord();
       this.buttonWords[index] = nextWord;
       let gameOver = false;
-      if (this.remaining() <= 0) {
+      if (this.remainingWords() <= 0) {
         gameOver = true;
       }
 

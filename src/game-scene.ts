@@ -10,6 +10,7 @@ import { Background } from './fx-background';
 import { Stuff } from './stuff';
 import { LevelDoneData, levelDoneSceneKey } from './level-done-scene';
 import { gameHeight, gameWidth } from './config';
+import { HealthBar } from './fx-hp-bar';
 
 const gameSceneKey = 'GameScene';
 
@@ -25,10 +26,12 @@ export class GameScene extends Phaser.Scene {
   private rays = new Rays();
   private explosion = new Explosion();
   private background = new Background();
+  private hpBar = new HealthBar();
   private stuff: Stuff[] = [
     this.rays,
     this.explosion,
     this.background,
+    this.hpBar,
   ];
   private startTime!: number;
 
@@ -168,11 +171,9 @@ export class GameScene extends Phaser.Scene {
     if (result.success) {
       this.rays.fire();
       this.explosion.fire();
-      console.log("YES!");
     } else {
       this.rays.fireBlocked();
       this.explosion.shield();
-      console.log("no :(");
     }
 
     if (result.gameOver) {
@@ -205,6 +206,8 @@ export class GameScene extends Phaser.Scene {
     const answerWord = this.wordsGame.getAnswerWord();
     this.definitionBox.setText(answerWord.english);
 
-    this.scoreText.setText("HP: " + this.wordsGame.remaining() * 10);
+    const percentLeft = 100 * this.wordsGame.remainingWords() / this.wordsGame.totalWords();
+    this.hpBar.setPercent(percentLeft);
+    this.scoreText.setText("HP: " + this.wordsGame.remainingWords() * 10);
   }
 }
