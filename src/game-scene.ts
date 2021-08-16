@@ -16,10 +16,19 @@ import { ManyExplosions } from './fx-many-explosions';
 
 const gameSceneKey = 'GameScene';
 
+const { LEFT, RIGHT, UP, ONE, TWO, THREE } = Phaser.Input.Keyboard.KeyCodes;
+const keyCodes = {
+  left: LEFT,
+  right: RIGHT,
+  up: UP,
+  one: ONE,
+  two: TWO,
+  three: THREE,
+};
+type KeysType = { [name in keyof typeof keyCodes]: Phaser.Input.Keyboard.Key };
+
 export class GameScene extends Phaser.Scene {
   private level: number = 1;
-  private startKey!: Phaser.Input.Keyboard.Key;
-  private cursors!: Phaser.Types.Input.Keyboard.CursorKeys;
   private ship!: Phaser.GameObjects.Container;
   private buttons!: AnswerButton[];
   private definitionBox!: AnswerButton;
@@ -41,6 +50,7 @@ export class GameScene extends Phaser.Scene {
   ];
   private startTime!: number;
   private isGameOver = false;
+  private keys!: KeysType;
 
   constructor() {
     super({
@@ -60,11 +70,6 @@ export class GameScene extends Phaser.Scene {
     this.wordsGame = new WordGame(this.level);
     this.buttons = [];
     this.isGameOver = false;
-
-    this.startKey = this.input.keyboard.addKey(
-      Phaser.Input.Keyboard.KeyCodes.S,
-    );
-    this.startKey.isDown = false;
 
     this.load.spritesheet(
       "ship-sheet",
@@ -93,8 +98,6 @@ export class GameScene extends Phaser.Scene {
 
   create(): void {
     this.stuff.map(thing => thing.create(this));
-
-    this.cursors = this.input.keyboard.createCursorKeys();
 
     for (const _ of this.wordsGame.buttonWords) {
       const button = new AnswerButton(this);
@@ -135,6 +138,8 @@ export class GameScene extends Phaser.Scene {
     this.ship.x = gameWidth / 2;
     this.ship.y = gameHeight * 0.86;
     this.ship.scale = gameHeight / 600;
+
+    this.keys = this.input.keyboard.addKeys(keyCodes) as KeysType;
   }
 
   update(): void {
@@ -145,20 +150,16 @@ export class GameScene extends Phaser.Scene {
       if (thing.update) thing.update(this)
     });
 
-    if (Phaser.Input.Keyboard.JustDown(this.cursors.left)) {
+    if (Phaser.Input.Keyboard.JustDown(this.keys.left) || Phaser.Input.Keyboard.JustDown(this.keys.one)) {
       this.guessAnswer(0);
     }
-    if (Phaser.Input.Keyboard.JustDown(this.cursors.up)) {
+    if (Phaser.Input.Keyboard.JustDown(this.keys.up) || Phaser.Input.Keyboard.JustDown(this.keys.two)) {
       this.guessAnswer(1);
     }
-    if (Phaser.Input.Keyboard.JustDown(this.cursors.right)) {
+    if (Phaser.Input.Keyboard.JustDown(this.keys.right) || Phaser.Input.Keyboard.JustDown(this.keys.three)) {
       this.guessAnswer(2);
     }
 
-    // if (this.startKey.isDown) {
-    //   this.sound.play('gasp');
-    //   this.scene.start(this);
-    // }
   }
 
   enemyX(index: number) {
