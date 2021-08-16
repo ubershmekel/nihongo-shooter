@@ -41,10 +41,12 @@ export class Rays implements Stuff {
     ];
     this.container = scene.add.container(0, 0, this.rays);
     this.container.scale = gameHeight / 600;
+    this.container.setDepth(5);
 
-    this.rays.map(i => i.setRotation(Math.PI));
-    this.rays.map(i => i.setVisible(false));
-    // this.rays.map(i => i.play('rays-charging'))
+    this.rays.map(i => {
+      i.setRotation(Math.PI);
+      i.setVisible(false);
+    });
   }
 
   setX(x: number) {
@@ -53,13 +55,16 @@ export class Rays implements Stuff {
   }
 
   fire() {
-    this.rays.map(i => i.setVisible(true));
+    this.rays.map(i => {
+      i.setVisible(true);
+    });
     this.rays.map(i => i.play('rays-fire'))
   }
 
   fireBlocked() {
     this.rays.map(i => i.setVisible(true));
     this.rays[0].setVisible(false);
+    this.rays[1].setVisible(false);
     this.rays.map(i => i.play('rays-fire'))
   }
 }

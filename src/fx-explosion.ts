@@ -1,6 +1,7 @@
 import explosionUrl from '../assets/explosion.png';
-import { gameWidth } from './config';
+import { gameHeight, gameWidth } from './config';
 import { Stuff } from './stuff';
+import { tweenPromise } from './utils';
 
 const keys = {
   sheet: "explosion-sheet",
@@ -9,9 +10,12 @@ const keys = {
 }
 
 export class Explosion implements Stuff {
-  sprite!: Phaser.GameObjects.Sprite;
+  private sprite!: Phaser.GameObjects.Sprite;
+  private text!: Phaser.GameObjects.Text;
+  private scene!: Phaser.Scene;
 
   preload(scene: Phaser.Scene) {
+    this.scene = scene;
     scene.load.spritesheet(
       keys.sheet,
       explosionUrl,
@@ -44,16 +48,31 @@ export class Explosion implements Stuff {
     this.sprite.scale = 2.5 * gameWidth / 300;
     this.sprite.alpha = 0.8;
     this.sprite.setVisible(false);
-    // this.rays.map(i => i.setRotation(Math.PI));
-    // this.sprite.play(keys.animBoom);
-    // this.rays.map(i => i.setVisible(false));
-    // this.rays.map(i => i.play('rays-charging'))
+    this.sprite.depth = 20;
+
+    this.text = scene.add.text(0, 0, "違");
+    this.text.setFontSize(gameHeight * 0.12);
+    this.text.setAlign('center');
+    this.text.setOrigin(0.5);
+    this.text.setColor('#6666ff');
+    this.text.depth = 20;
+    this.text.setVisible(false);
   }
 
   shield() {
-    this.sprite.setVisible(true);
-    this.sprite.play(keys.animShield);
-    this.sprite.setTintFill(0x1199ff);
+    // this.sprite.setVisible(true);
+    // this.sprite.play(keys.animShield);
+    // this.sprite.setTintFill(0x1199ff);
+    this.text.setVisible(true);
+    this.text.scale = 1.0;
+    this.text.alpha = 1.0;
+    tweenPromise(this.scene, {
+      targets: this.text,
+      scale: 2.0,
+      alpha: 0,
+      // ease: 'Linear',
+      duration: 300,
+    });
   }
 
   fire() {
@@ -63,4 +82,12 @@ export class Explosion implements Stuff {
     // this.sprite.alpha = 1.0;
   }
 
+  setXY(x: number, y: number) {
+    this.sprite.x = x;
+    this.sprite.y = y;
+    this.text.x = x;
+    this.text.y = y;
+  }
+
 }
+

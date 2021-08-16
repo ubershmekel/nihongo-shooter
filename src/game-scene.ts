@@ -11,6 +11,8 @@ import { Stuff } from './stuff';
 import { LevelDoneData, levelDoneSceneKey } from './level-done-scene';
 import { gameHeight, gameWidth } from './config';
 import { HealthBar } from './fx-hp-bar';
+import { Enemy } from './fx-enemy';
+import { ManyExplosions } from './fx-many-explosions';
 
 const gameSceneKey = 'GameScene';
 
@@ -25,15 +27,20 @@ export class GameScene extends Phaser.Scene {
   private scoreText!: Phaser.GameObjects.Text;
   private rays = new Rays();
   private explosion = new Explosion();
+  private manyExplosions = new ManyExplosions();
   private background = new Background();
   private hpBar = new HealthBar();
+  private enemy = new Enemy();
   private stuff: Stuff[] = [
     this.rays,
     this.explosion,
     this.background,
     this.hpBar,
+    this.enemy,
+    this.manyExplosions,
   ];
   private startTime!: number;
+  private isGameOver = false;
 
   constructor() {
     super({
@@ -52,6 +59,7 @@ export class GameScene extends Phaser.Scene {
 
     this.wordsGame = new WordGame(this.level);
     this.buttons = [];
+    this.isGameOver = false;
 
     this.startKey = this.input.keyboard.addKey(
       Phaser.Input.Keyboard.KeyCodes.S,
@@ -86,7 +94,6 @@ export class GameScene extends Phaser.Scene {
   create(): void {
     this.stuff.map(thing => thing.create(this));
 
-    this.explosion.sprite.depth = 20;
     this.cursors = this.input.keyboard.createCursorKeys();
 
     for (const _ of this.wordsGame.buttonWords) {
@@ -101,6 +108,8 @@ export class GameScene extends Phaser.Scene {
       fontSize: (3 * gameHeight / 100) + 'px',
       fontFamily: "Helvetica",
     });
+    this.scoreText.depth = 11;
+    this.enemy.chooseEnemy(this.level);
 
     this.updateWordButtons();
 
@@ -129,6 +138,9 @@ export class GameScene extends Phaser.Scene {
   }
 
   update(): void {
+    if (this.isGameOver) {
+      return;
+    }
     this.stuff.map(thing => {
       if (thing.update) thing.update(this)
     });
@@ -160,13 +172,15 @@ export class GameScene extends Phaser.Scene {
     return (57 + (index % 2) * 14) * gameHeight / 100;
   }
 
-  guessAnswer(index: number) {
+  async guessAnswer(index: number) {
+    if (this.isGameOver) {
+      return;
+    }
     const result = this.wordsGame.tryAnswer(index);
 
     this.ship.setX(this.enemyX(index))
     this.rays.setX(this.enemyX(index));
-    this.explosion.sprite.x = this.enemyX(index);
-    this.explosion.sprite.y = this.enemyY(index);
+    this.explosion.setXY(this.enemyX(index), this.enemyY(index));
 
     if (result.success) {
       this.rays.fire();
@@ -177,6 +191,7 @@ export class GameScene extends Phaser.Scene {
     }
 
     if (result.gameOver) {
+      this.isGameOver = true;
       const endTime = Date.now();
       const durationSeconds = (endTime - this.startTime) / 1000.0;
       const data: LevelDoneData = {
@@ -186,6 +201,14 @@ export class GameScene extends Phaser.Scene {
         level: this.level,
       };
       console.log("level over", data);
+      try {
+        await this.manyExplosions.fire();
+      } catch (err) {
+        console.warn("strange error", err);
+        // I don't know how to avoid the 
+        // "Uncaught (in promise) TypeError: Cannot read property 'play' of undefined"
+        // when I mash buttons on the second go
+      }
       this.scene.start(levelDoneSceneKey, data);
     } else {
       this.updateWordButtons();

@@ -42,7 +42,8 @@ export class LevelDoneScene extends Phaser.Scene {
 
   create(): void {
     this.stuff.map(thing => thing.create(this));
-    const title = this.add.text(gameWidth / 2, 0.05 * gameHeight, 'LEVEL COMPLETE', {
+    const titleText = `LEVEL ${this.levelDoneData.level}`;
+    const title = this.add.text(gameWidth / 2, 0.05 * gameHeight, titleText, {
       fontSize: 0.06 * gameHeight + 'px',
       fontFamily: "Helvetica",
       align: "center",
@@ -50,8 +51,6 @@ export class LevelDoneScene extends Phaser.Scene {
     title.setOrigin(0.5);
 
     const rows = [
-      `Level ${this.levelDoneData.level}`,
-      '',
       "Hits: " + this.levelDoneData.corrects,
       "Misses: " + this.levelDoneData.mistakes,
       `In: ${this.levelDoneData.duration} seconds`,

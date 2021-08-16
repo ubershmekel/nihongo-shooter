@@ -2,6 +2,7 @@
 
 // import wordsTxt from '../assets/words.txt?raw' 
 import hiraganaWordsTxt from '../assets/jp-words.txt?raw'
+import { shuffle } from './utils';
 
 export interface Word {
   id: string;
@@ -142,27 +143,6 @@ export class WordGame {
   }
 
 }
-
-function shuffle(array: any[]) {
-  // in-place shuffle
-
-  var currentIndex = array.length, randomIndex;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
-  }
-
-  return array;
-}
-
 
 // function parseWords(text: string) {
 //   // 女性 josei : woman, female formal
