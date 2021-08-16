@@ -4,10 +4,12 @@ import { AnswerButton } from './answer-button';
 import { gameHeight, gameWidth } from './config';
 import { Background } from './fx-background';
 import { menuSceneKey } from './menu-scene';
+import { storage } from './storage';
 import { Stuff } from './stuff';
 
 export const levelDoneSceneKey = 'LevelDoneScene';
 export interface LevelDoneData {
+  level: number,
   corrects: number,
   mistakes: number,
   duration: number,
@@ -48,10 +50,31 @@ export class LevelDoneScene extends Phaser.Scene {
     title.setOrigin(0.5);
 
     const rows = [
+      `Level ${this.levelDoneData.level}`,
+      '',
       "Hits: " + this.levelDoneData.corrects,
       "Misses: " + this.levelDoneData.mistakes,
       `In: ${this.levelDoneData.duration} seconds`,
     ];
+
+    const bestSpeed = storage.bestSpeed.get(this.levelDoneData.level);
+    let newRecord = false;
+    if (this.levelDoneData.mistakes == 0) {
+      if (!bestSpeed || (bestSpeed && this.levelDoneData.duration < bestSpeed)) {
+        storage.bestSpeed.set(this.levelDoneData.level, this.levelDoneData.duration);
+        newRecord = true;
+      }
+    }
+    if (newRecord) {
+      rows.push(`New best speed!`);
+    } else {
+      if (bestSpeed) {
+        rows.push(`Best: ${bestSpeed} seconds`);
+      } else {
+        rows.push("Get zero misses\nto beat the level");
+      }
+    }
+
     for (const [index, element] of rows.entries()) {
       this.add.text(gameWidth / 8, (20 + index * 7) * gameHeight / 100, element, {
         fontSize: 0.04 * gameHeight + 'px',
@@ -64,7 +87,7 @@ export class LevelDoneScene extends Phaser.Scene {
     const button = new AnswerButton(this);
     this.buttons.push(button);
     button.setText("COOL");
-    button.setXY(this.game.scale.width / 2, this.game.scale.height * 0.7);
+    button.setXY(this.game.scale.width / 2, this.game.scale.height * 0.8);
     button.onPress = () => {
       this.scene.start(menuSceneKey);
     };

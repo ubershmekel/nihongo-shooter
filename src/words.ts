@@ -101,6 +101,11 @@ export class WordGame {
     return this.buttonWords[this.correctWordIndex];
   }
 
+  remaining() {
+    const levelLength = this.learningWords.length;
+    return levelLength - this.corrects;
+  }
+
   tryAnswer(index: number): GuessResult {
     if (index === this.correctWordIndex) {
       this.corrects++;
@@ -108,9 +113,8 @@ export class WordGame {
       // Replace the word with whateve comes next
       const nextWord = this.popNextWord();
       this.buttonWords[index] = nextWord;
-      const levelLength = this.learningWords.length;
       let gameOver = false;
-      if (this.corrects >= levelLength) {
+      if (this.remaining() <= 0) {
         gameOver = true;
       }
 

@@ -6,6 +6,7 @@ import { Stuff } from './stuff';
 import { AnswerButton } from './answer-button';
 import { maxLevel } from './words';
 import { gameHeight, gameWidth } from './config';
+import { storage } from './storage';
 
 export const menuSceneKey = 'MenuScene';
 
@@ -46,6 +47,11 @@ export class MenuScene extends Phaser.Scene {
     for (let index = 0; index < maxLevel; index++) {
       const level = index + 1;
       const button = new AnswerButton(this);
+      button.width = gameWidth * 0.115;
+      if (storage.bestSpeed.get(level)) {
+        button.setRestColor(0x99dd99);
+      }
+
       this.buttons.push(button);
       button.setText('' + level);
       const x = (1.5 + 1.4 * (index % columnCount)) * gameWidth / 10;

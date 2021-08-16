@@ -4,7 +4,6 @@ const borderThickness = 3;
 const borderColor = 0x404798;
 const borderAlpha = 1;
 const boxAlpha = 0.8;
-const boxRestColor = 0x373737;
 const boxActiveColor = 0x903030;
 const boxHoverColor = 0x603030;
 const padding = gameHeight / 60;
@@ -14,12 +13,14 @@ export class AnswerButton {
   sceneText: Phaser.GameObjects.Text;
   graphics: Phaser.GameObjects.Graphics;
   rect: Phaser.GameObjects.Rectangle;
-  boxColor = boxRestColor;
+  width: number = 0;
+  private boxRestColor = 0x373737;
+  private boxColor = this.boxRestColor;
   onPress = () => { };
 
   constructor(scene: Phaser.Scene) {
     this.scene = scene;
-    this.sceneText = scene.add.text(50, 50, "asdf");
+    this.sceneText = scene.add.text(50, 50, "will-be-replaced-text");
     this.sceneText.setFontSize(gameHeight / 30);
     this.sceneText.setAlign('center');
     this.sceneText.setOrigin(0.5);
@@ -48,7 +49,6 @@ export class AnswerButton {
     this.rect.depth = 11;
     this.sceneText.depth = 10;
     this.graphics.depth = 9;
-
   }
 
   enterButtonHoverState() {
@@ -57,7 +57,7 @@ export class AnswerButton {
   }
 
   enterButtonRestState() {
-    this.boxColor = boxRestColor;
+    this.boxColor = this.boxRestColor;
     this.fixGraphics();
   }
 
@@ -69,11 +69,16 @@ export class AnswerButton {
   fixGraphics() {
     this.graphics.clear();
 
-    const boxWidth = this.sceneText.width + (padding * 2);
+    let boxWidth = this.sceneText.width + (padding * 2);
     const boxHeight = this.sceneText.height + (padding * 2);
     const tbound = this.sceneText.getBounds();
-    const boxX = tbound.x - padding;
+    let boxX = tbound.x - padding;
     const boxY = tbound.y - padding;
+
+    if (this.width) {
+      boxWidth = this.width;
+      boxX = this.sceneText.x - this.width / 2;
+    }
 
     this.rect.x = boxX;
     this.rect.y = boxY;
@@ -97,5 +102,10 @@ export class AnswerButton {
     this.sceneText.x = x;
     this.sceneText.y = y;
     this.fixGraphics();
+  }
+
+  setRestColor(color: number) {
+    this.boxRestColor = color;
+    this.enterButtonRestState();
   }
 }

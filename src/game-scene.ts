@@ -94,7 +94,7 @@ export class GameScene extends Phaser.Scene {
     this.definitionBox = new AnswerButton(this);
     this.definitionBox.setXY(this.game.scale.width / 2, 0.3 * this.game.scale.height);
 
-    this.scoreText = this.add.text(0, 0, 'Score: 0', {
+    this.scoreText = this.add.text(0, 0, 'HP: 100', {
       fontSize: (3 * gameHeight / 100) + 'px',
       fontFamily: "Helvetica",
     });
@@ -182,6 +182,7 @@ export class GameScene extends Phaser.Scene {
         duration: durationSeconds,
         mistakes: this.wordsGame.mistakes,
         corrects: this.wordsGame.corrects,
+        level: this.level,
       };
       console.log("level over", data);
       this.scene.start(levelDoneSceneKey, data);
@@ -204,6 +205,6 @@ export class GameScene extends Phaser.Scene {
     const answerWord = this.wordsGame.getAnswerWord();
     this.definitionBox.setText(answerWord.english);
 
-    this.scoreText.setText("Score: " + this.wordsGame.score());
+    this.scoreText.setText("HP: " + this.wordsGame.remaining() * 10);
   }
 }

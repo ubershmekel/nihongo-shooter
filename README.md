@@ -13,12 +13,11 @@ not learning.
 * v Anim correct zap
 * v Anim wrong zap
 * v Anim background
-* Menu of levels (e.g. 6x11 where each level has 15 words)
-* Store total points
-* Store level progress
-* Level with all words
-* Monster HP for the level
+* v Menu of levels (e.g. 6x11 where each level has 15 words)
+* v Store level progress
+* v Monster HP for the level
 * Anim monster
+* Cooler wrong anim
 
 ## Credits
 

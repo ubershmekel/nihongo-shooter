@@ -1,13 +1,5 @@
 import './style.css'
 
-// const app = document.querySelector<HTMLDivElement>('#app')!
-
-// app.innerHTML = `
-//   <h1>Hello Vite!</h1>
-//   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-//   <div id="game"></div>
-// `;
-
 import 'phaser';
 import { MenuScene } from './menu-scene';
 import { GameScene } from './game-scene';
@@ -23,8 +15,8 @@ const GameConfig: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
   parent: 'app',
   scene: [
-    GameScene,
     MenuScene,
+    GameScene,
     LevelDoneScene,
   ],
   input: {
