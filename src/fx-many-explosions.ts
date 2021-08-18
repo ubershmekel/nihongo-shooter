@@ -9,7 +9,7 @@ const keys = {
 }
 
 export class ManyExplosions implements Stuff {
-  private sprites: Phaser.GameObjects.Sprite[] = [];
+  private sprites!: Phaser.GameObjects.Sprite[];
 
   preload(scene: Phaser.Scene) {
     scene.load.spritesheet(
@@ -25,6 +25,7 @@ export class ManyExplosions implements Stuff {
   }
 
   create(scene: Phaser.Scene) {
+    this.sprites = [];
     scene.anims.create({
       key: keys.animBoom,
       frames: scene.anims.generateFrameNumbers(keys.sheet, { start: 0, end: 6 }),

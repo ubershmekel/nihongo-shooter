@@ -16,7 +16,7 @@ export class MenuScene extends Phaser.Scene {
   private stuff: Stuff[] = [
     this.background,
   ];
-  private buttons: AnswerButton[] = [];
+  private buttons!: AnswerButton[];
 
   constructor() {
     super({
@@ -35,6 +35,7 @@ export class MenuScene extends Phaser.Scene {
   }
 
   create(): void {
+    this.buttons = [];
     this.stuff.map(thing => thing.create(this));
     const title = this.add.text(gameWidth / 2, gameHeight / 30, 'Nihongo Shooter', {
       fontSize: (0.05 * gameHeight) + 'px',

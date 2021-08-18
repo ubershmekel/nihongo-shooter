@@ -9,11 +9,11 @@ const keys = {
 const asteroidCount = 20;
 
 export class Background implements Stuff {
-  private sprites: {
+  private sprites!: {
     s: Phaser.GameObjects.Image,
     velocity: number,
     angularV: number,
-  }[] = [];
+  }[];
 
   preload(scene: Phaser.Scene) {
     scene.load.spritesheet(
@@ -29,6 +29,7 @@ export class Background implements Stuff {
   }
 
   create(scene: Phaser.Scene) {
+    this.sprites = [];
     for (let i = 0; i < asteroidCount; i++) {
       const x = Phaser.Math.Between(-64, scene.game.scale.width);
       const y = Phaser.Math.Between(-64, scene.game.scale.height);

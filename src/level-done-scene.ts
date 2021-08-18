@@ -18,7 +18,7 @@ export interface LevelDoneData {
 export class LevelDoneScene extends Phaser.Scene {
   private levelDoneData!: LevelDoneData;
   private background = new Background();
-  private buttons: AnswerButton[] = [];
+  private buttons!: AnswerButton[];
 
   private stuff: Stuff[] = [
     this.background,
@@ -41,6 +41,7 @@ export class LevelDoneScene extends Phaser.Scene {
   }
 
   create(): void {
+    this.buttons = [];
     this.stuff.map(thing => thing.create(this));
     const titleText = `LEVEL ${this.levelDoneData.level}`;
     const title = this.add.text(gameWidth / 2, 0.05 * gameHeight, titleText, {
