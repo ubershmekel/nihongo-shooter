@@ -299,7 +299,7 @@
 易しい:やさし:easy, simple
 お兄さん:おにさん:older brother
 大きい:おき:big
-小さい:ちさい:small
+小さい:ちいさい:small
 辛い:からい:spicy, hot
 八:はち:eight
 :あそこ:over there
