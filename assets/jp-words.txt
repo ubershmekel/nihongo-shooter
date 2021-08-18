@@ -317,7 +317,7 @@
 上手:じょうず:good, skilled
 強い:つよい:strong
 七:なんあ:seven (Japanese origin)
-二十日:はつか:days, th of the month
+二十日:はつか:20 days, 20th of the month
 左:ひだり:left
 二日:ふつか:two days, second of the month
 四つ:よつ:four things
@@ -368,7 +368,7 @@
 五つ:いつtす:five things
 目:め:eye
 八つ:やっつ:eight things
-止める:とめる:stop a car…. 止める yameru give up
+止める:とめる:to stop something or someone
 四日:よっか:four days, fourth of the month
 夜:よる:night from sunset to sunrise
 来年:らいねん:next year
