@@ -25,6 +25,7 @@ export class AnswerButton {
     this.sceneText.setAlign('center');
     this.sceneText.setOrigin(0.5);
     this.sceneText.setInteractive();
+    this.sceneText.style.setTestString('䲜笑う狭い友達|週漢字');
     this.sceneText.setWordWrapWidth(80 * gameWidth / 100, true);
 
     this.graphics = this.scene.add.graphics();
