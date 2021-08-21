@@ -575,7 +575,7 @@
 靴下:くつした:socks
 :たばこ:tobacco, cigarette
 :アイスコーヒー:iced coffee
-天ぷら:てmぷら:Japanese deep-fried food
+天ぷら:てんぷら:Japanese deep-fried food
 肉:にく:flesh, meat
 昨夜:さくや:last night, last evening
 流行る:はやる:be in fashion, be popular
