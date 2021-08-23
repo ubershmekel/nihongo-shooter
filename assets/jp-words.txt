@@ -164,7 +164,7 @@
 上げる:あげる:raise, lift
 緑:みどり:green
 腕:うで:arm
-:ドア:door loan word
+:ドア:door (loan word)
 女の子:おんなのこ:little girl
 男の子:おとこのこ:boy
 私たち:わたしたち:we
@@ -391,7 +391,7 @@
 男:おとこ:man, male
 彼:かれ:he, one’s boyfriend
 女:おんな:woman
-妻:つま:woman
+妻:つま:wife
 百:ひゃく:hundred
 辺:あたり:vicinity
 店:みせ:shop, store
@@ -402,7 +402,7 @@
 昨年:さくねん:last year , often used in writing
 治る:なおる:be cured, get well
 :ドル:dollar
-:システム:system loan word
+:システム:system (loan word)
 以上:いじょう:more than, not less than
 最近:さいきん:recent, latest
 世界:せかい:world
@@ -486,7 +486,7 @@
 売り切れ:うりきれ:sell out
 お巡りさん:おまわりさん:police officer
 目覚まし時計:めざましとけい:alarm clock
-:レシート:receipt loan word
+:レシート:receipt (loan word)
 :ティッシュ:tissue
 歯ブラシ:はぶらし:toothbrush
 下りる:おりる:go down, come down
@@ -752,7 +752,7 @@
 無くす:なくす:lose, get rid of
 :まあまあ:OK, not bad
 黄色:きいろ:yellow color
-:ランチ:lunch loan word
+:ランチ:lunch (loan word)
 魚:さかな:fish
 味:あじ:taste, flavor
 :りんご:apple
@@ -806,7 +806,7 @@
 地図:ちず:map, atlas
 運転:うんてん:drive
 降りる:おりる:get off, land
-:ガス:gas loan word
+:ガス:gas (loan word)
 必ず:かならず:without exception, always
 :カメラ:camera
 通う:かよう:go to and from, frequent a place
