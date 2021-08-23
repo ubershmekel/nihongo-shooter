@@ -21,11 +21,12 @@ export interface GameSceneProps {
   showHint: boolean,
 }
 
-const { LEFT, RIGHT, UP, ONE, TWO, THREE } = Phaser.Input.Keyboard.KeyCodes;
+const { LEFT, RIGHT, UP, DOWN, ONE, TWO, THREE } = Phaser.Input.Keyboard.KeyCodes;
 const keyCodes = {
   left: LEFT,
   right: RIGHT,
   up: UP,
+  down: DOWN,
   one: ONE,
   two: TWO,
   three: THREE,
@@ -167,7 +168,7 @@ export class GameScene extends Phaser.Scene {
     if (Phaser.Input.Keyboard.JustDown(this.keys.left) || Phaser.Input.Keyboard.JustDown(this.keys.one)) {
       this.guessAnswer(0);
     }
-    if (Phaser.Input.Keyboard.JustDown(this.keys.up) || Phaser.Input.Keyboard.JustDown(this.keys.two)) {
+    if (Phaser.Input.Keyboard.JustDown(this.keys.down) || Phaser.Input.Keyboard.JustDown(this.keys.up) || Phaser.Input.Keyboard.JustDown(this.keys.two)) {
       this.guessAnswer(1);
     }
     if (Phaser.Input.Keyboard.JustDown(this.keys.right) || Phaser.Input.Keyboard.JustDown(this.keys.three)) {
