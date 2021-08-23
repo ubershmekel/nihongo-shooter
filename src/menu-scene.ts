@@ -7,16 +7,19 @@ import { AnswerButton } from './answer-button';
 import { maxLevel } from './words';
 import { gameHeight, gameWidth } from './config';
 import { storage } from './storage';
+import { GameSceneProps } from './game-scene';
 
 export const menuSceneKey = 'MenuScene';
 
 export class MenuScene extends Phaser.Scene {
+  private isHintOn = true;
   private startKey!: Phaser.Input.Keyboard.Key;
   private background = new Background();
   private stuff: Stuff[] = [
     this.background,
   ];
   private buttons!: AnswerButton[];
+  private hintToggle!: AnswerButton;
 
   constructor() {
     super({
@@ -34,10 +37,27 @@ export class MenuScene extends Phaser.Scene {
     this.load.audio('gasp', gaspUrl);
   }
 
+  updateHintToggle() {
+    if (this.isHintOn) {
+      this.hintToggle.setText("Hiragana is on");
+    } else {
+      this.hintToggle.setText("Hiragana is off");
+    }
+  }
+
   create(): void {
     this.buttons = [];
+
+    this.hintToggle = new AnswerButton(this);
+    this.hintToggle.setXY(gameWidth / 2, gameHeight * 0.95);
+    this.updateHintToggle();
+    this.hintToggle.onPress = () => {
+      this.isHintOn = !this.isHintOn;
+      this.updateHintToggle();
+    };
+
     this.stuff.map(thing => thing.create(this));
-    const title = this.add.text(gameWidth / 2, gameHeight / 30, 'Nihongo Shooter', {
+    const title = this.add.text(gameWidth / 2, gameHeight / 20, 'Nihongo Shooter', {
       fontSize: (0.05 * gameHeight) + 'px',
       fontFamily: "Helvetica",
       align: "center",
@@ -56,11 +76,15 @@ export class MenuScene extends Phaser.Scene {
       this.buttons.push(button);
       button.setText('' + level);
       const x = (1.5 + 1.4 * (index % columnCount)) * gameWidth / 10;
-      const y = (1.5 + 1 * Math.floor(index / columnCount)) * gameHeight / 10;
+      const y = (1.4 + 1 * Math.floor(index / columnCount)) * gameHeight / 10;
       button.setXY(x, y);
       button.onPress = () => {
         this.sound.play('gasp');
-        this.scene.start("GameScene", { level });
+        const sceneInfo: GameSceneProps = {
+          level,
+          showHint: this.isHintOn,
+        };
+        this.scene.start("GameScene", sceneInfo);
       };
     }
   }

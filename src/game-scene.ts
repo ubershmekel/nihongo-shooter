@@ -16,6 +16,11 @@ import { ManyExplosions } from './fx-many-explosions';
 
 const gameSceneKey = 'GameScene';
 
+export interface GameSceneProps {
+  level: number,
+  showHint: boolean,
+}
+
 const { LEFT, RIGHT, UP, ONE, TWO, THREE } = Phaser.Input.Keyboard.KeyCodes;
 const keyCodes = {
   left: LEFT,
@@ -28,7 +33,10 @@ const keyCodes = {
 type KeysType = { [name in keyof typeof keyCodes]: Phaser.Input.Keyboard.Key };
 
 export class GameScene extends Phaser.Scene {
-  private level: number = 1;
+  private level!: number;
+  private startTime!: number;
+  private showHint!: boolean;
+
   private ship!: Phaser.GameObjects.Container;
   private buttons!: AnswerButton[];
   private definitionBox!: AnswerButton;
@@ -48,7 +56,6 @@ export class GameScene extends Phaser.Scene {
     this.enemy,
     this.manyExplosions,
   ];
-  private startTime!: number;
   private isGameOver = false;
   private keys!: KeysType;
 
@@ -59,7 +66,14 @@ export class GameScene extends Phaser.Scene {
   }
 
   init(props: any) {
-    this.level = props.level || 1;
+    this.level = props.level;
+    if (!props.level) {
+      this.level = 1;
+    }
+    this.showHint = props.showHint;
+    if (props.showHint === undefined) {
+      this.showHint = true;
+    }
     this.startTime = Date.now();
   }
 
@@ -219,7 +233,11 @@ export class GameScene extends Phaser.Scene {
   updateWordButtons() {
     for (const [index, word] of this.wordsGame.buttonWords.entries()) {
       const button = this.buttons[index];
-      button.setText(word.kanji + '\n' + word.hiragana);
+      let buttonText = word.kanji;
+      if (this.showHint || !buttonText) {
+        buttonText += '\n' + word.hiragana
+      }
+      button.setText(buttonText.trim());
       button.setXY(this.enemyX(index), this.enemyY(index));
       button.onPress = () => {
         console.log('press', index, word.id);
