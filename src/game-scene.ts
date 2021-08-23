@@ -13,6 +13,7 @@ import { gameHeight, gameWidth } from './config';
 import { HealthBar } from './fx-hp-bar';
 import { Enemy } from './fx-enemy';
 import { ManyExplosions } from './fx-many-explosions';
+import { menuSceneKey } from './menu-scene';
 
 const gameSceneKey = 'GameScene';
 
@@ -40,6 +41,7 @@ export class GameScene extends Phaser.Scene {
   private ship!: Phaser.GameObjects.Container;
   private buttons!: AnswerButton[];
   private definitionBox!: AnswerButton;
+  private quitButton!: AnswerButton;
   private wordsGame!: WordGame;
   private scoreText!: Phaser.GameObjects.Text;
   private rays = new Rays();
@@ -120,6 +122,13 @@ export class GameScene extends Phaser.Scene {
 
     this.definitionBox = new AnswerButton(this);
     this.definitionBox.setXY(this.game.scale.width / 2, 0.3 * this.game.scale.height);
+
+    this.quitButton = new AnswerButton(this);
+    this.quitButton.setText("x");
+    this.quitButton.setXY(this.game.scale.width * 0.94, 0.04 * this.game.scale.height);
+    this.quitButton.onPress = () => {
+      this.scene.start(menuSceneKey);
+    };
 
     this.scoreText = this.add.text(0, 0, 'HP: 100', {
       fontSize: (3 * gameHeight / 100) + 'px',
