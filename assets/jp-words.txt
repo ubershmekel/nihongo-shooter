@@ -258,7 +258,7 @@
 月曜日:げつようび:Monday
 入る:はいる:enter
 :カタカナ:katakana
-今週:こんsひゅ:this week
+今週:こんしゅう:this week
 開く:ひらく:open books, eyes, etc.
 水:みず:water
 :あれ:that over there
