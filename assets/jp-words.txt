@@ -934,7 +934,7 @@
 野菜:やさい:vegetable
 分かれる:わかれる:be divided, split off
 特別:とくべつ:special
-理由:りゆう:reason, excuse
+理由:りゆう:reason, cause
 自由:じゆう:freedom
 方向:ほうこう:direction, course
 残る:のこる:remain, be left over
