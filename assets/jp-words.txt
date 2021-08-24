@@ -240,11 +240,11 @@
 お腹:おなか:stomach, belly
 :ミーティング:meeting
 嫌い:きらい:dislike habitual
-金曜日:きにょうび:Friday
+金曜日:きんようび:Friday
 要る:いる:need, require
 無い:ない:to not be
 風邪:かぜ:cold illness
-黄色い:きいろ:yellow
+黄色い:きいろい:yellow (adjective)
 優しい:やさしい:gentle, kind
 晴れる:はれる:be sunny, clear up
 汚い:きたない:dirty
@@ -262,14 +262,14 @@
 開く:ひらく:open books, eyes, etc.
 水:みず:water
 :あれ:that over there
-二:にち:two
+二:に:two
 締める:しめる:tighten, fasten
 :まずい:bad taste, distasteful
 平仮名:ひらがな:hiragana
 曇る:くもる:become cloudy
 触る:さわる:touch, feel
 駄目:だめ:no good
-飲み物:のみもんお:beverage, drink
+飲み物:のみもの:beverage, drink
 木曜日:もくようび:Thursday
 曜日:ようび:day of the week
 :そば:side, vicinity
@@ -282,7 +282,7 @@
 今晩:こんばん:this evening, tonight
 千:せん:thousand
 六日:むいか:six days, sixth of the month
-お姉さん:おねさん:older sister
+お姉さん:おねえさん:older sister
 直る:なおる:be repaired, get fixed
 :ちょっと:just a moment, just a little
 四:よん:four (Japanese origin)
@@ -296,9 +296,9 @@
 携帯電話:けいたいでんわ:cellular phone
 雨:あめ:rain
 金:かね:money
-易しい:やさし:easy, simple
-お兄さん:おにさん:older brother
-大きい:おき:big
+易しい:やさしい:easy, simple
+お兄さん:おにいさん:older brother
+大きい:おおきい:big
 小さい:ちいさい:small
 辛い:からい:spicy, hot
 八:はち:eight
@@ -307,16 +307,16 @@
 前:まえ:front, before
 五日:いつか:five days, fifth of the month
 :いっぱい:full
-九:きゅ:nine used before counter words
+九:きゅう:nine
 酸っぱい:すっぱい:sour
 違う:ちがう:differ, be wrong
 細い:ほそい:thin, slender
 三つ:みつ:three things
 八日:ようか:eight days, eighth of the month
-高校生:ここせい:high school student
+高校生:こうこうせい:high school student
 上手:じょうず:good, skilled
 強い:つよい:strong
-七:なんあ:seven (Japanese origin)
+七:なな:seven (Japanese origin)
 二十日:はつか:20 days, 20th of the month
 左:ひだり:left
 二日:ふつか:two days, second of the month
@@ -326,7 +326,7 @@
 :いい:good in/spoken form
 上:うえ:up, above
 駅:えき:train station
-美味しい:おいし:tasty
+美味しい:おいしい:tasty
 昨日:きのう:yesterday
 綺麗:きれい:pretty, clean
 五:ご:five
@@ -342,7 +342,7 @@
 大人:おとな:adult
 出す:だす:take out
 父:ちち:speaker’s father
-母:はhあ:speaker’s mother
+母:はは:speaker’s mother
 月:つき:moon
 妹:いもうと:younger sister
 冷たい:つめたい:cold to touch
@@ -351,7 +351,7 @@
 十日:とおか:ten days, tenth of the month
 口:くち:mouth
 夏:なつ:summer
-七つ:なんあつ:seven things
+七つ:ななつ:seven things
 時々:ときどき:sometimes
 何:なに:what
 人:ひと:person
@@ -365,7 +365,7 @@
 万:まん:ten thousand
 見える:みえる:be visible, can see
 道:みち:street, way
-五つ:いつtす:five things
+五つ:いつつ:five things
 目:め:eye
 八つ:やっつ:eight things
 止める:とめる:to stop something or someone
@@ -493,7 +493,7 @@
 洗う:あらう:wash
 :パート:part-time
 氏名:しめい:full name
-今夜:こにゃ:tonight, this evening
+今夜:こんや:tonight, this evening
 夜中:よなか:midnight
 来週:らいしゅう:next week
 誰か:だれか:someone
@@ -738,7 +738,7 @@
 傘:かさ:umbrella, parasol
 乗り換える:のりかえる:change, transfer
 向かう:むかう:face, head toward
-本屋:ほにゃ:bookstore
+本屋:ほんや:bookstore
 お茶:おちゃ:tea
 改札口:かいさつぐち:ticket gate
 晴れ:はれ:fine weather, clear sky
@@ -751,7 +751,7 @@
 二階:にかい:second floor, upstairs
 無くす:なくす:lose, get rid of
 :まあまあ:OK, not bad
-黄色:きいろ:yellow color
+黄色:きいろ:yellow (noun)
 :ランチ:lunch (loan word)
 魚:さかな:fish
 味:あじ:taste, flavor
@@ -762,7 +762,6 @@
 :コップ:cup, glass
 二人:ふたり:two persons
 止む:やむ:stop, cease
-九:きゅう:nine
 昼間:ひるま:daytime, during the day
 いつ頃:いつごろ:about when, about what time
 字:じ:individual character, letter
