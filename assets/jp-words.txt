@@ -323,7 +323,7 @@
 四つ:よつ:four things
 暖かい:あたたかい:warm
 :ある:exist, there is
-:いい:good in/spoken form
+:いい:good in (spoken form)
 上:うえ:up, above
 駅:えき:train station
 美味しい:おいしい:tasty
@@ -545,7 +545,7 @@
 町:まち:town, city
 お菓子:おかし:sweets, snacks
 緩い:ゆるい:slack, loose
-良い:よい:good /written form
+良い:よい:good, ready
 :ようこそ:welcome greeting
 お土産:おみやげ:souvenir
 両親:りょうしん:parents
