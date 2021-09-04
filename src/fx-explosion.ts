@@ -1,7 +1,7 @@
 import explosionUrl from '../assets/explosion.png';
 import { gameHeight, gameWidth } from './config';
 import { Stuff } from './stuff';
-import { tweenPromise } from './utils';
+import { addText, tweenPromise } from './utils';
 
 const keys = {
   sheet: "explosion-sheet",
@@ -50,7 +50,7 @@ export class Explosion implements Stuff {
     this.sprite.setVisible(false);
     this.sprite.depth = 20;
 
-    this.text = scene.add.text(0, 0, "違");
+    this.text = addText(scene, 0, 0, "違");
     this.text.setFontSize(gameHeight * 0.12);
     this.text.setAlign('center');
     this.text.setOrigin(0.5);

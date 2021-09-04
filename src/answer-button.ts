@@ -1,4 +1,5 @@
 import { gameHeight, gameWidth } from "./config";
+import { addText } from "./utils";
 
 const borderThickness = 3;
 const borderColor = 0x404798;
@@ -20,14 +21,11 @@ export class AnswerButton {
 
   constructor(scene: Phaser.Scene) {
     this.scene = scene;
-    this.sceneText = scene.add.text(50, 50, "will-be-replaced-text");
+    this.sceneText = addText(scene, 50, 50, "will-be-replaced-text");
     this.sceneText.setFontSize(gameHeight / 30);
     this.sceneText.setAlign('center');
     this.sceneText.setOrigin(0.5);
     this.sceneText.setInteractive();
-    // `testString` prevents the characters from getting cropped
-    // See https://github.com/photonstorm/phaser/issues/3960
-    this.sceneText.style.setTestString('䲜笑う狭い友達|週漢字⎝|MÉgjpqy');
     this.sceneText.setWordWrapWidth(80 * gameWidth / 100, true);
 
     this.graphics = this.scene.add.graphics();

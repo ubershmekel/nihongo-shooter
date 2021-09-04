@@ -8,6 +8,7 @@ import { maxLevel } from './words';
 import { gameHeight, gameWidth } from './config';
 import { storage } from './storage';
 import { GameSceneProps } from './game-scene';
+import { addText } from './utils';
 
 export const menuSceneKey = 'MenuScene';
 
@@ -57,11 +58,9 @@ export class MenuScene extends Phaser.Scene {
     };
 
     this.stuff.map(thing => thing.create(this));
-    const title = this.add.text(gameWidth / 2, gameHeight / 20, 'Nihongo Shooter', {
-      fontSize: (0.05 * gameHeight) + 'px',
-      fontFamily: "Helvetica",
-      align: "center",
-    });
+    const title = addText(this, gameWidth / 2, gameHeight / 20, 'Nihongo Shooter');
+    title.setFontSize(0.05 * gameHeight);
+    title.setAlign("center");
     title.setOrigin(0.5);
 
     const columnCount = 6;

@@ -1,4 +1,17 @@
 
+export function addText(scene: Phaser.Scene, x: number, y: number, content: string) {
+  const text = scene.add.text(x, y, content);
+  const globalFontFamily = '"Noto Sans JP", sans-serif';
+  const globalFontTestString = '䲜笑う狭い友達|週漢字|MÉgjpqy';
+
+  // There is no global font family setting for phaser.
+  text.setFontFamily(globalFontFamily);
+  // A taller `testString` fixes the character cropping issue
+  // See https://github.com/photonstorm/phaser/issues/3960
+  text.style.setTestString(globalFontTestString);
+  return text;
+}
+
 export function shuffle(array: any[]) {
   // in-place shuffle
 

@@ -14,6 +14,7 @@ import { HealthBar } from './fx-hp-bar';
 import { Enemy } from './fx-enemy';
 import { ManyExplosions } from './fx-many-explosions';
 import { menuSceneKey } from './menu-scene';
+import { addText } from './utils';
 
 const gameSceneKey = 'GameScene';
 
@@ -130,10 +131,8 @@ export class GameScene extends Phaser.Scene {
       this.scene.start(menuSceneKey);
     };
 
-    this.scoreText = this.add.text(0, 0, 'HP: 100', {
-      fontSize: (3 * gameHeight / 100) + 'px',
-      fontFamily: "Helvetica",
-    });
+    this.scoreText = addText(this, 0, 0, 'HP: 100');
+    this.scoreText.setFontSize((2.4 * gameHeight / 100));
     this.scoreText.depth = 11;
     this.enemy.chooseEnemy(this.level);
 

@@ -6,6 +6,7 @@ import { Background } from './fx-background';
 import { menuSceneKey } from './menu-scene';
 import { storage } from './storage';
 import { Stuff } from './stuff';
+import { addText } from './utils';
 
 export const levelDoneSceneKey = 'LevelDoneScene';
 export interface LevelDoneData {
@@ -44,11 +45,9 @@ export class LevelDoneScene extends Phaser.Scene {
     this.buttons = [];
     this.stuff.map(thing => thing.create(this));
     const titleText = `LEVEL ${this.levelDoneData.level}`;
-    const title = this.add.text(gameWidth / 2, 0.05 * gameHeight, titleText, {
-      fontSize: 0.06 * gameHeight + 'px',
-      fontFamily: "Helvetica",
-      align: "center",
-    });
+    const title = addText(this, gameWidth / 2, 0.05 * gameHeight, titleText);
+    title.setFontSize(0.06 * gameHeight);
+    title.setAlign("center");
     title.setOrigin(0.5);
 
     const rows = [
@@ -76,11 +75,8 @@ export class LevelDoneScene extends Phaser.Scene {
     }
 
     for (const [index, element] of rows.entries()) {
-      this.add.text(gameWidth / 8, (20 + index * 7) * gameHeight / 100, element, {
-        fontSize: 0.04 * gameHeight + 'px',
-        fontFamily: "Helvetica",
-        // align: "center",
-      });
+      const text = addText(this, gameWidth / 8, (20 + index * 7) * gameHeight / 100, element);
+      text.setFontSize(0.04 * gameHeight);
       title.setOrigin(0.5);
     }
 
