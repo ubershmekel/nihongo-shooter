@@ -1,0 +1,999 @@
+ist::is
+ich::I
+nicht::not
+Sie::you, you all (courtesy pronoun)
+du::you
+das::the (neutral)
+die::the (feminine)
+es::it
+und::and
+der::the (masculine)
+zu::to
+sie::she, they, her, them
+Das::That
+ein::a
+in::in
+wir::weather
+Du::You
+mir::me
+mit::with
+Was::What
+den::the
+mich::me
+was::What
+auf::on
+dass::that
+er::he
+eine::one
+Es::It
+hat::Has
+Wir::we
+Und::and
+so::so
+sind::are
+von::from
+dich::you
+war::was
+haben::to have
+für::for
+Ja::Yes
+hier::here
+an::at
+habe::have
+Er::He
+bin::am
+wie::how
+noch::still
+dir::to you
+uns::US
+sich::themselves
+Die::the
+nur::only
+einen::a
+Nein::no
+dem::to the
+ihn::him
+auch::even
+hast::have
+sein::be
+ihr::your
+da::there
+aus::the end
+kann::can
+aber::but
+Aber::but
+schon::beautiful
+wenn::if
+wird::will
+um::around
+Wie::As
+als::as
+bist::are you
+im::in the
+mal::times
+doch::but
+gut::Well
+meine::my
+jetzt::now
+weiß::White
+Wenn::if
+werden::will
+Der::Of the
+nach::after
+ja::Yes
+Oh::Oh
+oder::or
+dann::then
+will::want
+mein::my
+mehr::more
+keine::no
+etwas::some
+alles::All
+muss::got to
+immer::always
+nichts::nothing
+man::man
+wieder::again
+bei::at
+hab::have
+machen::do
+vor::before
+Mann::man
+ihm::him
+einem::one
+tun::to do
+zum::to the
+können::can
+sagen::to say
+werde::will
+denn::because
+Ist::is
+Ein::A
+Warum::why
+einer::one
+gehen::walk
+sehen::see
+sehr::very
+geht::goes
+alle::Everyone
+über::above
+müssen::have to
+diese::these
+einfach::simple
+euch::you
+des::of
+nie::never
+Also::So
+Wo::Where
+los::Come on
+Zeit::Time
+Ihnen::them
+gibt::gives
+wirklich::really
+Hey::Hey
+Danke::thanks
+deine::yours
+würde::would
+soll::target
+Da::There
+hatte::would have
+Hier::here
+wissen::to know
+bitte::You're welcome
+viel::much
+Dann::then
+So::So
+gesagt::said
+Ihr::you
+am::at the
+kein::no
+Komm::come over
+Wer::who
+zurück::return
+wurde::became
+In::In
+wollte::wanted to
+Frau::Mrs
+Leben::Life
+wäre::were
+wo::Where
+damit::in order to
+Nicht::not
+lch::l
+Gott::God
+Leute::people
+kannst::can
+heute::today
+meinen::say
+dieser::this
+dein::your
+kommt::comes
+kommen::come
+willst::want
+Na::N / A
+wollen::want
+sicher::for sure
+ganz::quite
+Jetzt::now
+Mein::my
+Mr::Mr
+also::so
+zur::to the
+Hast::Have
+Gut::Good
+hätte::would have
+weil::because
+tut::does
+Hallo::Hello
+Okay::OK
+macht::power
+waren::was
+bis::until
+Vielleicht::Maybe
+könnte::could
+Eine::One
+Bitte::You're welcome
+weg::path
+seine::his
+lassen::permit
+Vater::father
+gesehen::seen
+Nun::so
+gerade::just
+Alles::Everything
+glaube::faith
+Tag::Day
+ab::away
+Geld::money
+gemacht::made
+nein::no
+Sir::Sir
+sollte::should
+sagte::said
+keinen::none
+durch::by
+zwei::two
+diesen::this
+passiert::happened
+wohl::well
+vielleicht::perhaps
+ihre::their
+Mutter::mother
+reden::talk
+anderen::others
+dachte::thought
+daß::that
+möchte::would like to
+wirst::will
+lhr::your
+gehört::heard
+weißt::know
+Keine::No
+raus::Out
+Meine::My
+paar::pair
+besser::better
+ob::if
+her::here
+musst::have to
+Ordnung::order
+meiner::mine
+klar::clear
+ihnen::them
+Los::Come on
+diesem::this
+meinem::my
+lange::Long
+Lass::let
+dieses::this
+helfen::help
+unsere::our
+Weg::path
+selbst::self
+Nur::Just
+finden::Find
+Mal::Times
+jemand::someone
+denke::think
+Ach::Oh
+Nacht::night
+genau::precisely
+gar::at all
+sagt::says
+Welt::world
+Auf::on
+Mädchen::girl
+ins::into the
+hin::there
+vom::from the
+schön::Nice
+warum::why
+weiter::Further
+Leid::suffering
+gleich::same
+wer::who
+Man::Man
+ohne::without
+Menschen::people
+deinen::yours
+leid::suffering
+Wieso::how come
+dort::there
+Als::as
+Hause::Home
+sollten::should
+davon::of that
+zusammen::together
+geben::give
+Ok::OK
+Hör::Listen
+machst::do
+Freund::friend
+richtig::correct
+Angst::anxiety
+Bist::Are you
+Tut::Does
+Mit::With
+viele::many
+sieht::sees
+Haus::House
+tot::dead
+sollen::should
+ganze::whole
+andere::other
+getan::did
+okay::OK
+rein::pure
+Diese::These
+Moment::moment
+bleiben::stay
+brauchen::to need
+Weil::because
+Kinder::children
+unter::under
+Arbeit::job
+Für::For
+Problem::problem
+dafür::Therefore
+Herr::Mr
+Haben::Have
+wegen::because
+Jack::Jack
+geht's::it’s going
+liebe::love
+genug::enough
+dabei::included
+bringen::bring
+Ihre::Her
+'ne::no
+gegen::against
+Weißt::Know
+Sag::say
+schnell::fast
+nun::well
+eines::one
+brauche::need
+Abend::evening
+hatten::had
+Jahre::years
+Mach::Do
+Bruder::Brothers
+Sache::Thing
+hören::hear
+komm::come over
+Sohn::son
+seit::since
+Morgen::morning
+drei::three
+steht::stands
+Scheiße::crap
+mag::like
+sei::may be
+unser::our
+konnte::could
+habt::have
+Oder::or
+einmal::once
+heißt::called
+OK::OK
+Willst::Want
+Kopf::head
+Hilfe::help
+Familie::family
+Geh::Go
+Baby::infant
+Dich::You
+Sind::Are
+erst::first
+fertig::done
+gefunden::found
+seid::are
+kam::came
+nehmen::to take
+morgen::morning
+sprechen::speak
+Mir::Me
+sofort::immediately
+Kann::Can
+Hat::Has
+Jahren::Years
+Kind::child
+seinen::his
+Genau::Exactly
+daran::to it
+Junge::Young
+Minuten::Minutes
+bevor::before
+Stadt::city
+beim::at the
+sterben::die
+warst::were
+Recht::Law
+glauben::believe
+Warte::Wait
+darüber::about that
+deiner::yours
+lhre::your
+deinem::your
+Ende::end
+He::Hey
+Dinge::things
+Namen::Names
+wahr::true
+Alle::All
+allein::alone
+Natürlich::Naturally
+töten::kill
+Nichts::nothing
+Wirklich::For real
+bekommen::receive
+Männer::men
+vergessen::forget
+Doch::Indeed
+dazu::to
+gab::gave
+später::later
+wusste::knew
+Augen::eyes
+Dank::thanks to
+Freunde::friends
+Jungs::guys
+halten::keep
+warten::wait
+Glück::happiness
+beide::both
+gute::quality
+Dein::Your
+kennen::know
+Deine::Yours
+'n::'n
+Hi::Hi
+Dr::Dr
+Auto::automobile
+sage::legend
+gehe::go
+komme::come
+Dir::To you
+mache::make
+Von::from
+Uhr::clock
+sehe::see
+Teufel::Devil
+sonst::otherwise
+Art::Art
+gern::gladly
+Liebe::love
+jeden::every
+könnten::could
+ihren::their
+Halt::Stop
+Fall::case
+Dad::Dad
+Film::Movie
+bisschen::little
+eigentlich::actually
+weit::far
+mach::do
+Gib::Give
+vorbei::past
+verstehe::understand
+danke::thanks
+drin::inside
+Im::in the
+Name::Surname
+ganzen::entire
+Musik::music
+würden::would
+Tür::door
+verrückt::crazy
+solltest::should
+denken::think
+Noch::Yet
+dran::your turn
+Sieh::See
+lieber::rather
+Den::The
+leben::Life
+Guten::good
+Um::Around
+darauf::thereon
+Kein::No
+stimmt::Right
+John::John
+Kerl::Guy
+letzte::last
+Job::job
+verloren::lost
+wurden::became
+kenne::know
+Ahnung::idea
+seiner::his
+Grund::reason
+toll::Great
+Bis::To
+Verdammt::Damned
+bald::soon
+bereit::ready
+all::Alles
+jemanden::someone
+hinter::Behind
+Schon::Nice
+Sehr::very
+Hand::hand
+darf::allowed
+Dieser::This
+Frauen::women
+Euch::You
+Idee::idea
+runter::down
+Macht::Power
+draußen::outdoors
+lang::long
+Land::country
+lass::let
+Typ::Type
+hätten::would have
+egal::no matter
+arbeiten::work
+spät::late
+stehen::stand
+ok::OK
+Gute::Quality
+gekommen::came
+Bei::at
+etwa::approximately
+essen::eat
+kleine::small
+jeder::everyone
+Schwester::sister
+Wasser::water
+spielen::to play
+Geschichte::story
+seinem::his
+liegt::lies
+sah::saw
+Mom::Mom
+Seite::page
+wenig::little
+ruhig::quiet
+Frage::question
+meinst::mean
+überhaupt::at all
+fahren::travel
+Ganz::Quite
+Gehen::Go
+Essen::eat
+Ruhe::Quiet
+echt::real
+versucht::tries
+Tochter::daughter
+Kommt::Comes
+Einen::A
+ging::went
+Jahr::year
+braucht::needs
+fast::nearly
+neue::new
+geh::go
+ziemlich::quite
+anders::different
+siehst::see
+Polizei::police
+Stunden::hours
+musste::had to
+Spiel::game
+gewesen::been
+gerne::gladly
+finde::find
+erzählt::told
+Tod::death
+Ort::location
+Chance::chance
+bedeutet::means
+War::Was
+sag::say
+sagst::say
+fragen::ask
+letzten::last
+sogar::even
+ersten::first
+Sachen::Things
+Wahrheit::truth
+einzige::only one
+kurz::short
+denen::them
+Kommen::Come
+Spaß::fun
+Nach::To
+oben::above
+Mama::mummy
+schwer::heavy
+Schule::school
+je::ever
+eben::just
+Gesicht::face
+bestimmt::certainly
+treffen::meet
+niemand::nobody
+Woche::week
+Entschuldigung::Excuse me
+Sorgen::Care for
+warte::wait
+natürlich::Naturally
+schlecht::bad
+große::size
+getötet::killed
+verstehen::to understand
+hoffe::hope
+Ah::Ah
+Sei::May be
+Zimmer::room
+hoch::high
+unserer::our
+Tage::Days
+Teil::part
+Wann::When
+suchen::Looking for
+verlassen::leaving
+zeigen::demonstrate
+wollten::wanted to
+lässt::leaves
+Wort::word
+eins::one
+zwischen::between
+Woher::Where
+Schatz::sweetheart
+Wissen::knowledge
+versuchen::try
+Können::Can
+Kannst::Can
+nett::kind
+Zu::to
+kriegen::get
+Geht::Goes
+Arsch::ass
+kleinen::small
+Hab::Have
+weiss::White
+erste::first
+läuft::runs
+kommst::come
+Freundin::girlfriend
+Mensch::person
+beiden::both
+Ding::thing
+niemals::No way
+endlich::at last
+Nimm::take
+muß::got to
+gehst::go
+Heute::today
+denkst::think
+Herz::heart
+Waffe::weapon
+Soll::Intended to
+tust::do
+Dollar::dollar
+nehme::take
+Schau::look
+holen::to fetch
+oft::often
+drauf::on it
+anderes::other
+Niemand::No one
+unten::below
+Wagen::dare
+Yeah::Yeah
+Schön::Nice
+wichtig::important
+Mrs::Mrs.
+hättest::would have
+allen::all
+Miss::Miss
+ihrer::of their
+gedacht::thought
+Nummer::number
+würdest::would
+erzählen::tell
+bleibt::remain
+Auch::Even
+Hände::hands
+Blut::blood
+Sehen::See
+bloß::just
+recht::Law
+bringt::brings
+Bett::bed
+Lassen::Permit
+Eltern::parents
+gefällt::pleases
+Schuld::blame
+eure::your
+Plan::plan
+Krieg::war
+neuen::new
+Klar::Clear
+retten::save
+guter::goods
+während::while
+ihrem::her
+wären::would be
+Fehler::failure
+scheint::appears
+Lasst::Leaves
+gegeben::given
+An::At
+hör::listen
+glücklich::happy
+verdammt::Damn it
+alt::old
+Platz::place
+darum::therefore
+Vielen::Many
+falsch::not correct
+unseren::our
+schlafen::sleep
+Sagen::To say
+nächsten::next
+fünf::five
+frei::free
+Sorge::worries
+Vor::before
+fest::fixed
+bereits::already
+alleine::alone
+Denn::Because
+Zwei::Two
+Fragen::ask
+möglich::possible
+irgendwie::somehow
+Papa::father
+lernen::to learn
+gestern::yesterday
+hierher::here
+Schiff::ship
+vier::four
+irgendwas::anything
+Stimmt::Is correct
+Menge::lot
+keiner::none
+brauchst::need
+Typen::Types
+Dass::That
+Stunde::hour
+Szene::scene
+Hölle::hell
+einige::some
+Deshalb::That's why
+geworden::become
+Telefon::phone
+Darf::Allowed
+Feuer::Fire
+Wollen::Want
+Bin::Am
+Alter::age
+Captain::Captain
+Aus::the end
+Dieses::This
+Probleme::Problems
+Jeder::Everyone
+verstanden::Understood
+wann::when
+alten::old
+gibt's::there is
+sondern::but
+guten::good
+zwar::though
+eigenen::own
+New::New
+Körper::body
+hört::hears
+Zum::To the
+gebe::give
+Kumpel::Dude
+Hund::dog
+nochmal::once again
+hab's::got it
+früh::early
+Hören::Hear
+trinken::to drink
+besten::best
+meines::mine
+schaffen::create
+alte::old
+Luft::air
+Jemand::Someone
+dürfen::to be allowed to
+Meister::master
+Erde::Earth
+Seit::Since
+Sicher::Secure
+Hört::Listen
+Zukunft::future
+kaum::barely
+funktioniert::functions
+voll::fully
+Bleib::Stay
+reicht::enough
+weh::sore
+stellen::place
+Siehst::See
+kleiner::smaller
+großen::huge
+Waffen::weapons
+Büro::office
+Wahl::choice
+verlieren::lose
+Wochen::Weeks
+Damit::In order to
+Stück::piece
+lieben::love
+allem::everything
+getroffen::met
+äh::Ah
+Am::At the
+geschafft::made
+tue::do
+gefallen::please
+Tja::Well
+Boss::boss
+überall::all over
+Sieht::Sees
+passieren::happen
+lustig::fun
+Licht::light
+gebracht::brought
+nennen::to name
+Folge::episode
+Gefühl::feeling
+völlig::fully
+denkt::thinks
+Schlüssel::key
+drüben::over there
+Richtig::Right
+wieso::how come
+Leuten::People
+Buch::a book
+laufen::to run
+spielt::plays
+früher::previously
+Sein::being
+Sam::Sam
+krank::ill
+gegangen::went
+fand::found
+Seine::His
+Pass::passport
+fühle::feel
+Himmel::sky
+froh::joyful
+leicht::easy
+direkt::direct
+langsam::slow
+wolltest::wanted
+erinnern::recall
+zuerst::first
+Krankenhaus::hospital
+Viel::Much
+beste::best
+welche::Which
+genommen::taken
+Arzt::doctor
+unserem::our
+Idiot::idiot
+Machen::Do
+glaubst::believe
+jede::every
+Ohne::Without
+groß::great
+hattest::had
+Äh::Ah
+Jungen::Boys
+Rest::rest
+Unsere::Our
+versuche::try
+Tagen::Days
+nächste::next
+Entschuldigen::To apologize
+Doktor::doctor
+spricht::speaks
+könnt::can
+hält::holds
+Team::team
+Verstanden::Understood
+kämpfen::battle
+heiraten::marry
+könntest::could
+Wow::Wow
+Mike::Mike
+Etwas::Some
+Straße::Street
+Mist::Damn
+König::king
+redest::talk
+kleines::little one
+lebt::lives
+erklären::explain
+worden::been
+Millionen::millions
+Wiedersehen::Goodbye
+Onkel::uncle
+#::#
+kennst::know
+sitzen::sit
+dies::this
+weniger::fewer
+Kaffee::coffee
+ernst::serious
+wollt::want
+tragen::wear
+Zeug::things
+trotzdem::despite this
+Michael::Michael
+Ihren::Their
+kaufen::to buy
+Liste::list
+ändern::change
+Kampf::struggle
+hasse::hate
+Person::person
+Mund::mouth
+umbringen::kill
+Präsident::president
+Boden::floor
+Wohin::Where
+machte::made
+Party::party
+gefragt::asked
+Seht::Look
+irgendwo::somewhere
+kümmern::To take care of
+Frank::Frank
+kennt::knows
+verletzt::hurt
+Habt::Have
+Nachricht::news
+Willkommen::Welcome
+vielen::many
+hart::hard
+lasse::let
+total::total
+Gefängnis::jail
+außer::except
+Sicherheit::safety
+Schnell::Fast
+wem::whom
+ehrlich::honest
+interessiert::Interested
+Sex::sex
+sagten::said
+ziehen::draw
+Welche::which
+Unser::Our
+Augenblick::moment
+angerufen::called
+aufhören::stop
+Klasse::Great
+Bild::image
+stark::strong
+Dies::this
+Eure::Your
+zehn::ten
+Sinn::sense
+David::David
+vorstellen::introduce
+Tom::Tom
+Traum::dream
+länger::longer
+manchmal::sometimes
+anrufen::call
+sechs::six
+Arschloch::asshole
+sollst::should
+gestorben::died
+Tages::Day
+war's::it was
+verschwinden::disappear
+Kraft::force
+gesprochen::spoken
+heraus::out
+genauso::just like that
+wärst::would be
+Eins::one
+damals::back then
+heißen::mean
+Liebling::Darling
+wahrscheinlich::probably
+deshalb::for this reason
+Stelle::Job
+halt::stop
+lhren::yours
+Bill::Bill
+erwartet::expected
+solche::such
+meisten::most
+bringe::bring
+still::quiet
+umgebracht::killed
+Stimme::voice 

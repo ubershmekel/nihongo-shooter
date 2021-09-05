@@ -1,9 +1,10 @@
 import 'phaser';
 import shipUrl from '../assets/ship-01.png';
+import backButtonUrl from '../assets/back.png';
 import shipThrustUrl from '../assets/ship-01-thrust.png';
 import gaspUrl from '../assets/gasp.mp3';
 import { AnswerButton } from './answer-button';
-import { WordGame } from './words';
+import { LanguageType, WordGame } from './words';
 import { Rays } from './rays';
 import { Explosion } from './fx-explosion';
 import { Background } from './fx-background';
@@ -15,12 +16,14 @@ import { Enemy } from './fx-enemy';
 import { ManyExplosions } from './fx-many-explosions';
 import { menuSceneKey } from './menu-scene';
 import { addText } from './utils';
+import { ImageButton } from './image-button';
 
-const gameSceneKey = 'GameScene';
+export const gameSceneKey = 'GameScene';
 
 export interface GameSceneProps {
   level: number,
   showHint: boolean,
+  language: LanguageType,
 }
 
 const { LEFT, RIGHT, UP, ONE, TWO, THREE } = Phaser.Input.Keyboard.KeyCodes;
@@ -42,7 +45,6 @@ export class GameScene extends Phaser.Scene {
   private ship!: Phaser.GameObjects.Container;
   private buttons!: AnswerButton[];
   private definitionBox!: AnswerButton;
-  private quitButton!: AnswerButton;
   private wordsGame!: WordGame;
   private scoreText!: Phaser.GameObjects.Text;
   private rays = new Rays();
@@ -51,6 +53,7 @@ export class GameScene extends Phaser.Scene {
   private background = new Background();
   private hpBar = new HealthBar();
   private enemy = new Enemy();
+  private backButton = new ImageButton('back-button', backButtonUrl);
   private stuff: Stuff[] = [
     this.rays,
     this.explosion,
@@ -58,9 +61,11 @@ export class GameScene extends Phaser.Scene {
     this.hpBar,
     this.enemy,
     this.manyExplosions,
+    this.backButton,
   ];
   private isGameOver = false;
   private keys!: KeysType;
+  private language!: LanguageType;
 
   constructor() {
     super({
@@ -68,7 +73,7 @@ export class GameScene extends Phaser.Scene {
     });
   }
 
-  init(props: any) {
+  init(props: GameSceneProps) {
     this.level = props.level;
     if (!props.level) {
       this.level = 1;
@@ -77,6 +82,10 @@ export class GameScene extends Phaser.Scene {
     if (props.showHint === undefined) {
       this.showHint = true;
     }
+    this.language = props.language;
+    if (!props.language) {
+      this.language = "japanese";
+    }
     this.startTime = Date.now();
   }
 
@@ -84,7 +93,7 @@ export class GameScene extends Phaser.Scene {
     console.log('level', this.level);
     this.stuff.map(thing => thing.preload(this));
 
-    this.wordsGame = new WordGame(this.level);
+    this.wordsGame = new WordGame(this.language, this.level);
     this.buttons = [];
     this.isGameOver = false;
 
@@ -124,10 +133,8 @@ export class GameScene extends Phaser.Scene {
     this.definitionBox = new AnswerButton(this);
     this.definitionBox.setXY(this.game.scale.width / 2, 0.3 * this.game.scale.height);
 
-    this.quitButton = new AnswerButton(this);
-    this.quitButton.setText("x");
-    this.quitButton.setXY(this.game.scale.width * 0.94, 0.04 * this.game.scale.height);
-    this.quitButton.onPress = () => {
+    this.backButton.setXY(this.game.scale.width * 0.9, 0.04 * this.game.scale.height);
+    this.backButton.onPress = () => {
       this.scene.start(menuSceneKey);
     };
 

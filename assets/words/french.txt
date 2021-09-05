@@ -1,0 +1,1000 @@
+comme::like, as
+je::I
+son::his
+que::than
+il::he
+était::was
+pour::for
+sur::on
+sont::are
+avec::with
+ils::they
+être::to be
+à::To
+un::a, singular
+avoir::to have
+ce::this
+à partir de::from
+par::through
+chaud::hot
+mot::word
+mais::corn
+que::than
+certains::some
+est::is
+il::he
+vous::you
+ou::Where
+eu::had
+la::the
+de::of
+à::To
+et::and
+un::a
+dans::in
+nous::we
+boîte::box
+dehors::outside
+autre::other
+étaient::were
+qui::who
+faire::to do
+leur::their
+temps::time
+si::if
+volonté::will
+comment::How? 'Or' What
+dit::said
+un::a
+chaque::each
+dire::to say
+ne::born
+ensemble::together
+trois::three
+vouloir::want to
+air::air
+bien::good
+aussi::too
+jouer::to play
+petit::small
+fin::end
+mettre::to put
+maison::House
+lire::read
+main::hand
+port::Harbor
+grand::big
+épeler::to spell
+ajouter::add
+même::same
+terre::Earth
+ici::here
+il faut::it is necessary
+grand::big
+haut::high
+tel::Phone
+suivre::to follow
+acte::act
+pourquoi::Why
+interroger::question
+hommes::men
+changement::change
+est allé::went
+lumière::light
+genre::kind
+de::of
+besoin::need
+maison::House
+image::picture
+essayer::to try
+nous::we
+encore::Again
+animal::animal
+point::point
+mère::mother
+monde::world
+près de::near
+construire::to build
+soi::self
+terre::Earth
+père::father
+tout::all
+nouveau::new
+travail::job
+partie::part
+prendre::to take
+obtenir::get
+lieu::place
+fabriqué::made
+vivre::to live
+où::or
+après::after
+arrière::back
+peu::little
+seulement::only
+tour::tower
+homme::man
+année::year
+est venu::has come
+montrer::to show
+tous::all
+bon::Well
+moi::me
+donner::to give
+notre::our
+sous::under
+nom::name
+très::very
+par::through
+juste::just
+forme::form
+phrase::phrasing
+grand::big
+penser::to think
+dire::to say
+aider::to help
+faible::weak
+ligne::line
+différer::to differ
+tour::tower
+la cause::the cause
+beaucoup::a lot
+signifier::mean
+avant::before
+déménagement::moving house
+droit::law
+garçon::boy
+vieux::old
+trop::too much
+même::same
+elle::she
+tous::all
+là::the
+quand::when
+jusqu’à::up to
+utiliser::use
+votre::your
+manière::manner
+sur::on
+beaucoup::a lot
+puis::then
+les::the
+écrire::to write
+voudrais::would like to
+comme::like
+si::if
+ces::those
+son::his
+long::long
+faire::to do
+chose::thing
+voir::see
+lui::him
+deux::of them
+a::To
+regarder::to concern
+plus::more
+jour::day
+pourrait::could
+aller::go
+venir::to come
+fait::made
+nombre::number
+son::his
+aucun::no
+plus::more
+personnes::people
+ma::my
+sur::on
+savoir::know
+eau::water
+que::than
+appel::call
+première::first
+qui::who
+peut::may
+vers le bas::down
+côté::side
+été::summer
+maintenant::now
+trouver::to find
+tête::head
+supporter::support
+propre::own
+page::page
+devrait::should
+pays::country
+trouvé::find
+réponse::reply
+école::school
+croître::grow
+étude::study
+encore::Again
+apprendre::to learn
+usine::factory
+couvercle::lid
+nourriture::food
+soleil::Sun
+quatre::four
+entre::Between
+état::state
+garder::keep
+œil::eye
+jamais::never
+dernier::latest
+laisser::let
+pensée::thought
+ville::city
+arbre::tree
+traverser::to cross
+ferme::closed
+dur::hard
+début::start
+puissance::power
+histoire::story
+scie::saw
+loin::far
+mer::sea
+tirer::Pull
+gauche::left
+tard::late
+courir::to run
+needs a context::needs a context
+tandis que::while
+presse::hurry
+proche::close
+nuit::night
+réel::real
+vie::life
+peu::little
+nord::North
+livre::delivered
+porter::carry
+a pris::took
+science::science
+manger::to eat
+chambre::bedroom
+ami::friend
+a commencé::has begun
+idée::idea
+poisson::fish
+montagne::Mountain
+Arrêtez::Stop
+une fois::Once
+base::based
+entendre::hear
+cheval::horse
+coupe::chopped off
+sûr::sure
+regarder::to concern
+couleur::color
+face::face
+bois::drink
+principal::main
+ouvert::open
+paraître::to appear
+ensemble::together
+suivant::following
+blanc::White
+enfants::children
+commencer::to start
+eu::had
+marcher::to walk
+exemple::example
+facilité::ease
+papier::paper
+groupe::group
+toujours::always
+musique::music
+ceux::those
+tous les deux::both
+marque::Mark
+souvent::often
+lettre::letter
+jusqu’à ce que::until
+mile::mile
+rivière::river
+voiture::car
+pieds::feet
+soins::care
+deuxième::second
+assez::quite
+plaine::plain
+fille::girl
+habituel::usual
+jeune::young
+prêt::ready
+au-dessus::above
+jamais::never
+rouge::Red
+liste::listing
+bien que::although
+sentir::feel
+parler::speak
+oiseau::bird
+bientôt::soon
+corps::body
+chien::dog
+famille::family
+direct::direct
+pose::pose
+laisser::let
+chanson::song
+mesurer::measure
+porte::door
+produit::product
+noir::black
+court::short
+chiffre::figure
+classe::class
+vent::wind
+question::question
+arriver::to arrive
+complète::complete
+navire::ship
+zone::zoned
+moitié::half
+rock::rock
+ordre::order
+feu::fire
+sud::South
+problème::problem
+pièce::room
+dit::said
+savait::knew
+passer::pass
+depuis::since
+haut::high
+ensemble::together
+roi::King
+rue::Street
+pouce::thumb
+multiplier::multiply
+rien::nothing
+cours::Classes
+rester::to stay
+roue::wheel
+plein::full
+force::strength
+bleu::blue
+objet::object
+décider::decide
+surface::area
+profond::deep
+lune::moon
+île::Isle
+pied::foot
+système::system
+occupé::busy
+test::test
+record::record
+bateau::boat
+commun::common
+or::gold
+possible::possible
+plan::plan
+place::square
+sec::dry
+se demander::wonder
+rire::to laugh
+mille::thousand
+il ya::There are
+ran::ran
+vérifier::to verify
+jeu::Game
+forme::form
+assimiler::assimilate
+chaud::hot
+manquer::to lack
+apporté::brought
+chaleur::heat
+neige::snow
+pneu::tire
+apporter::to bring
+oui::Yes
+lointain::distant
+remplir::to fill
+est::is
+peindre::to paint
+langue::tongue
+entre::Between
+unité::unity
+puissance::power
+ville::city
+fin::end
+certain::certain
+voler::steal
+tomber::publication date
+conduire::drive
+cri::shout
+sombre::dark
+machine::machine
+Note::Note
+patienter::wait
+plan::plan
+figure::figure
+étoile::star
+boîte::box
+nom::name
+domaine::domain
+reste::rest
+correct::correct
+capable::able
+livre::delivered
+Terminé::Ended
+beauté::beauty
+entraînement::coaching
+résisté::resisted
+contenir::contain
+avant::before
+enseigner::teach
+semaine::week
+finale::final
+donné::given
+vert::green
+oh::Oh
+rapide::fast
+développer::develop
+océan::ocean
+chaud::hot
+gratuit::free
+minute::minute
+fort::strong
+spécial::special
+esprit::spirit
+derrière::behind
+clair::clear
+queue::tail
+produire::produce
+fait::made
+espace::space
+entendu::understood
+meilleur::better
+heure::time
+mieux::better
+vrai::true
+pendant::during
+cent::hundred
+cinq::five
+rappeler::recall
+étape::stage
+tôt::early
+tenir::hold on
+ouest::Where is
+sol::ground
+intérêt::interest
+atteindre::to reach
+rapide::fast
+verbe::verb
+chanter::to sing
+écouter::to listen
+six::six
+table::table
+Voyage::Trip
+moins::less
+matin::morning
+dix::ten
+simple::simple
+plusieurs::various
+voyelle::vowel
+vers::toward
+guerre::war
+poser::to pose
+contre::versus
+modèle::model
+lent::slow
+centre::center
+amour::love
+personne::anybody
+argent::money
+servir::to serve
+apparaître::appear
+route::road
+carte::menu
+pluie::rain
+règle::rule
+gouverner::govern
+tirer::Pull
+froid::cold
+avis::opinion
+voix::voice
+énergie::energy
+chasse::hunt
+probable::likely
+lit::bed
+frère::brother
+œuf::egg
+tour::tower
+cellule::cell
+croire::to believe
+peut-être::may be
+choisir::Choose
+soudain::suddenly
+compter::to count
+carré::square
+raison::raison
+longueur::length
+représenter::represent
+art::art
+sujet::topic
+région::region
+taille::cut
+varier::vary
+régler::adjust
+parler::speak
+poids::weight
+général::general
+glace::ice
+question::question
+cercle::circle
+paire::pair
+inclure::include
+fracture::fracture
+syllabe::syllable
+feutre::felt
+grandiose::grandiose
+balle::ball
+encore::Again
+vague::wave
+tomber::publication date
+cœur::heart
+h::h
+présent::here
+lourd::heavy
+danse::dance
+moteur::motor
+position::position
+bras::arm
+large::large
+voile::veil
+matériel::equipment
+fraction::fraction
+forêt::Forest
+s’asseoir::sit
+course::race
+fenêtre::window
+magasin::store
+été::summer
+train::train
+sommeil::sleep
+prouver::to prove
+seul::alone
+jambe::leg
+exercice::exercise
+mur::Wall
+capture::capture
+monture::mount
+souhaiter::to wish
+ciel::sky
+conseil::advice
+joie::joy
+hiver::winter
+sat::sat
+écrit::writing
+sauvage::Savage
+instrument::instrument
+conservé::preserved
+verre::glass
+herbe::grass
+vache::cow
+emploi::use
+bord::edge
+signe::sign
+visite::visit
+passé::pass
+doux::soft
+amusement::fun
+clair::clear
+gaz::gas
+temps::time
+mois::month
+million::million
+porter::carry
+finition::finishing
+heureux::happy
+espoir::hope
+fleur::flower
+vêtir::clothe
+étrange::strange
+disparu::faded away
+commerce::trade
+mélodie::melody
+voyage::trip
+bureau::office
+recevoir::to receive
+rangée::row
+bouche::mouth
+exact::exact
+symbole::symbol
+mourir::to die
+moins::less
+difficulté::difficulty
+cri::shout
+sauf::except
+écrit::writing
+semence::seed
+ton::your
+joindre::join
+suggérer::to suggest
+propre::own
+pause::pause
+dame::lady
+cour::court
+augmenter::to augment
+mauvais::Wrong
+coup::cut
+huile::oil
+sang::blood
+toucher::to touch
+a augmenté::increased
+cent::hundred
+mélanger::to mix together
+équipe::team
+fil::thread
+coût::cost
+perdu::lost
+brun::Brown
+porter::carry
+jardin::garden
+égal::equal
+expédié::dispatched
+choisir::Choose
+est tombé::fell
+s’adapter::adapt
+débit::debit
+juste::just
+banque::Bank
+recueillir::collect
+sauver::to save
+contrôle::control
+décimal::decimal
+oreille::hear
+autre::other
+tout à fait::absolutely
+cassé::broken
+cas::case
+milieu::environment
+tuer::to kill
+fils::son
+lac::Lake
+moment::moment
+échelle::ladder
+fort::strong
+printemps::spring
+observer::observe
+enfant::child
+droit::law
+consonne::consonant
+nation::nation
+dictionnaire::dictionary
+lait::milk
+vitesse::speed
+méthode::method
+organe::organ
+payer::to pay
+âge::age
+section::section
+robe::dress
+nuage::cloud
+surprise::surprise
+calme::calm
+pierre::rock
+minuscule::tiny
+montée::climb
+frais::costs
+conception::design
+pauvres::poor
+lot::lot
+expérience::experience
+bas::low
+clé::key
+fer::iron
+unique::unique
+bâton::stick
+plat::flat
+vingt::twenty
+peau::skin
+sourire::to smile
+pli::fold
+trou::hole
+sauter::to jump
+bébé::baby
+huit::eight
+village::town
+se rencontrent::meet
+racine::root
+acheter::to buy
+augmenter::to augment
+résoudre::to resolve
+métal::metal
+si::if
+pousser::to push
+sept::seven
+paragraphe::paragraph
+troisième::third
+doit::must
+en attente::waiting
+cheveux::hair
+décrire::to describe
+cuisinier::to cook
+étage::stage
+chaque::each
+résultat::results
+brûler::to burn
+colline::hill
+coffre-fort::safe
+chat::cat
+siècle::century
+envisager::to consider
+type::type
+droit::law
+peu::little
+côte::rating
+copie::copy
+phrase::phrasing
+silencieux::quiet
+haut::high
+sable::sand
+sol::ground
+rouleau::roller
+température::temperature
+doigt::finger
+industrie::industry
+valeur::value
+lutte::struggle
+mensonge::lie
+battre::to beat
+exciter::excite
+naturel::natural
+vue::eu
+sens::sense
+capital::capital
+ne sera pas::will not be
+chaise::chair
+danger::danger
+fruit::fruit
+riche::rich
+épais::thick
+soldat::soldier
+processus::process
+fonctionner::function
+pratique::practice
+séparé::separate
+difficile::hard
+médecin::doctor
+s’il vous plaît::please
+protéger::protect
+midi::midday
+récolte::harvest
+moderne::modern
+élément::element
+frapper::to hit
+étudiant::student
+coin::corner
+partie::part
+alimentation::food
+dont::of which
+localiser::locate
+anneau::ring
+caractère::character
+insecte::insect
+pris::taken
+période::period
+indiquer::indicate
+radio::radio
+rayon::Ray
+atome::atom
+humain::human
+histoire::story
+effet::effect
+électrique::electric
+attendre::wait
+os::bone
+rail::rail
+imaginer::to imagine
+fournir::to supply
+se mettre d’accord::to agree
+ainsi::Thus
+doux::soft
+femme::women
+capitaine::captain
+deviner::to guess
+nécessaire::necessary
+net::net
+aile::wing
+créer::to create
+voisin::neighbor
+lavage::washing
+chauve-souris::bat
+plutôt::rather
+foule::crowd
+blé::corn
+comparer::compare
+poème::poem
+chaîne::chain
+cloche::Bell
+dépendre::to depend
+viande::meat
+rub::rub
+tube::tube
+célèbre::popular
+dollar::dollar
+courant::running
+peur::fear
+vue::seen
+mince::slim
+triangle::triangle
+planète::planet
+se dépêcher::to hurry up
+chef::chief
+colonie::colony
+horloge::clock
+mine::mine
+lien::link
+entrer::enter
+majeur::major
+frais::costs
+recherche::research
+envoyer::send
+jaune::yellow
+pistolet::gun
+permettre::to allow
+impression::impression
+mort::dead
+place::square
+désert::desert
+costume::suit
+courant::running
+ascenseur::elevator
+rose::pink
+arriver::to arrive
+maître::master
+piste::track
+mère::mother
+rivage::shore
+division::division
+feuille::sheet
+substance::substance
+favoriser::to favor
+relier::connect
+poste::job
+passer::pass
+corde::rope
+graisse::fat
+heureux::happy
+original::original
+part::go
+station::station
+papa::dad
+pain::bread
+charger::load
+propre::own
+bar::bar
+proposition::proposal
+segment::segment
+esclave::slave
+canard::duck
+instant::moment
+marché::Marlet
+degré::degree
+peupler::populate
+poussin::Chick
+cher::Dear
+ennemi::enemy
+répondre::to respond
+boisson::drink
+se produire::happen
+support::support
+discours::speech
+nature::nature
+gamme::range
+vapeur::steam
+mouvement::movement
+chemin::path
+liquide::liquid
+enregistrer::save
+signifiait::meant
+quotient::quotient
+dents::teeth
+coquille::shell
+cou::neck
+oxygène::oxygen
+sucre::sugar
+décès::death
+assez::quite
+compétence::skill
+femmes::women
+saison::season
+solution::solution
+aimant::magnet
+argent::money
+merci::thank you
+branche::plugged
+rencontre::meet
+suffixe::suffix
+particulièrement::particularly
+figue::fig
+peur::fear
+énorme::huge
+sœur::sister
+acier::steel
+discuter::to discuss
+avant::before
+similaire::similar
+guider::to guide
+expérience::experience
+score::score
+pomme::Apple
+acheté::purchased
+LED::LED
+pas::not
+manteau::coat
+masse::mass
+carte::menu
+bande::bandaged
+corde::rope
+glissement::slip
+gagner::to win
+rêver::dream
+soirée::evening
+condition::condition
+alimentation::food
+outil::tool
+total::total
+de base::basic
+odeur::odour
+vallée::valley
+ni::or
+double::double
+siège::seat
+continuer::Continue
+bloc::block
+graphique::graphic
+chapeau::hat
+vendre::to sell
+succès::success
+entreprise::business
+soustraire::to subtract
+événement::event
+particulier::particular
+accord::OK
+baignade::bathing
+terme::term
+opposé::opposite
+femme::women
+chaussure::shoe
+épaule::shoulder
+propagation::spread
+organiser::to organise
+camp::camp
+inventer::invent
+coton::cotton
+né::not
+déterminer::determine
+litre::liter
+neuf::nine
+camion::truck
+bruit::noise
+niveau::level
+chance::luck
+recueillir::collect
+boutique::shop
+tronçon::section
+jeter::to throw
+éclat::shine
+propriété::property
+colonne::column
+molécule::molecule
+sélectionner::to select
+mal::wrong
+gris::Grey
+répétition::repetition
+exiger::require
+large::large
+préparer::to prepare
+sel::salt
+nez::nose
+pluriel::plural
+colère::anger
+revendication::claim
+continent::continent

@@ -5,6 +5,7 @@ import { MenuScene } from './menu-scene';
 import { GameScene } from './game-scene';
 import { LevelDoneScene } from './level-done-scene';
 import { gameHeight, gameWidth } from './config';
+import { LanguageSelectScene } from './language-select-scene';
 
 const GameConfig: Phaser.Types.Core.GameConfig = {
   title: 'Nihongo Shooter',
@@ -15,6 +16,7 @@ const GameConfig: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
   parent: 'app',
   scene: [
+    LanguageSelectScene,
     MenuScene,
     GameScene,
     LevelDoneScene,

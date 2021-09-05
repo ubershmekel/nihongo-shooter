@@ -1,31 +1,45 @@
 import 'phaser';
 import particleUrl from '../assets/particle.png';
+import backButtonUrl from '../assets/back.png';
 import gaspUrl from '../assets/gasp.mp3';
 import { Background } from './fx-background';
 import { Stuff } from './stuff';
 import { AnswerButton } from './answer-button';
-import { maxLevel } from './words';
+import { LanguageType, maxLevel } from './words';
 import { gameHeight, gameWidth } from './config';
 import { storage } from './storage';
-import { GameSceneProps } from './game-scene';
+import { gameSceneKey, GameSceneProps } from './game-scene';
 import { addText } from './utils';
+import { ImageButton } from './image-button';
+import { languageSelectSceneKey } from './language-select-scene';
 
 export const menuSceneKey = 'MenuScene';
+
+export interface MenuSceneProps {
+  language: LanguageType,
+}
 
 export class MenuScene extends Phaser.Scene {
   private isHintOn = true;
   private startKey!: Phaser.Input.Keyboard.Key;
   private background = new Background();
+  private backButton = new ImageButton('back-button', backButtonUrl);
   private stuff: Stuff[] = [
     this.background,
+    this.backButton,
   ];
   private buttons!: AnswerButton[];
   private hintToggle!: AnswerButton;
+  private language!: LanguageType;
 
   constructor() {
     super({
       key: menuSceneKey,
     });
+  }
+
+  init(props: MenuSceneProps) {
+    this.language = props.language;
   }
 
   preload(): void {
@@ -47,6 +61,11 @@ export class MenuScene extends Phaser.Scene {
   }
 
   create(): void {
+    this.stuff.map(thing => thing.create(this));
+    this.backButton.setXY(gameWidth * 0.04, gameHeight * 0.02);
+    this.backButton.onPress = () => {
+      this.scene.start(languageSelectSceneKey);
+    };
     this.buttons = [];
 
     this.hintToggle = new AnswerButton(this);
@@ -57,8 +76,8 @@ export class MenuScene extends Phaser.Scene {
       this.updateHintToggle();
     };
 
-    this.stuff.map(thing => thing.create(this));
-    const title = addText(this, gameWidth / 2, gameHeight / 20, 'Nihongo Shooter');
+    const titleText = titleCase(this.language) + ' Shooter';
+    const title = addText(this, gameWidth / 2, gameHeight / 20, titleText);
     title.setFontSize(0.05 * gameHeight);
     title.setAlign("center");
     title.setOrigin(0.5);
@@ -82,8 +101,9 @@ export class MenuScene extends Phaser.Scene {
         const sceneInfo: GameSceneProps = {
           level,
           showHint: this.isHintOn,
+          language: this.language,
         };
-        this.scene.start("GameScene", sceneInfo);
+        this.scene.start(gameSceneKey, sceneInfo);
       };
     }
   }
@@ -96,4 +116,20 @@ export class MenuScene extends Phaser.Scene {
     }
 
   }
+}
+
+function titleCase(str: string) {
+  // https://stackoverflow.com/questions/196972/convert-string-to-title-case-with-javascript
+  let upper = true;
+  let newStr = "";
+  for (let i = 0, l = str.length; i < l; i++) {
+    if (str[i] == " ") {
+      upper = true;
+      newStr += " ";
+      continue;
+    }
+    newStr += upper ? str[i].toUpperCase() : str[i].toLowerCase();
+    upper = false;
+  }
+  return newStr;
 }
