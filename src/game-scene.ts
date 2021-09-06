@@ -138,6 +138,7 @@ export class GameScene extends Phaser.Scene {
 
     this.backButton.setXY(this.game.scale.width * 0.01, 0.034 * this.game.scale.height);
     this.backButton.onPress = () => {
+      GameAnalytics.addProgressionEvent(EGAProgressionStatus.Fail, this.language, "level" + this.level);
       this.scene.start(menuSceneKey);
     };
 
@@ -243,6 +244,8 @@ export class GameScene extends Phaser.Scene {
         // "Uncaught (in promise) TypeError: Cannot read property 'play' of undefined"
         // when I mash buttons on the second go
       }
+      GameAnalytics.addProgressionEvent(EGAProgressionStatus.Complete,
+        this.language, "level" + this.level, "mistakes" + this.wordsGame.mistakes, Math.floor(durationSeconds));
       this.scene.start(levelDoneSceneKey, data);
     } else {
       this.updateWordButtons();
