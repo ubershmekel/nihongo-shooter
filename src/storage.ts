@@ -2,22 +2,26 @@ const keys = {
   defaultLanguageKey: 'defaultLanguageKey',
 }
 
-function bestSpeedKey(level: number) {
+function bestSpeedKeyOld(level: number) {
   return "best-speed-" + level;
+}
+
+function bestSpeedKey(lang: string, level: number) {
+  return lang + "-best-speed-" + level;
 }
 
 export const storage = {
   bestSpeed: {
-    get(level: number) {
-      const value = localStorage.getItem(bestSpeedKey(level));
+    get(lang: string, level: number) {
+      const value = localStorage.getItem(bestSpeedKey(lang, level));
       if (value) {
         return +value;
       } else {
         return undefined;
       }
     },
-    set(level: number, value: number) {
-      localStorage.setItem(bestSpeedKey(level), value.toString());
+    set(lang: string, level: number, value: number) {
+      localStorage.setItem(bestSpeedKey(lang, level), value.toString());
     }
   },
   defaultLanguage: {
@@ -26,6 +30,17 @@ export const storage = {
     },
     set(lang: string) {
       localStorage.setItem(keys.defaultLanguageKey, lang);
+    }
+  }
+}
+
+export function migrateStorage1() {
+  const maxLevel = 48;
+  for (let index = 0; index < maxLevel; index++) {
+    const level = index + 1;
+    const speed = localStorage.getItem(bestSpeedKeyOld(level));
+    if (speed) {
+      storage.bestSpeed.set('japanese', level, +speed);
     }
   }
 }

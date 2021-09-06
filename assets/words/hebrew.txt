@@ -17,7 +17,7 @@
 מ::from
 על ידי::by
 חם::hot
-מילה::circumcision
+מילה::word / circumcision
 אבל::but
 מה::what
 כמה::some

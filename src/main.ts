@@ -6,7 +6,7 @@ import { GameScene } from './game-scene';
 import { LevelDoneScene } from './level-done-scene';
 import { gameHeight, gameWidth } from './config';
 import { LanguageSelectScene } from './language-select-scene';
-import { storage } from './storage';
+import { migrateStorage1, storage } from './storage';
 
 const gameConfig: Phaser.Types.Core.GameConfig = {
   title: 'Nihongo Shooter',
@@ -54,7 +54,10 @@ export class Game extends Phaser.Game {
 }
 
 window.addEventListener('load', () => {
-  // Expose `_game` to allow debugging, mute button and fullscreen button
+  // Fix data from when the game only had japanese
+  migrateStorage1();
+
+  // Skip the language selection scren if you already chose one
   const scenesList: typeof Phaser.Scene[] = [
     LanguageSelectScene,
     MenuScene,
@@ -69,5 +72,6 @@ window.addEventListener('load', () => {
   }
   gameConfig.scene = scenesList;
 
+  // Expose `_game` to allow debugging, mute button and fullscreen button
   (window as any)._game = new Game(gameConfig);
 });

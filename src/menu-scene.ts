@@ -90,7 +90,7 @@ export class MenuScene extends Phaser.Scene {
       const level = index + 1;
       const button = new AnswerButton(this);
       button.width = gameWidth * 0.115;
-      if (storage.bestSpeed.get(level)) {
+      if (storage.bestSpeed.get(this.language, level)) {
         button.setRestColor(0x99dd99);
       }
 

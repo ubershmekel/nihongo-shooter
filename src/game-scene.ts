@@ -229,6 +229,7 @@ export class GameScene extends Phaser.Scene {
         mistakes: this.wordsGame.mistakes,
         corrects: this.wordsGame.corrects,
         level: this.level,
+        language: this.language,
       };
       console.log("level over", data);
       try {

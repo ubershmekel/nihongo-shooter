@@ -14,6 +14,7 @@ export interface LevelDoneData {
   corrects: number,
   mistakes: number,
   duration: number,
+  language: string,
 }
 
 export class LevelDoneScene extends Phaser.Scene {
@@ -56,11 +57,11 @@ export class LevelDoneScene extends Phaser.Scene {
       `In: ${this.levelDoneData.duration} seconds`,
     ];
 
-    const bestSpeed = storage.bestSpeed.get(this.levelDoneData.level);
+    const bestSpeed = storage.bestSpeed.get(this.levelDoneData.language, this.levelDoneData.level);
     let newRecord = false;
     if (this.levelDoneData.mistakes == 0) {
       if (!bestSpeed || (bestSpeed && this.levelDoneData.duration < bestSpeed)) {
-        storage.bestSpeed.set(this.levelDoneData.level, this.levelDoneData.duration);
+        storage.bestSpeed.set(this.levelDoneData.language, this.levelDoneData.level, this.levelDoneData.duration);
         newRecord = true;
       }
     }
