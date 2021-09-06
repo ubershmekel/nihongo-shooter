@@ -17,6 +17,7 @@ import { ManyExplosions } from './fx-many-explosions';
 import { menuSceneKey } from './menu-scene';
 import { addText } from './utils';
 import { ImageButton } from './image-button';
+import { GameAnalytics, EGAProgressionStatus } from 'gameanalytics';
 
 export const gameSceneKey = 'GameScene';
 
@@ -90,7 +91,7 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload(): void {
-    console.log('level', this.level);
+    console.log('preload level', this.level);
     this.stuff.map(thing => thing.preload(this));
 
     this.wordsGame = new WordGame(this.language, this.level);
@@ -124,6 +125,8 @@ export class GameScene extends Phaser.Scene {
 
   create(): void {
     this.stuff.map(thing => thing.create(this));
+
+    GameAnalytics.addProgressionEvent(EGAProgressionStatus.Start, this.language, "level" + this.level);
 
     for (const _ of this.wordsGame.buttonWords) {
       const button = new AnswerButton(this);
