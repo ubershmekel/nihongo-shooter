@@ -34,7 +34,7 @@ jobs:
         run: npm run build
       
       - name: save version.json file
-      - run: >
+        run: >
           echo '{ "hash": "'$(git rev-parse HEAD)'" }' > dist/version.json
 
       - name: Deploy 🚀
