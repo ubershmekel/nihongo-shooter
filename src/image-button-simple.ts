@@ -1,23 +1,11 @@
-import { Stuff } from "./stuff";
 
-export class ImageButton implements Stuff {
+export class ImageButtonSimple {
   sprite!: Phaser.GameObjects.Sprite;
-  imageUrl: string;
-  imageName: string;
 
   onPress = () => { };
 
-  constructor(imageName: string, imageUrl: string) {
-    this.imageName = imageName;
-    this.imageUrl = imageUrl;
-  }
-
-  preload(scene: Phaser.Scene) {
-    scene.load.image(this.imageName, this.imageUrl);
-  }
-
-  create(scene: Phaser.Scene) {
-    this.sprite = scene.add.sprite(0, 0, this.imageName);
+  constructor(sprite: Phaser.GameObjects.Sprite) {
+    this.sprite = sprite;
     this.sprite.setOrigin(0, 0)
     this.sprite.setScrollFactor(0);
     this.sprite.setInteractive();
@@ -34,7 +22,6 @@ export class ImageButton implements Stuff {
     // Buttons should be in front of most things, z-index, layer
     this.sprite.depth = 11;
   }
-
 
   enterButtonHoverState() {
     this.sprite.setAlpha(0.5);

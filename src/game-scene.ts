@@ -133,7 +133,7 @@ export class GameScene extends Phaser.Scene {
     this.definitionBox = new AnswerButton(this);
     this.definitionBox.setXY(this.game.scale.width / 2, 0.3 * this.game.scale.height);
 
-    this.backButton.setXY(this.game.scale.width * 0.9, 0.04 * this.game.scale.height);
+    this.backButton.setXY(this.game.scale.width * 0.01, 0.034 * this.game.scale.height);
     this.backButton.onPress = () => {
       this.scene.start(menuSceneKey);
     };
