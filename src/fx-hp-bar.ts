@@ -16,7 +16,7 @@ export class HealthBar implements Stuff {
   }
 
   setPercent(amount: number) {
-    this.rect.displayWidth = gameWidth * amount / 100;
+    this.rect.displayWidth = gameWidth * amount;
   }
 
 }

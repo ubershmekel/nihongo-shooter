@@ -18,6 +18,7 @@ import { menuSceneKey } from './menu-scene';
 import { addText } from './utils';
 import { ImageButton } from './image-button';
 import { GameAnalytics, EGAProgressionStatus } from 'gameanalytics';
+import { TimerBar } from './fx-timer-bar';
 
 export const gameSceneKey = 'GameScene';
 
@@ -53,6 +54,7 @@ export class GameScene extends Phaser.Scene {
   private manyExplosions = new ManyExplosions();
   private background = new Background();
   private hpBar = new HealthBar();
+  private timerBar = new TimerBar();
   private enemy = new Enemy();
   private backButton = new ImageButton('back-button', backButtonUrl);
   private stuff: Stuff[] = [
@@ -60,6 +62,7 @@ export class GameScene extends Phaser.Scene {
     this.explosion,
     this.background,
     this.hpBar,
+    this.timerBar,
     this.enemy,
     this.manyExplosions,
     this.backButton,
@@ -193,6 +196,13 @@ export class GameScene extends Phaser.Scene {
       this.guessAnswer(2);
     }
 
+    const medalTimeSeconds = 40.0;
+    const durationSeconds = (Date.now() - this.startTime) / 1000.0;
+    let percentTimeLeft = (medalTimeSeconds - durationSeconds) / medalTimeSeconds;
+    if (percentTimeLeft < 0) {
+      percentTimeLeft = 0;
+    }
+    this.timerBar.setPercent(percentTimeLeft);
   }
 
   enemyX(index: number) {
@@ -270,8 +280,8 @@ export class GameScene extends Phaser.Scene {
     const answerWord = this.wordsGame.getAnswerWord();
     this.definitionBox.setText(answerWord.english);
 
-    const percentLeft = 100 * this.wordsGame.remainingWords() / this.wordsGame.totalWords();
-    this.hpBar.setPercent(percentLeft);
+    const percentLifeLeft = this.wordsGame.remainingWords() / this.wordsGame.totalWords();
+    this.hpBar.setPercent(percentLifeLeft);
     this.scoreText.setText("HP: " + this.wordsGame.remainingWords() * 10);
   }
 }
