@@ -46,7 +46,7 @@ export class Enemy implements Stuff {
       repeat: -1,
     });
     this.sprite = scene.add.sprite(300, 300, keys.animGreen);
-    this.sprite.scale = 2.5 * gameWidth / 100;
+    this.sprite.scale = 2.0 * gameWidth / 100;
     this.sprite.play(keys.animGreen);
     this.sprite.depth = 1;
 

@@ -19,6 +19,7 @@ import { addText } from './utils';
 import { ImageButton } from './image-button';
 import { GameAnalytics, EGAProgressionStatus } from 'gameanalytics';
 import { TimerBar } from './fx-timer-bar';
+import { Planet } from './fx-planet';
 
 export const gameSceneKey = 'GameScene';
 
@@ -53,6 +54,7 @@ export class GameScene extends Phaser.Scene {
   private explosion = new Explosion();
   private manyExplosions = new ManyExplosions();
   private background = new Background();
+  private planet = new Planet();
   private hpBar = new HealthBar();
   private timerBar = new TimerBar();
   private enemy = new Enemy();
@@ -61,6 +63,7 @@ export class GameScene extends Phaser.Scene {
     this.rays,
     this.explosion,
     this.background,
+    this.planet,
     this.hpBar,
     this.timerBar,
     this.enemy,
@@ -203,6 +206,9 @@ export class GameScene extends Phaser.Scene {
       percentTimeLeft = 0;
     }
     this.timerBar.setPercent(percentTimeLeft);
+    if (percentTimeLeft < 0.2) {
+      this.planet.reveal(this);
+    }
   }
 
   enemyX(index: number) {
