@@ -71,13 +71,15 @@ export class MenuScene extends Phaser.Scene {
     };
     this.buttons = [];
 
-    this.hintToggle = new AnswerButton(this);
-    this.hintToggle.setXY(gameWidth / 2, gameHeight * 0.95);
-    this.updateHintToggle();
-    this.hintToggle.onPress = () => {
-      this.isHintOn = !this.isHintOn;
+    if (this.language === 'japanese') {
+      this.hintToggle = new AnswerButton(this);
+      this.hintToggle.setXY(gameWidth / 2, gameHeight * 0.95);
       this.updateHintToggle();
-    };
+      this.hintToggle.onPress = () => {
+        this.isHintOn = !this.isHintOn;
+        this.updateHintToggle();
+      };
+    }
 
     const titleText = titleCase(this.language) + ' Shooter';
     const title = addText(this, gameWidth / 2, gameHeight / 20, titleText);
