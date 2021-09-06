@@ -5,16 +5,15 @@ que::that, which, who
 él::he
 era::was
 para::for
-en::on
+en::in, on, at
 son::are
 con::with
 ellos::them
 ser::be
-en::on
 uno::one
 tener::to have
 este::this
-desde::from
+desde::from, since
 por::by
 caliente::hot
 palabra::word
@@ -23,10 +22,12 @@ qué::what
 algunos::some
 es::it is
 lo::it
-usted::you
+usted::you (2nd person, formal)
+tú::you (2nd person, informal)
+tu::your (informal)
 o::or
 tenido::had
-la::the
+la::the, her
 de::from
 a::to
 y::and
@@ -343,7 +344,6 @@ pieza::part
 dicho::saying
 sabía::i knew
 pasar::pass
-desde::from
 cima::top
 todo::everything
 rey::king
