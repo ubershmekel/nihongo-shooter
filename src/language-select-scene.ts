@@ -7,6 +7,7 @@ import { menuSceneKey, MenuSceneProps } from './menu-scene';
 import { LanguageType } from './words';
 import flagsUrl from '../assets/flags.png';
 import { ImageButtonSimple } from './image-button-simple';
+import { storage } from './storage';
 
 export const languageSelectSceneKey = 'LanguageSelectScene';
 
@@ -89,6 +90,7 @@ export class LanguageSelectScene extends Phaser.Scene {
       const y = (2.4 + 2 * Math.floor(index / columnCount)) * gameHeight / 10;
       button.setXY(x, y);
       button.onPress = () => {
+        storage.defaultLanguage.set(lang);
         const sceneInfo: MenuSceneProps = {
           language: lang,
         };

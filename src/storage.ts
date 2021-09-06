@@ -1,3 +1,7 @@
+const keys = {
+  defaultLanguageKey: 'defaultLanguageKey',
+}
+
 function bestSpeedKey(level: number) {
   return "best-speed-" + level;
 }
@@ -16,4 +20,12 @@ export const storage = {
       localStorage.setItem(bestSpeedKey(level), value.toString());
     }
   },
+  defaultLanguage: {
+    get(): string | null {
+      return localStorage.getItem(keys.defaultLanguageKey);
+    },
+    set(lang: string) {
+      localStorage.setItem(keys.defaultLanguageKey, lang);
+    }
+  }
 }

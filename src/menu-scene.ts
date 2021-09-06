@@ -40,6 +40,9 @@ export class MenuScene extends Phaser.Scene {
 
   init(props: MenuSceneProps) {
     this.language = props.language;
+    if (!this.language) {
+      this.language = storage.defaultLanguage.get() as LanguageType;
+    }
   }
 
   preload(): void {
