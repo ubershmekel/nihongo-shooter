@@ -32,6 +32,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: npm run build
         run: npm run build
+      
+      - name: save version.json file
+      - run: >
+          echo '{ "hash": "'$(git rev-parse HEAD)'" }' > dist/version.json
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
