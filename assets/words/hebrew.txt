@@ -1,7 +1,7 @@
 כמו::same as
 אני::i am
 שלו::his
-ש::that
+ש...::that
 הוא::he
 היה::was
 עבור::for
@@ -10,11 +10,11 @@
 עם::with
 הם::they
 להיות::to be
-ב::at
+ב...::at
 אחד::one
 יש לי::i have
 זה::it
-מ::from
+מ...::from
 על ידי::by
 חם::hot
 מילה::word / circumcision

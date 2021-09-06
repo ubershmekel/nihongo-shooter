@@ -96,6 +96,17 @@ export class AnswerButton {
 
   setText(text: string) {
     this.sceneText.setText(text);
+
+    if (containsHebrew(text)) {
+      // Setting RTL is complicated in phaser because RTL only gets initialized
+      // in the constructor of the text object, and it overrides some settings. /shrug
+      // https://github.com/photonstorm/phaser/blob/5c8ecbcf999e6f328d21884e877c9e5935d2d350/src/gameobjects/text/Text.js#L302
+      this.sceneText.style.rtl = true;
+      this.sceneText.initRTL();
+      this.sceneText.setAlign('center');
+      this.sceneText.setOrigin(0.5);
+    }
+
     this.fixGraphics();
   }
 
@@ -109,4 +120,9 @@ export class AnswerButton {
     this.boxRestColor = color;
     this.enterButtonRestState();
   }
+}
+
+function containsHebrew(str: string) {
+  // https://stackoverflow.com/questions/37371842/how-to-detect-hebrew-characters-in-a-string-in-javascript
+  return (/[\u0590-\u05FF]/).test(str);
 }

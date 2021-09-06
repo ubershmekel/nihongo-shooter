@@ -1,7 +1,7 @@
 como::what
 yo::I
 su::its, your, his, their, her
-que::that
+que::that, which, who
 él::he
 era::was
 para::for
@@ -19,7 +19,7 @@ por::by
 caliente::hot
 palabra::word
 pero::but
-qué::that
+qué::what
 algunos::some
 es::it is
 lo::it
