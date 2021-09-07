@@ -1,9 +1,10 @@
 import 'phaser';
-import gaspUrl from '../assets/gasp.mp3';
 import { AnswerButton } from './answer-button';
 import { gameHeight, gameWidth } from './config';
 import { Background } from './fx-background';
+import { UI } from './fx-ui';
 import { menuSceneKey } from './menu-scene';
+import { whichStarFrame } from './scoring';
 import { storage } from './storage';
 import { Stuff } from './stuff';
 import { addText } from './utils';
@@ -21,9 +22,11 @@ export class LevelDoneScene extends Phaser.Scene {
   private levelDoneData!: LevelDoneData;
   private background = new Background();
   private buttons!: AnswerButton[];
+  private ui = new UI();
 
   private stuff: Stuff[] = [
     this.background,
+    this.ui,
   ];
 
   constructor() {
@@ -39,7 +42,6 @@ export class LevelDoneScene extends Phaser.Scene {
 
   preload(): void {
     this.stuff.map(thing => thing.preload(this));
-    this.load.audio('gasp', gaspUrl);
   }
 
   create(): void {
@@ -89,6 +91,10 @@ export class LevelDoneScene extends Phaser.Scene {
       this.scene.start(menuSceneKey);
     };
 
+    const starFrame = whichStarFrame(this.levelDoneData.duration, this.levelDoneData.mistakes);
+    const sprite = this.ui.sprite(starFrame);
+    sprite.x = gameWidth / 2;
+    sprite.y = 0.16 * gameHeight;
   }
 
   update(): void {

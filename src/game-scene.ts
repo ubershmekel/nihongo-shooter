@@ -20,6 +20,7 @@ import { ImageButton } from './image-button';
 import { GameAnalytics, EGAProgressionStatus } from 'gameanalytics';
 import { TimerBar } from './fx-timer-bar';
 import { Planet } from './fx-planet';
+import { medalTimeSeconds } from './scoring';
 
 export const gameSceneKey = 'GameScene';
 
@@ -199,7 +200,6 @@ export class GameScene extends Phaser.Scene {
       this.guessAnswer(2);
     }
 
-    const medalTimeSeconds = 40.0;
     const durationSeconds = (Date.now() - this.startTime) / 1000.0;
     let percentTimeLeft = (medalTimeSeconds - durationSeconds) / medalTimeSeconds;
     if (percentTimeLeft < 0) {

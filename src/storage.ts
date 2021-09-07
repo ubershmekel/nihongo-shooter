@@ -1,3 +1,5 @@
+import { maxLevel } from "./words";
+
 const keys = {
   defaultLanguageKey: 'defaultLanguageKey',
 }
@@ -35,7 +37,6 @@ export const storage = {
 }
 
 export function migrateStorage1() {
-  const maxLevel = 48;
   for (let index = 0; index < maxLevel; index++) {
     const level = index + 1;
     const speed = localStorage.getItem(bestSpeedKeyOld(level));

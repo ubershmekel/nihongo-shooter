@@ -12,6 +12,8 @@ import { gameSceneKey, GameSceneProps } from './game-scene';
 import { addText } from './utils';
 import { ImageButton } from './image-button';
 import { languageSelectSceneKey } from './language-select-scene';
+import { UI, uiNameToFrame } from './fx-ui';
+import { whichStarFrame } from './scoring';
 
 export const menuSceneKey = 'MenuScene';
 
@@ -24,9 +26,11 @@ export class MenuScene extends Phaser.Scene {
   private startKey!: Phaser.Input.Keyboard.Key;
   private background = new Background();
   private backButton = new ImageButton('back-button', backButtonUrl);
+  private ui = new UI();
   private stuff: Stuff[] = [
     this.background,
     this.backButton,
+    this.ui,
   ];
   private buttons!: AnswerButton[];
   private hintToggle!: AnswerButton;
@@ -110,6 +114,16 @@ export class MenuScene extends Phaser.Scene {
         };
         this.scene.start(gameSceneKey, sceneInfo);
       };
+
+      const duration = storage.bestSpeed.get(this.language, level);
+      let starFrame = uiNameToFrame.zeroStar;
+      if (duration) {
+        starFrame = whichStarFrame(duration, 0);
+        const starsSprite = this.ui.sprite(starFrame);
+        starsSprite.x = x;
+        starsSprite.y = y;
+        starsSprite.depth = 12;
+      }
     }
   }
 

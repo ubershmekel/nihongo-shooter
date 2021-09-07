@@ -62,6 +62,7 @@ function getWords(wordsTxt: string): Word[] {
 // const maxLearningWordsAtOnce = 10;
 export const questionsAtOnce = 3;
 export const maxLevel = 48;
+
 export interface GuessResult {
   success: boolean;
   gameOver: boolean;
