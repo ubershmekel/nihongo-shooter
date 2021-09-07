@@ -2,7 +2,6 @@
 나는::I
 그의::his
 그::that
-그::that
 했다::did
 에 대한::for
 에::to
@@ -10,9 +9,7 @@
 와::wow
 그들::them
 있다::have
-에::to
 일::work
-이::this
 이::this
 부터::from
 에 의해::by
@@ -22,21 +19,14 @@
 무엇::what
 다소::a little
 이다::am
-그::that
 당신::you
 또는::or
-했다::did
-에::to
 의::of
-에::to
 과::class
-이::this
-에::to
 우리::us
 수::number
 아웃::out
 다른::different
-했다::did
 하는::doing
 할::will do
 자신의::own
@@ -45,7 +35,6 @@
 것::thing
 방법::way
 말했다::said
-이::this
 각::each
 이야기::story
 하지::summer solstice
@@ -70,7 +59,6 @@
 땅::earth
 여기::here
 해야::sun
-큰::big
 높은::high
 이러한::such
 따라::follow
@@ -87,7 +75,6 @@
 집::house
 사진::picture
 시험::exam
-우리::us
 다시::again
 동물::animal
 포인트::point
@@ -100,7 +87,6 @@
 아버지::father
 모든::every
 새로운::new
-일::work
 일부::part
 소요::disturbance
 도착::arrival
@@ -109,15 +95,12 @@
 살고있다::i'm living
 어디에::where
 후::after
-다시::again
-작은::small
 만::just
 둥근::round
 사람::person
 년::year
 온::on
 쇼::show
-모든::every
 좋은::good
 나를::me
 제공::offer
@@ -129,7 +112,6 @@
 단지::only
 양식::form
 문장::sentence
-큰::big
 생각::thought
 말::word
 도움::help
@@ -148,38 +130,26 @@
 너무::too
 동일::same
 그녀::she
-모든::every
 그곳에::there
 때::at the time
 올라::up
 사용::use
 당신의::your
-방법::way
-에 대한::for
-많은::many
 다음::next
-그::that
 쓰기::writing
-것::thing
 같은::same
 그래서::therefore
 이들::these
 그녀의::her
 긴::long
 확인::confirm
-일::work
 참조::reference
-그::that
 두::two
-이::this
 봐::look
 더::more
-일::work
-수::number
 이동::move
 올::all
 한::one
-수::number
 소리::sound
 없음::does not exist
 가장::the most
@@ -191,7 +161,6 @@
 보다::see
 통화::call
 첫째::first
-사람::person
 수도::capital
 아래로::under
 측면::side
@@ -200,11 +169,8 @@
 발견::discovery
 머리::head
 서::west
-자신의::own
 페이지::page
-해야::sun
 국가::country
-발견::discovery
 답변::answer
 학교::school
 성장::growth
@@ -214,7 +180,6 @@
 공장::factory
 덮개::cover
 음식::food
-일::work
 네::yes
 사이::between
 상태::state
@@ -223,15 +188,12 @@
 결코::never
 마지막::last
 하자::lets do it
-생각::thought
 도시::city
 트리::tree
 교차::cross
 농장::farm
 단단한::hard
 시작::start
-수도::capital
-이야기::story
 톱::top
 까지::till
 바다::sea
@@ -239,7 +201,6 @@
 왼쪽::left
 후반::second half
 실행::execution
-하지::summer solstice
 반면::on the other hand
 키를 누릅니다::press the key
 가까이::closely
@@ -250,12 +211,10 @@
 북::north
 책::book
 수행::perform
-했다::did
 과학::science
 식사::meal
 방::room
 친구::friend
-시작::start
 아이디어::idea
 물고기::fish
 산::mountain
@@ -263,7 +222,6 @@
 한 번::once
 기본::basic
 듣다::listen
-말::word
 컷::cut
 확실한::certain
 손목 시계::watch
@@ -272,12 +230,9 @@
 나무::tree
 주::main
 오픈::open
-것::thing
 함께::together
-다음::next
 흰색::white
 어린이::child
-시작::start
 있어::there is
 도보::on foot
 예::yes
@@ -286,12 +241,10 @@
 그룹::group
 항상::always
 음악::music
-그::that
 모두::all
 마르크::mark
 자주::often
 편지::letter
-까지::till
 마일::mile
 강::river
 자동차::car
@@ -310,7 +263,6 @@
 표::graph
 그래도::still
 느낌::feeling
-이야기::story
 조류::birds
 곧::soon
 몸::body
@@ -329,7 +281,6 @@
 클래스::class
 바람::wind
 질문::questions
-일::work
 완료::completion
 배::ship
 지역::area
@@ -340,8 +291,6 @@
 남쪽::south
 문제::problem
 조각::piece
-이야기::story
-알고::know
 통과::pass
 이후::after
 최고::best
@@ -352,9 +301,7 @@
 곱::product
 아무것도::anything
 물론::of course
-유지::maintain
 휠::wheel
-전체::all
 힘::strength
 푸른::blue
 객체::object
@@ -379,19 +326,13 @@
 웃음::laugh
 천::cloth
 전::jeon
-실행::execution
-확인::confirm
 게임::game
 모양::shape
 동일시::identification
-뜨거운::hot
 미스::miss
 가져::take it
 열::heat
-눈::eye
 타이어::tire
-가져::take it
-예::yes
 먼::far
 입력::input
 동쪽::east
@@ -399,9 +340,7 @@
 언어::language
 중::middle
 단위::unit
-힘::strength
 마을::town
-잘::well
 어떤::which
 비행::flight
 가을::autumn
@@ -409,7 +348,6 @@
 울음 소리::crying sound
 어두운::dark
 기계::machine
-주의::caution
 대기::waiting
 계획::plan
 그림::painting
@@ -419,16 +357,12 @@
 필드::field
 나머지::remainder
 정확한::accurate
-수::number
 파운드::pound
-완료::completion
 아름다움::beauty
 드라이브::drive
-서::west
 포함::including
 앞::front
 가르쳐::teach
-주::main
 최종::final
 준::june
 녹색::green
@@ -449,13 +383,7 @@
 사실::actually
 공간::space
 들어::listen
-가장::the most
-시간::hour
-더::more
-사실::actually
-중::middle
 백::hundred
-오::five
 기억::memory
 단계::step
 초기::early
@@ -466,14 +394,12 @@
 범위::range
 빠른::fast
 동사::verb
-노래::song
 청취::listening
 육::six
 나타난::appeared
 여행::travel
 이하::below
 아침::morning
-열::heat
 간단한::simple
 여러::several
 모음::collection
@@ -485,12 +411,10 @@
 느린::slow
 센터::center
 사랑::love
-사람::person
 돈::money
 봉사::volunteer
 표시::display
 도로::road name
-지도::map
 비::rain
 규칙::rule
 적용::apply
@@ -506,38 +430,29 @@
 계란::egg
 타고::riding
 셀::cell
-생각::thought
 어쩌면::perhaps
 선택::select
 갑자기::suddenly
 계산::calculate
 광장::plaza
-이유::reason
 길이::length
 대표::representative
 예술::art
 주제::subject
-지역::area
 크기::size
 다양::various
 정착::settlement
-이야기::story
 무게::weight
-일반::normal
 얼음::ice
-문제::problem
 원::one
 쌍::pair
-포함::including
 분할::division
 음절::syllable
-느낌::feeling
 그랜드::grand
 공::zero
 아직::yet
 파::green onion
 드롭::drop
-마음::mind
 어디로::where
 현재::today
 무거운::heavy
@@ -570,10 +485,8 @@
 즐거움::joy
 겨울::winter
 토::saturday
-기록::record
 야생::wild
 악기::instrument
-유지::maintain
 유리::glass
 잔디::grass
 소::cow
@@ -588,9 +501,7 @@
 가스::gas
 날씨::weather
 개월::month
-만::just
 곰::bear
-끝::end
 행복::happiness
 기대::expectation
 꽃::flower
@@ -599,17 +510,13 @@
 사라::buy it
 무역::trade
 멜로디::melody
-여행::travel
 사무실::office
 수신::reception
 행::line
 입::mouth
-정확한::accurate
 기호::sign
 죽다::die
-이상::more
 수고::effort
-소리::sound
 제외::except
 썼다::wrote
 씨앗::seed
@@ -626,7 +533,6 @@
 기름::oil
 피::blood
 터치::touch
-성장::growth
 센트::cent
 혼합::mix
 팀::team
@@ -636,9 +542,7 @@
 갈색::brown
 착용::wearing
 정원::garden
-동일::same
 전송::send
-선택::select
 하락::degradation
 적합::fitness
 흐름::flow
@@ -649,7 +553,6 @@
 제어::control
 소수점::decimal point
 귀::ear
-다른::different
 아주::quite
 파산::bankruptcy
 경우::case
@@ -669,7 +572,6 @@
 사전::dictionary
 우유::milk
 속도::speed
-방법::way
 기관::agency
 지불::payment
 연령::age
@@ -679,12 +581,10 @@
 놀람::surprised
 조용한::quiet
 돌::rock
-작은::small
 등반::climbing
 멋진::cool
 디자인::design
 가난한::poor
-많은::many
 실험::experiment
 바닥::floor
 키::key
@@ -699,8 +599,6 @@
 구멍::hole
 점프::jump
 아가::baby
-팔::eight
-마을::town
 대회::competition
 루트::root
 사기::fraud
@@ -713,12 +611,8 @@
 단락::paragraph
 세번째::third
 하여야한다::should
-개최::hold
-머리::head
 설명::explanation
 요리::cooking
-바닥::floor
-중::middle
 결과::result
 구울::ghoul
 언덕::hill
@@ -733,7 +627,6 @@
 복사::copy
 문구::phrases
 침묵::silence
-키::key
 모래::sand
 토양::soil
 롤::role
@@ -747,7 +640,6 @@
 흥분::excitement
 자연::nature
 보기::look
-의미::meaning
 자본::capital
 하지 않습니다::do not
 의자::chair
@@ -774,32 +666,26 @@
 파티::party
 공급::supply
 누구의::someone's
-위치::location
 링::ring
 문자::message
 곤충::insect
 적발::caught
 기간::term
-표시::display
 라디오::radio
-이야기::story
 원자::atom
 인간::human
 역사::history
 효과::effect
 전기::electric
-기대::expectation
 골::goal
 레일::rail
 상상::imagination
-제공::offer
 동의::agreement
 따라서::thus
 부드러운::soft
 여성::woman
 주장::opinion
 추측::guess
-필요::necessary
 날카로운::sharp
 날개::wing
 작성::write
@@ -813,7 +699,6 @@
 시::city
 문자열::string
 벨::bell
-따라::follow
 고기::meat
 문지::rub
 튜브::tube
@@ -829,29 +714,23 @@
 장::page
 식민지::colony
 시계::clock
-내::my
 넥타이::necktie
-입력::input
 주요::main
 신선한::fresh
 검색::search
 보내::send
 노란색::yellow
 총::gun
-수::number
 인쇄::print
 죽은::dead
 자리::seat
 사막::desert
 정장::suit
-현재::today
 리프트::lift
 장미::rose
-도착::arrival
 마스터::master
 트랙::track
 부모::parents
-해안::coast
 부문::sector
 시트::sheet
 물질::matter
@@ -863,20 +742,17 @@
 지방::fat
 다행::relief
 원래::usually
-주::main
 역::station
 아빠::dad
 빵::bread
 충전::charge
 적절한::appropriate
 바::bar
-제안::proposal
 세그먼트::segment
 슬레이브::slave
 오리::duck
 인스턴트::instant
 시장::market
-도::do
 웁니다::cry
 병아리::chick
 친애::love
@@ -885,15 +761,10 @@
 한잔::a drink
 발생::generation
 지원::support
-음성::voice
-자연::nature
-범위::range
 증기::steam
 모션::motion
 경로::route
 액체::liquid
-로그인::log in
-의미::meaning
 지수::indices
 치아::teeth
 쉘::shell
@@ -903,7 +774,6 @@
 죽음::death
 꽤::fairly
 기술::technology
-여성::woman
 시즌::season
 용액::solution
 자석::magnet
@@ -913,7 +783,6 @@
 경기::game
 접미사::suffix
 특히::especially
-그림::painting
 두려워::i'm afraid
 거대한::giant
 자매::sisters
@@ -940,11 +809,8 @@
 조건::condition
 먹이::food
 도구::tool
-총::gun
-기본::basic
 냄새::smell
 계곡::valley
-도::do
 더블::double
 좌석::seat
 계속::continue
@@ -956,7 +822,6 @@
 회사::company
 빼기::subtract
 이벤트::event
-특히::especially
 거래::transaction
 수영::swimming
 용어::terms
@@ -968,30 +833,21 @@
 준비::ready
 캠프::camp
 발명하다::invent
-면::noodle
 태어난::born
-결정::decision
 쿼트::quart
 구::nine
 트럭::truck
 잡음::noise
 수준::level
 기회::chance
-수집::collection
-상점::shop
 스트레칭::stretching
 던져::throw
 광택::polish
 등록::enrollment
-열::heat
 분자::molecule
-선택::select
-나쁜::bad
 회색::gray
 반복::repeat
-필요::necessary
 폭 넓은::wide
-준비::ready
 소금::salt
 코::sleep
 복수::plural

@@ -32,21 +32,17 @@ de::from
 a::to
 y::and
 un::a
-en::on
 nos::us
 lata::can
 fuera::out of
 otros::others
 eran::were
-que::that
 hacer::do
-su::its
 tiempo::weather
 si::yes
 lo hará::it will
 cómo::excuse me
 dicho::saying
-un::a
 cada::each
 decir::tell
 hace::does
@@ -71,7 +67,6 @@ incluso::even
 tierra::earth
 aquí::here
 debe::has to
-grande::big
 alto::high
 tal::such
 siga::follow
@@ -83,9 +78,7 @@ cambio::change
 se fue::he went
 luz::light
 tipo::kind
-fuera::out of
 necesitará::will need
-casa::home
 imagen::image
 tratar::treat
 nosotros::u.s
@@ -97,7 +90,6 @@ mundo::world
 cerca::close
 construir::build up
 auto::car
-tierra::earth
 padre::dad
 cualquier::any
 nuevo::new
@@ -118,7 +110,6 @@ hombre::man
 años::years
 vino::came
 show::show
-cada::each
 buena::good
 me::i
 dar::give
@@ -127,14 +118,11 @@ bajo::low
 nombre::name
 muy::very
 a través de::through
-sólo::single
 forma::shape
 frase::sentence
 gran::big
 pensar::to think
-decir::tell
 ayudar::help
-bajo::low
 línea::line
 ser distinto::differ
 a su vez::at the same time
@@ -154,23 +142,16 @@ hay::there are
 cuando::when
 hasta::until
 uso::use
-su::its
 camino::path
 acerca::about
 muchos::many
 entonces::then
-ellos::them
 escribir::to write
 haría::would do
-como::what
-así::so
 éstos::these
-su::its
 largo::long
-hacer::do
 cosa::thing
 ver::watch
-él::he
 dos::two
 tiene::have
 buscar::search for
@@ -183,16 +164,13 @@ hizo::did
 número::number
 sonar::dream
 no::no
-más::plus
 personas::persons
 mi::me
 sobre::upon
 saber::to know
 agua::water
-que::that
 llamada::call
 primero::first
-que::that
 puede::may
 abajo::down
 lado::side
@@ -218,7 +196,6 @@ alimentos::food
 sol::sun
 cuatro::four
 entre::come in
-estado::state
 mantener::maintain
 ojo::eye
 nunca::never
@@ -234,13 +211,11 @@ inicio::beginning
 podría::could
 historia::history
 sierra::saw
-ahora::now
 mar::sea
 dibujar::draw
 izquierda::left
 tarde::late
 ejecutar::run
-no::no
 mientras::while
 prensa::press
 Cerrar::to close
@@ -267,7 +242,6 @@ escuchar::listen
 caballo::horse
 cortada::cut
 seguro::safe
-ver::watch
 colores::colors
 cara::face
 madera::wood
@@ -292,7 +266,6 @@ ambos::both of them
 marca::mark
 menudo::often
 carta::letter
-hasta::until
 milla::mile
 río::river
 coche::car
@@ -306,7 +279,6 @@ habitual::habitual
 joven::young man
 listo::ready
 por encima de::above
-nunca::never
 rojo::red
 lista::ready
 aunque::although
@@ -319,7 +291,6 @@ perro::dog
 familia::family
 directa::direct
 plantear::pose
-dejar::let
 canción::song
 medir::to size
 puerta::door
@@ -341,11 +312,9 @@ fuego::fire
 sur::south
 problema::trouble
 pieza::part
-dicho::saying
 sabía::i knew
 pasar::pass
 cima::top
-todo::everything
 rey::king
 calle::street
 pulgadas::inches
@@ -354,7 +323,6 @@ nada::any
 curso::course
 quedarse::to stay
 rueda::wheel
-completo::full
 fuerza::strength
 azul::blue
 objeto::object
@@ -373,18 +341,14 @@ común::common
 oro::gold
 posible::possible
 plano::flat
-lugar::place
 seco::dried
 maravilla::wonderful
 risa::laughter
 mil::thousand
-hace::does
 corrió::ran
 comprobar::check
 juego::play
-forma::shape
 equiparar::equate
-caliente::hot
 señorita::miss
 traído::brought
 calor::hot
@@ -397,10 +361,8 @@ llenar::fill in
 al este::to the east
 pintar::paint
 idioma::idiom
-entre::come in
 unidad::unit
 potencia::power
-ciudad::town
 fina::fine
 cierto::certain
 volar::to fly
@@ -421,22 +383,18 @@ resto::rest
 correcta::correct
 capaz::capable
 libra::pound
-hecho::done
 belleza::beauty
-unidad::unit
 destacado::outstanding
 contener::contain
 delante::in front of
 enseñar::to teach
 semana::week
-último::latest
 dio::it gave
 verde::green
 oh::oh
 rápido::quick
 desarrollar::develop
 océano::ocean
-caliente::hot
 libre::free
 minuto::minute
 fuerte::strong
@@ -446,12 +404,10 @@ detrás::behind
 claro::sure
 cola::line
 Produce::produces
-hecho::done
 espacio::space
 oído::hearing
 mejor::better
 horas::hours
-mejor::better
 verdadero::true
 durante::during
 cien::one hundred
@@ -464,10 +420,8 @@ oeste::west
 suelo::ground
 interés::interest
 llegar::to get
-rápido::quick
 verbo::verb
 cantar::to sing
-escuchar::listen
 seis::six
 mesa::desk
 viajes::travels
@@ -532,11 +486,9 @@ incluir::include
 brecha::gap
 sílaba::syllable
 sentido::sense
-gran::big
 bola::ball
 aún::still
 ola::wave
-caer::fall
 corazón::heart
 am::a.m
 presente::present
@@ -577,7 +529,6 @@ guardado::saved
 vidrio::glass
 hierba::herb
 vaca::cow
-trabajo::job
 borde::edge
 signo::sign
 visita::visit
@@ -586,7 +537,6 @@ suave::gentle
 diversión::fun
 brillante::shiny
 gas::gas
-tiempo::weather
 mes::month
 millones::millions
 soportar::put up with
@@ -607,9 +557,6 @@ boca::mouth
 exacta::exact
 símbolo::symbol
 morir::to die
-menos::less
-problema::trouble
-grito::scream
 excepto::except
 escribió::wrote
 semilla::seed
@@ -644,25 +591,20 @@ encajar::to fit in
 fluir::flow
 justo::just
 banco::bank
-recoger::pick up
 guardar::save
 el control::the control
 decimal::decimal
-oído::hearing
 demás::the rest
 bastante::pretty
 rompió::broke
 caso::case
-medio::half
 matar::kill
 hijo::child
 lago::lake
 momento::moment
 escala::scale
-fuerte::strong
 primavera::spring
 observar::watch
-niño::kid
 recta::straight
 consonante::consonant
 nación::nation
@@ -679,12 +621,10 @@ nube::cloud
 sorpresa::surprise
 tranquila::quiet
 piedra::stone
-pequeño::little
 ascenso::ascent
 fresco::cool
 diseño::design
 pobre::poor
-mucho::much
 experimento::experiment
 inferior::lower
 clave::key
@@ -705,9 +645,7 @@ se reúnen::they meet
 raíz::root
 comprar::to buy
 aumentar::increase
-resolver::sort out
 de metal::of metal
-si::yes
 empujar::push
 siete::seven
 párrafo::paragraph
@@ -722,20 +660,16 @@ ya sea::either
 resultado::outcome
 quemar::burn down
 colina::hill
-seguro::safe
 gato::cat
 siglo::century
 considerar::to consider
-tipo::kind
 ley::law
 bit::bit
 costa::coast
 copia::copy
-frase::sentence
 silencio::be quiet
 de altura::tall
 arena::sand
-suelo::ground
 rollo::roll
 temperatura::temperature
 dedo::finger
@@ -747,7 +681,6 @@ batir::shake
 excitar::excite
 naturales::natural
 vista::view
-sentido::sense
 de capital::capital
 no lo hará::it will not
 silla::chair
@@ -785,7 +718,6 @@ Radio::radio
 habló::speak
 átomo::atom
 humana::human
-historia::history
 efecto::effect
 eléctrica::electric
 esperar::expect
@@ -795,7 +727,6 @@ imaginar::imagine
 proporcionar::provide
 acuerdo::agreement
 por tanto::therefore
-suave::gentle
 mujer::woman
 capitán::captain
 adivinar::guess
@@ -821,7 +752,6 @@ famoso::famous
 dólar::dollar
 corriente::current
 miedo::afraid
-vista::view
 delgado::slim
 triángulo::triangle
 planeta::planet
@@ -833,7 +763,6 @@ mina::mine
 empate::tie
 entrar::get in
 importante::important
-fresco::cool
 búsqueda::search
 enviar::send
 amarillo::yellow
@@ -841,16 +770,13 @@ pistola::gun
 permitir::let
 print::print
 muerto::dead
-lugar::place
 desierto::desert
 traje::costume
 actual::current
 ascensor::lift
 rosa::pink
-llegar::to get
 master::master
 pista::track
-padre::dad
 orilla::bank
 división::division
 hoja::leaf
@@ -858,7 +784,6 @@ sustancia::substance
 favorecer::favor
 conectar::connect
 mensaje::message
-pasar::pass
 acorde::chord
 grasa::fat
 contento::happy
@@ -889,8 +814,6 @@ discurso::speech
 naturaleza::nature
 alcance::scope
 vapor::steam
-movimiento::movement
-camino::path
 líquido::liquid
 log::log
 significado::meaning
@@ -901,7 +824,6 @@ cuello::neck
 oxígeno::oxygen
 azúcar::sugar
 muerte::death
-bastante::pretty
 habilidad::ability
 mujeres::women
 temporada::season
@@ -910,11 +832,9 @@ imán::magnet
 plata::silver
 gracias::thank you
 rama::branch
-partido::match
 sufijo::suffix
 especialmente::especially
 higo::fig
-miedo::afraid
 enorme::enormous
 hermana::sister
 acero::steel
@@ -936,7 +856,6 @@ cuerda::rope
 deslizamiento::glide
 ganar::to win
 soñar::sound
-noche::evening
 condición::condition
 pienso::i think
 herramienta::tool
@@ -957,7 +876,6 @@ empresa::company
 restar::subtract
 evento::event
 particular::particular
-acuerdo::agreement
 nadar::to swim
 plazo::term
 opuesta::opposite
@@ -978,7 +896,6 @@ ruido::noise
 nivel::level
 oportunidad::chance
 reunir::gather
-tienda::shop
 tramo::stretch
 lanzar::throw
 brillo::brightness
@@ -986,11 +903,9 @@ propiedad::property
 columna::column
 molécula::molecule
 seleccionar::to select
-mal::wrong
 gris::gray
 repita::repeat
 exigir::demand
-amplio::large
 preparar::set up
 sal::salt
 nariz::nose

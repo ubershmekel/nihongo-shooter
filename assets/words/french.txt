@@ -139,17 +139,12 @@ jusqu’à::up to
 utiliser::use
 votre::your
 manière::manner
-beaucoup::a lot
 puis::then
 les::the
 écrire::to write
 voudrais::would like to
-comme::like
-si::if
 ces::those
-son::his
 long::long
-faire::to do
 chose::thing
 voir::see
 lui::him
@@ -163,16 +158,13 @@ aller::go
 venir::to come
 fait::made
 nombre::number
-son::his
 aucun::no
-plus::more
 personnes::people
 ma::my
 savoir::know
 eau::water
 appel::call
 première::first
-qui::who
 peut::may
 vers le bas::down
 côté::side
@@ -190,7 +182,6 @@ réponse::reply
 école::school
 croître::grow
 étude::study
-encore::Again
 apprendre::to learn
 usine::factory
 couvercle::lid
@@ -227,7 +218,6 @@ proche::close
 nuit::night
 réel::real
 vie::life
-peu::little
 nord::North
 livre::delivered
 porter::carry
@@ -247,19 +237,16 @@ entendre::hear
 cheval::horse
 coupe::chopped off
 sûr::sure
-regarder::to concern
 couleur::color
 face::face
 bois::drink
 principal::main
 ouvert::open
 paraître::to appear
-ensemble::together
 suivant::following
 blanc::White
 enfants::children
 commencer::to start
-eu::had
 marcher::to walk
 exemple::example
 facilité::ease
@@ -286,7 +273,6 @@ habituel::usual
 jeune::young
 prêt::ready
 au-dessus::above
-jamais::never
 rouge::Red
 liste::listing
 bien que::although
@@ -299,7 +285,6 @@ chien::dog
 famille::family
 direct::direct
 pose::pose
-laisser::let
 chanson::song
 mesurer::measure
 porte::door
@@ -321,12 +306,9 @@ feu::fire
 sud::South
 problème::problem
 pièce::room
-dit::said
 savait::knew
 passer::pass
 depuis::since
-haut::high
-ensemble::together
 roi::King
 rue::Street
 pouce::thumb
@@ -363,9 +345,7 @@ il ya::There are
 ran::ran
 vérifier::to verify
 jeu::Game
-forme::form
 assimiler::assimilate
-chaud::hot
 manquer::to lack
 apporté::brought
 chaleur::heat
@@ -375,14 +355,9 @@ apporter::to bring
 oui::Yes
 lointain::distant
 remplir::to fill
-est::is
 peindre::to paint
 langue::tongue
-entre::Between
 unité::unity
-puissance::power
-ville::city
-fin::end
 certain::certain
 voler::steal
 tomber::publication date
@@ -392,22 +367,17 @@ sombre::dark
 machine::machine
 Note::Note
 patienter::wait
-plan::plan
 figure::figure
 étoile::star
-boîte::box
-nom::name
 domaine::domain
 reste::rest
 correct::correct
 capable::able
-livre::delivered
 Terminé::Ended
 beauté::beauty
 entraînement::coaching
 résisté::resisted
 contenir::contain
-avant::before
 enseigner::teach
 semaine::week
 finale::final
@@ -417,7 +387,6 @@ oh::Oh
 rapide::fast
 développer::develop
 océan::ocean
-chaud::hot
 gratuit::free
 minute::minute
 fort::strong
@@ -427,7 +396,6 @@ derrière::behind
 clair::clear
 queue::tail
 produire::produce
-fait::made
 espace::space
 entendu::understood
 meilleur::better
@@ -445,7 +413,6 @@ ouest::Where is
 sol::ground
 intérêt::interest
 atteindre::to reach
-rapide::fast
 verbe::verb
 chanter::to sing
 écouter::to listen
@@ -475,7 +442,6 @@ carte::menu
 pluie::rain
 règle::rule
 gouverner::govern
-tirer::Pull
 froid::cold
 avis::opinion
 voix::voice
@@ -501,11 +467,9 @@ région::region
 taille::cut
 varier::vary
 régler::adjust
-parler::speak
 poids::weight
 général::general
 glace::ice
-question::question
 cercle::circle
 paire::pair
 inclure::include
@@ -514,9 +478,7 @@ syllabe::syllable
 feutre::felt
 grandiose::grandiose
 balle::ball
-encore::Again
 vague::wave
-tomber::publication date
 cœur::heart
 h::h
 présent::here
@@ -534,7 +496,6 @@ s’asseoir::sit
 course::race
 fenêtre::window
 magasin::store
-été::summer
 train::train
 sommeil::sleep
 prouver::to prove
@@ -564,12 +525,9 @@ visite::visit
 passé::pass
 doux::soft
 amusement::fun
-clair::clear
 gaz::gas
-temps::time
 mois::month
 million::million
-porter::carry
 finition::finishing
 heureux::happy
 espoir::hope
@@ -587,16 +545,12 @@ bouche::mouth
 exact::exact
 symbole::symbol
 mourir::to die
-moins::less
 difficulté::difficulty
-cri::shout
 sauf::except
-écrit::writing
 semence::seed
 ton::your
 joindre::join
 suggérer::to suggest
-propre::own
 pause::pause
 dame::lady
 cour::court
@@ -607,29 +561,24 @@ huile::oil
 sang::blood
 toucher::to touch
 a augmenté::increased
-cent::hundred
 mélanger::to mix together
 équipe::team
 fil::thread
 coût::cost
 perdu::lost
 brun::Brown
-porter::carry
 jardin::garden
 égal::equal
 expédié::dispatched
-choisir::Choose
 est tombé::fell
 s’adapter::adapt
 débit::debit
-juste::just
 banque::Bank
 recueillir::collect
 sauver::to save
 contrôle::control
 décimal::decimal
 oreille::hear
-autre::other
 tout à fait::absolutely
 cassé::broken
 cas::case
@@ -639,11 +588,9 @@ fils::son
 lac::Lake
 moment::moment
 échelle::ladder
-fort::strong
 printemps::spring
 observer::observe
 enfant::child
-droit::law
 consonne::consonant
 nation::nation
 dictionnaire::dictionary
@@ -684,10 +631,8 @@ village::town
 se rencontrent::meet
 racine::root
 acheter::to buy
-augmenter::to augment
 résoudre::to resolve
 métal::metal
-si::if
 pousser::to push
 sept::seven
 paragraphe::paragraph
@@ -698,7 +643,6 @@ cheveux::hair
 décrire::to describe
 cuisinier::to cook
 étage::stage
-chaque::each
 résultat::results
 brûler::to burn
 colline::hill
@@ -707,15 +651,10 @@ chat::cat
 siècle::century
 envisager::to consider
 type::type
-droit::law
-peu::little
 côte::rating
 copie::copy
-phrase::phrasing
 silencieux::quiet
-haut::high
 sable::sand
-sol::ground
 rouleau::roller
 température::temperature
 doigt::finger
@@ -751,7 +690,6 @@ moderne::modern
 frapper::to hit
 étudiant::student
 coin::corner
-partie::part
 alimentation::food
 dont::of which
 localiser::locate
@@ -765,7 +703,6 @@ radio::radio
 rayon::Ray
 atome::atom
 humain::human
-histoire::story
 effet::effect
 électrique::electric
 attendre::wait
@@ -775,7 +712,6 @@ imaginer::to imagine
 fournir::to supply
 se mettre d’accord::to agree
 ainsi::Thus
-doux::soft
 femme::women
 capitaine::captain
 deviner::to guess
@@ -801,7 +737,6 @@ célèbre::popular
 dollar::dollar
 courant::running
 peur::fear
-vue::seen
 mince::slim
 triangle::triangle
 planète::planet
@@ -813,7 +748,6 @@ mine::mine
 lien::link
 entrer::enter
 majeur::major
-frais::costs
 recherche::research
 envoyer::send
 jaune::yellow
@@ -821,16 +755,12 @@ pistolet::gun
 permettre::to allow
 impression::impression
 mort::dead
-place::square
 désert::desert
 costume::suit
-courant::running
 ascenseur::elevator
 rose::pink
-arriver::to arrive
 maître::master
 piste::track
-mère::mother
 rivage::shore
 division::division
 feuille::sheet
@@ -838,17 +768,14 @@ substance::substance
 favoriser::to favor
 relier::connect
 poste::job
-passer::pass
 corde::rope
 graisse::fat
-heureux::happy
 original::original
 part::go
 station::station
 papa::dad
 pain::bread
 charger::load
-propre::own
 bar::bar
 proposition::proposal
 segment::segment
@@ -881,28 +808,23 @@ cou::neck
 oxygène::oxygen
 sucre::sugar
 décès::death
-assez::quite
 compétence::skill
 femmes::women
 saison::season
 solution::solution
 aimant::magnet
-argent::money
 merci::thank you
 branche::plugged
 rencontre::meet
 suffixe::suffix
 particulièrement::particularly
 figue::fig
-peur::fear
 énorme::huge
 sœur::sister
 acier::steel
 discuter::to discuss
-avant::before
 similaire::similar
 guider::to guide
-expérience::experience
 score::score
 pomme::Apple
 acheté::purchased
@@ -910,15 +832,12 @@ LED::LED
 pas::not
 manteau::coat
 masse::mass
-carte::menu
 bande::bandaged
-corde::rope
 glissement::slip
 gagner::to win
 rêver::dream
 soirée::evening
 condition::condition
-alimentation::food
 outil::tool
 total::total
 de base::basic
@@ -941,7 +860,6 @@ accord::OK
 baignade::bathing
 terme::term
 opposé::opposite
-femme::women
 chaussure::shoe
 épaule::shoulder
 propagation::spread
@@ -957,7 +875,6 @@ camion::truck
 bruit::noise
 niveau::level
 chance::luck
-recueillir::collect
 boutique::shop
 tronçon::section
 jeter::to throw
@@ -970,7 +887,6 @@ mal::wrong
 gris::Grey
 répétition::repetition
 exiger::require
-large::large
 préparer::to prepare
 sel::salt
 nez::nose

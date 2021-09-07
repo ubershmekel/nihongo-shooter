@@ -35,15 +35,12 @@ lattina::can
 fuori::out
 altro::other
 erano::they were
-che::that
 fare::do
 loro::they
 tempo::weather
 se::self
 volontà::will
-come::like
 suddetto::aforementioned
-un::a
 ogni::every
 dire::to say
 fa::does
@@ -82,7 +79,6 @@ spento::worn out
 bisogno::need
 immagine::image
 provare::try
-noi::we
 di nuovo::again
 animale::animal
 punto::point
@@ -91,7 +87,6 @@ mondo::world
 vicino::near
 costruire::to build
 se stesso::himself
-terra::earth
 padre::father
 qualsiasi::any
 nuovo::new one
@@ -112,7 +107,6 @@ uomo::man
 anno::year
 è venuto::it came
 spettacolo::show
-ogni::every
 buono::good
 me::myself
 dare::give
@@ -121,19 +115,14 @@ sotto::under
 nome::first name
 molto::very
 attraverso::through
-solo::alone
 forma::form
 frase::phrase
 pensare::to think
-dire::to say
 aiutare::help
 basso::low
 linea::line
 differire::differ
-turno::shift
 causa::it causes
-molto::very
-dire::to say
 prima::first
 spostare::to shift
 diritto::right
@@ -145,25 +134,19 @@ lei::she
 tutto::everything
 ci::there
 quando::when
-su::on
 uso::use
 il tuo::your
 modo::way
 circa::approximately
 molti::lot of
 allora::so
-loro::they
 scrivere::write
 sarebbe::would be
-come::like
 così::like this
 queste::these
-lei::she
 lungo::long
 rendere::give
-cosa::what
 vedere::to see
-lui::he
 due::two
 ha::has
 guardare::to look
@@ -182,10 +165,8 @@ il mio::mine
 oltre::beyond
 sapere::know
 acqua::water
-di::from
 chiamata::call
 primo::first
-che::that
 può::can
 giù::below
 lato::side
@@ -211,7 +192,6 @@ cibo::food
 sole::sun
 quattro::four
 fra::between
-stato::state
 mantenere::to maintain
 occhio::eye
 mai::never
@@ -271,7 +251,6 @@ insieme::together
 prossimo::next
 bianco::white
 bambini::children
-inizio::start
 ottenuto::obtained
 camminare::walk
 esempio::example
@@ -299,11 +278,9 @@ solito::usual
 giovane::young
 pronto::ready
 sopra::on
-mai::never
 rosso::red
 elenco::list
 anche se::though
-sentire::feel
 Discussioni::discussions
 uccello::bird
 presto::soon
@@ -336,7 +313,6 @@ pezzo::piece
 ha detto::he said
 sapeva::he knew
 passare::pass
-da::from
 top::top
 re::king
 strada::street
@@ -370,21 +346,16 @@ asciutto::dry
 meraviglia::wonder
 ridere::laugh
 migliaia::thousands
-fa::does
 corse::racing
 controllare::to check
 gioco::game
-forma::form
 uguagliare::match
-caldo::hot
 perdere::lose
 portato::brought
 calore::heat
 neve::snow
 pneumatico::tire
-portare::bring
 sì::yes
-lontano::far
 riempire::to fill
 est::east
 dipingere::paint
@@ -392,18 +363,14 @@ lingua::language
 tra::between
 unità::unit
 potenza::power
-città::city
-fine::end
 certo::certain
 volare::to fly
 cadere::to fall
-portare::bring
 grido::he shouted
 scuro::dark
 macchina::car
 nota::note
 aspettare::wait
-piano::floor
 figura::figure
 stella::star
 scatola::box
@@ -415,7 +382,6 @@ in grado di::able to
 libbra::pound
 done::done
 bellezza::beauty
-unità::unit
 sorgeva::stood
 contenere::to contain
 frontale::front
@@ -428,7 +394,6 @@ oh::oh
 veloce::rapid
 sviluppare::to develop
 oceano::ocean
-caldo::hot
 gratuito::free
 minuto::minute
 forte::strong
@@ -438,11 +403,9 @@ dietro::behind
 chiaro::clear
 coda::tail
 produrre::to produce
-fatto::done
 spazio::space
 sentito::heard
 migliore::improve
-ora::now
 meglio::better
 vero::real
 durante::during
@@ -450,13 +413,10 @@ cento::hundred
 cinque::five
 ricordare::to remember
 passo::step
-presto::soon
 tenere::to hold
 ovest::west
-terra::earth
 interesse::interest
 raggiungere::to reach
-veloce::rapid
 verbo::verb
 cantare::to sing
 ascoltare::to listen
@@ -467,7 +427,6 @@ meno::less
 mattina::morning
 dieci::ten
 semplice::simple
-alcuni::some
 vocale::vocal
 verso::to
 guerra::war
@@ -481,7 +440,6 @@ persona::person
 soldi::money
 servire::serve
 apparire::to appear
-strada::street
 mappa::map
 pioggia::rain
 regola::rule
@@ -525,9 +483,7 @@ divide::divides
 sillaba::syllable
 feltro::felt
 palla::ball
-ancora::still
 onda::wave
-cadere::to fall
 cuore::heart
 am::am
 presente::here i'm
@@ -553,7 +509,6 @@ solitario::solitary
 gamba::leg
 esercizio::exercise
 muro::wall
-prendere::take
 monte::mountain
 desiderio::wish
 cielo::sky
@@ -564,11 +519,9 @@ sat::sat
 scritto::written
 selvaggio::wild
 strumento::instrument
-tenere::to hold
 vetro::glass
 erba::grass
 mucca::cow
-lavoro::work
 bordo::edge
 segno::sign
 visita::visit
@@ -577,7 +530,6 @@ morbido::soft
 divertimento::fun
 luminoso::light
 gas::gas
-tempo::weather
 mese::month
 milione::million
 sopportare::to bear
@@ -598,7 +550,6 @@ bocca::mouth
 esatto::exact
 simbolo::symbol
 morire::die
-meno::less
 difficoltà::difficulty
 shout::shout
 tranne::except
@@ -629,7 +580,6 @@ indossare::to wear
 giardino::garden
 pari::even
 inviato::envoy
-scegliere::choose
 caduto::fallen off
 adattarsi::to adapt
 flusso::flow
@@ -640,8 +590,6 @@ salvare::to save
 controllo::check
 decimale::decimal
 orecchio::ear
-altro::other
-abbastanza::enough
 rotto::broken
 caso::case
 mezzo::middle
@@ -650,7 +598,6 @@ figlio::son
 lago::the needle
 momento::moment
 scala::ladder
-forte::strong
 primavera::spring
 osservare::to observe
 bambino::child
@@ -670,7 +617,6 @@ nube::cloud
 sorpresa::surprise
 tranquillo::calm
 pietra::stone
-piccolo::little
 salita::climb
 fresco::fresh
 design::design
@@ -689,16 +635,13 @@ sorriso::smile
 piega::fold
 foro::hole
 salto::jump
-bambino::child
 otto::eight
 villaggio::village
 si incontrano::they meet
 radice::root
 acquistare::buy
 aumentare::to increase
-risolvere::solve
 metallo::metal
-se::self
 spingere::push
 sette::seven
 paragrafo::paragraph
@@ -708,23 +651,17 @@ tenuto::held
 capelli::hair
 descrivere::to describe
 cuoco::cook
-piano::floor
-o::or
 risultato::result
 bruciare::burn
 collina::hill
-sicuro::safe
 gatto::cat
 secolo::century
 considerare::to consider
-tipo::guy
 legge::law
 bit::bit
 costa::it costs
 copia::copy
-frase::phrase
 silenzioso::silent
-alto::tall
 sabbia::sand
 suolo::soil
 rotolo::roll
@@ -745,13 +682,11 @@ sedia::chair
 pericolo::danger
 frutta::fruit
 ricco::rich
-spesso::often
 soldato::soldier
 processo::process
 operare::operate
 pratica::practice
 separato::separate
-difficile::hard
 medico::doctor
 per favore::please
 proteggere::to protect
@@ -776,16 +711,13 @@ radio::radio
 raggio::radius
 atomo::atom
 umano::human
-storia::history
 effetto::effect
 elettrico::electric
-aspettare::wait
 osso::bone
 ferrovia::railroad
 immaginare::imagine
 fornire::supply
 concordare::agree
-così::like this
 dolce::sweet
 donna::woman
 capitano::captain
@@ -794,7 +726,6 @@ necessario::necessary
 tagliente::sharp
 ala::wing
 creare::create
-prossimo::next
 lavaggio::wash
 pipistrello::bat
 piuttosto::rather
@@ -812,25 +743,21 @@ famoso::famous
 dollaro::dollar
 ruscello::stream
 paura::fear
-vista::view
 sottile::subtle
 triangolo::triangle
 pianeta::planet
 fretta::rush
 capo::boss
 colonia::colony
-orologio::clock
 miniera::mine
 cravatta::tie
 inserire::to insert
 maggiore::greater
-fresco::fresh
 ricerca::research
 inviare::send
 giallo::yellow
 pistola::pistol
 consentire::allow
-stampa::press
 morto::died
 spot::spot
 deserto::desert
@@ -852,14 +779,12 @@ Messaggio::message
 spendere::spend
 accordo::agreement
 grasso::fat
-felice::happy
 originale::original
 quota::quote
 stazione::railway station
 papà::dad
 pane::bread
 carica::load
-corretto::correct
 bar::bar
 offerta::offering
 segmento::segment
@@ -892,7 +817,6 @@ collo::neck
 ossigeno::oxygen
 zucchero::sugar
 morte::death
-piuttosto::rather
 abilità::skills
 donne::women
 stagione::season
@@ -917,7 +841,6 @@ esperienza::experience
 punteggio::score
 mela::apple
 comprato::bought
-portato::brought
 pece::pitch
 cappotto::coat
 massa::mass
@@ -930,7 +853,6 @@ sognare::dream
 sera::evening
 condizione::condition
 alimentazione::power supply
-strumento::instrument
 totale::total
 di base::basic
 odore::smell
@@ -957,7 +879,6 @@ scarpa::shoe
 spalla::shoulder
 spread::spread
 organizzare::organize
-campo::field
 inventare::to invent
 cotone::cotton
 nascita::birth
@@ -968,8 +889,6 @@ camion::truck
 rumore::noise
 livello::level
 possibilità::possibility
-raccogliere::gather
-negozio::shop
 tratto::treatment
 gettare::to throw
 shine::shine
@@ -981,7 +900,6 @@ sbagliato::wrong
 grigio::grey
 ripetizione::repetition
 richiedere::request
-ampio::ample
 preparare::prepare
 sale::salt
 naso::nose

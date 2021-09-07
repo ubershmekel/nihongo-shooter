@@ -10,7 +10,6 @@ são::they are
 com::with
 eles::they
 ser::to be
-em::in
 uma::an
 tem::have
 este::this one
@@ -22,7 +21,6 @@ mas::but
 o que::which
 alguns::some
 é::it's
-ele::he
 você::you
 ou::or
 teve::he had
@@ -30,22 +28,16 @@ o::o
 de::in
 a::the
 e::and
-uma::an
-em::in
 nós::we
 lata::tin
 fora::outside
 outro::other
 foram::were
-que::what
 fazer::do
-seu::your
 tempo::time
 se::if
 vontade::will
-como::like
 disse::he said
-uma::an
 cada::each
 dizer::tell
 faz::he does
@@ -70,7 +62,6 @@ mesmo::same
 terra::earth
 aqui::on here
 necessário::required
-grande::great
 alto::high
 tais::such
 siga::follow
@@ -84,10 +75,8 @@ luz::light
 tipo::type
 off::off
 precisa::need
-casa::house
 imagem::image
 tentar::try
-nós::we
 novamente::again
 animais::animals
 ponto::score
@@ -96,7 +85,6 @@ mundo::world
 perto::close
 construir::ramp up
 auto::self
-terra::earth
 pai::dad
 qualquer::any
 novo::new
@@ -117,7 +105,6 @@ homem::men
 ano::year
 veio::he came
 exposição::exposure
-cada::each
 bom::good
 me::me
 dar::to give
@@ -129,49 +116,35 @@ através::through
 justo::fair
 forma::form
 sentença::verdict
-grande::great
 acho que::i think
-dizer::tell
 ajudar::help
 baixo::low
 linha::line
 diferir::to differ
 vez::turn
 causa::cause
-muito::very
 significar::to mean
 antes::before
-mudança::change
 direito::right
 menino::boy
 velho::old
-também::also
-mesmo::same
 ela::is it over there
 tudo::everything
 lá::there
 quando::when
 up::up
 usar::to use
-seu::your
 maneira::manner
 sobre::about
 muitos::many
-depois::later
-eles::they
 escrever::write
 faria::would make
-como::like
 assim::thus
 estes::these
-seu::your
 longo::far away
-fazer::do
 coisa::thing
 veja::look
-ele::he
 dois::two
-tem::have
 olhar::to look
 mais::most
 dia::day
@@ -182,16 +155,12 @@ fez::did
 número::number
 som::sound
 não::not
-mais::most
 pessoas::people
 meu::mine
-sobre::about
 sei::know
 água::water
-que::what
 chamada::call
 primeiro::first
-que::what
 pode::he can
 para baixo::down
 lado::side
@@ -239,10 +208,8 @@ desenhar::to draw
 esquerda::left
 tarde::evening
 run::run
-não::not
 enquanto::while
 imprensa::press
-perto::close
 noite::night
 reais::real
 vida::life
@@ -278,7 +245,6 @@ próximo::next
 branco::white
 crianças::kids
 início::start
-tem::have
 andar::floor
 exemplo::example
 facilidade::facility
@@ -305,7 +271,6 @@ habitual::habitual
 jovem::young
 pronto::ready
 acima::above
-sempre::ever
 vermelho::red
 lista::list
 embora::although
@@ -318,7 +283,6 @@ cão::dog
 família::family
 direto::direct
 representar::represent
-deixar::to leave
 canção::song
 medir::measure
 porta::door
@@ -340,7 +304,6 @@ fogo::fire
 sul::south
 problema::problem
 peça::ask
-disse::he said
 sabia::you knew
 passar::to spend
 desde::since
@@ -352,9 +315,7 @@ polegada::inch
 multiplicar::multiply
 nada::nothing
 curso::course
-ficar::to stay
 roda::wheel
-completo::complete
 força::strength
 azul::blue
 objeto::object
@@ -373,7 +334,6 @@ comum::common
 ouro::gold
 possível::possible
 avião::plane
-lugar::place
 seca::dry
 pergunto::i ask
 risada::laughter
@@ -382,9 +342,7 @@ atrás::behind
 ran::ran
 verifique::check
 jogo::match
-forma::form
 equiparar::match
-quente::hot
 senhorita::ms
 trouxe::he brought
 calor::heat
@@ -397,12 +355,8 @@ preencher::fill
 leste::east
 pintar::to paint
 linguagem::language
-entre::in between
 unidade::unity
-poder::power
-cidade::city
 multa::traffic ticket
-certo::right
 voar::to fly
 cair::fall
 conduzir::drive
@@ -423,8 +377,6 @@ capaz::able
 libra::lb
 done::done
 beleza::beauty
-unidade::unity
-se::if
 contêm::contain
 frente::front
 ensinar::to teach
@@ -436,13 +388,11 @@ verde::green
 rápida::fast
 desenvolver::to develop
 oceano::ocean
-quente::hot
 livre::free
 minuto::minute
 forte::strong
 especial::special
 mente::mind
-atrás::behind
 claro::clear
 cauda::tail
 produzir::to produce
@@ -451,7 +401,6 @@ espaço::space
 ouvido::heard
 melhor::best
 horas::hours
-melhor::best
 verdade::truth
 durante::during
 cem::one hundred
@@ -514,7 +463,6 @@ contar::tell
 quadrado::square
 razão::reason
 comprimento::length
-representar::represent
 arte::art
 assunto::subject
 região::region
@@ -525,18 +473,14 @@ falar::to speak
 peso::weight
 geral::general
 gelo::ice
-assunto::subject
 círculo::circle
 par::pair
 incluir::include
 dividir::share
 sílaba::syllable
 sentido::sense
-grande::great
 bola::ball
-ainda::yet
 onda::wave
-cair::fall
 coração::heart
 am::am
 presente::gift
@@ -577,7 +521,6 @@ guardado::saved
 vidro::glass
 grama::gram
 vaca::cow
-trabalho::work
 borda::edge
 sinal::signal
 visita::visit
@@ -586,7 +529,6 @@ suave::soft
 diversão::fun
 brilhante::brillant
 gás::gas
-tempo::time
 mês::month
 milhão::million
 suportar::support
@@ -602,14 +544,11 @@ melodia::melody
 viagem::travel
 escritório::desk
 receber::receive
-linha::line
 boca::mouth
 exata::exact
 símbolo::symbol
 morrer::to die
-menos::any less
 dificuldade::difficulty
-grito::shout
 exceto::except
 escreveu::he wrote
 semente::seed
@@ -638,7 +577,6 @@ desgaste::wear
 jardim::garden
 igual::equal
 enviado::sent
-escolher::choose
 caiu::it fell
 caber::fit
 fluir::flow
@@ -648,8 +586,6 @@ recolher::to recall
 salvar::to save
 controle::control
 decimal::decimal
-ouvido::heard
-mais::most
 bastante::quite
 quebrado::broke
 caso::case
@@ -659,7 +595,6 @@ filho::son
 lago::lake
 momento::time
 escala::scale
-alto::high
 primavera::spring
 observar::observe
 criança::kid
@@ -684,7 +619,6 @@ subida::climb
 legal::cool
 projeto::project
 pobre::poor
-muito::very
 experiência::experience
 inferior::bottom
 chave::key
@@ -705,9 +639,7 @@ meet::meet
 raiz::source
 comprar::purchase
 levantar::rise
-resolver::solve
 de metal::of metal
-se::if
 empurre::push
 sete::seven
 parágrafo::paragraph
@@ -718,7 +650,6 @@ cabelo::hair
 descrever::to describe
 cozinheiro::cooker
 piso::floor
-ou::or
 resultado::result
 queimar::burn
 hill::hill
@@ -726,16 +657,12 @@ seguro::safe
 cat::cat
 século::century
 considerar::consider
-tipo::type
-direito::right
 bit::bit
 costa::coast
 cópia::copy
 frase::phrase
 silenciosa::silent
-alto::high
 areia::sand
-solo::ground
 rolo::roll
 temperatura::temperature
 dedo::finger
@@ -747,7 +674,6 @@ bater::hit
 excitar::excite
 naturais::natural
 vista::view
-sentido::sense
 Capital::capital
 não vai::will not
 cadeira::chair
@@ -760,7 +686,6 @@ processo::process
 operar::operate
 prática::practice
 separado::separate
-difícil::difficult
 médico::doctor
 por favor::please
 proteger::protect
@@ -785,28 +710,21 @@ rádio::radio
 falou::said
 átomo::atom
 humano::human
-história::story
 efeito::it is made
 elétrica::electric
-esperar::wait
 osso::bone
 trilho::rail
 imaginar::to imagine
 fornecer::to supply
 concordar::to agree
-assim::thus
-suave::soft
 mulher::woman
 capitão::captain
-acho que::i think
-necessário::required
 sharp::sharp
 asa::wing
 criar::to create
 vizinho::neighbor
 lavagem::wash
 bat::bat
-vez::turn
 multidão::crowd
 milho::corn
 comparar::to compare
@@ -821,7 +739,6 @@ famoso::famous
 dólar::dollar
 córrego::stream
 medo::fear
-vista::view
 fina::slim
 triângulo::triangle
 planeta::planet
@@ -850,22 +767,17 @@ aumentou::increased
 chegar::to arrive
 mestre::teacher
 trilha::trail
-pai::dad
-costa::coast
 divisão::division
 folha::sheet
 substância::substance
 favorecer::favor
 conectar::to connect
 pós::post
-passar::to spend
 acorde::wake up
 gordura::fat
-feliz::happy
 original::original
 share::share
 estação::station
-pai::dad
 pão::bread
 cobrar::demand
 adequada::proper
@@ -877,7 +789,6 @@ pato::duck
 instant::instant
 mercado::marketplace
 grau::degree
-preencher::fill
 pinto::chick
 caro::expensive
 inimigo::enemy
@@ -901,7 +812,6 @@ pescoço::neck
 oxigênio::oxygen
 açúcar::sugar
 morte::death
-bastante::quite
 habilidade::abiliity
 mulheres::women
 temporada::season
@@ -910,11 +820,9 @@ solução::solution
 prata::silver
 obrigado::thanks
 ramo::branch
-jogo::match
 sufixo::suffix
 especialmente::especially
 figo::fig
-medo::fear
 enorme::huge
 irmã::sister
 aço::steel
@@ -922,21 +830,17 @@ discutir::to discuss
 para a frente::foward
 similar::similar
 orientar::guide
-experiência::experience
 contagem::score
 maçã::apple
 comprou::bought
 conduziu::led
-campo::field
 casaco::jacket
 massa::pasta
 cartão::card
 banda::band
-corda::rope
 deslizamento::slipping
 vitória::victory
 sonhar::to dream
-noite::night
 condição::condition
 alimentação::food
 ferramenta::tool
@@ -956,7 +860,6 @@ sucesso::success
 companhia::company
 subtrair::subtract
 evento::event
-especial::special
 negócio::business
 mergulho::dive
 prazo::deadline
@@ -971,16 +874,12 @@ inventar::to invent
 algodão::cotton
 Nascido::born
 determinar::to determine
-quarto::bedroom
 nove::nine
 caminhão::truck
 ruído::noise
 nível::level
 oportunidade::opportunity
-recolher::to recall
-loja::store
 trecho::excerpt
-jogar::play
 brilho::shine
 propriedade::property
 coluna::column

@@ -71,7 +71,6 @@
 הלכתי::i walked
 אור::light
 סוג::type
-את::you
 צריך::should
 תמונה::image
 לנסות::try
@@ -86,7 +85,6 @@
 עצמי::myself
 כדור הארץ::earth
 אב::father
-כל::all
 חדש::new
 עבודה::working
 חלק::part
@@ -98,23 +96,19 @@
 איפה::where
 לאחר::after the
 בחזרה::back to
-קטן::little
 רק::only
 עגול::round
 גבר::man
 שנה::sleep
 הגיע::has come
 מופע::show
-כל::all
 טוב::are good
 לי::to me
 לתת::give
-שלנו::our
 תחת::under
 שם::name
 מאוד::is very
 דרך::way
-רק::only
 טופס::form
 משפט::sentence
 חושב::thinking
@@ -126,7 +120,6 @@
 תור::turn
 סיבה::reason
 הרבה::much
-אומר::says
 לפני::before
 מהלך::walk
 נכון::right
@@ -134,44 +127,32 @@
 ישן::old
 אותו::him
 היא::she
-כל::all
-שם::name
 כאשר::when are
 למעלה::up
 שימוש::use
 שלך::your
-דרך::way
-על::on
 רבים::many
 אז::then
-שלהם::their
 לכתוב::to write
 היית::you were
-כמו::same as
 כך::so
 אלה::goddess
 שלה::its
 ארוך::long
-לעשות::to do
 דבר::nothing
 לראות::see
-שלו::his
 שנים::years
 יש::there is
 להסתכל::to look
 יותר::more
 יום::a day
-יכול::can
 ללכת::go
 תבואו::come
-עשיתי::i did
 מספר::a number
 נשמע::audible
 לא::no
 ביותר::most
-אנשים::people
 שלי::my
-על::on
 יודע::know
 מים::water
 מאשר::than
@@ -181,14 +162,11 @@
 רשאי::entitled
 למטה::down
 צד::trapping
-היה::was
 עכשיו::now
 למצוא::find
 ראש::head
 לעמוד::to stand
-של::of
 דף::page
-צריך::should
 מדינה::country
 מצאתי::found
 תשובה::answer
@@ -203,7 +181,6 @@
 שמש::sun
 ארבעה::four
 בין::between
-מדינה::country
 לשמור::preserve
 עין::eye
 אף פעם לא::never
@@ -225,14 +202,12 @@
 עזב::left
 מאוחר::late
 לרוץ::run
-לא::no
 תוך::within
 עיתונות::journalism
 קרוב::close
 לילה::night
 אמיתי::true
 חיים::haim
-כמה::some
 צפון::north
 ספר::book
 לשאת::bear
@@ -255,7 +230,6 @@
 לצפות::watch
 צבע::color
 פנים::face
-עץ::wood
 עיקרי::main
 פתוח::open
 נראה::seen
@@ -264,15 +238,12 @@
 לבן::white
 ילדים::children
 להתחיל::begin
-לי::to me
-ללכת::go
 דוגמא::example
 להקל::facilitate
 נייר::paper
 קבוצה::group
 תמיד::always
 מוסיקה::music
-אלה::goddess
 שני::crimson
 סימן::sign
 לעתים קרובות::often
@@ -283,7 +254,6 @@
 מכונית::car
 רגליים::feet
 טיפול::treatment
-שני::crimson
 מספיק::enough
 מישור::plain
 ילדה::girl
@@ -331,7 +301,6 @@
 עובר::passes
 מאז::since
 עליון::upper
-כל::all
 מלך::king
 רחוב::street
 אינץ::inches
@@ -340,7 +309,6 @@
 כמובן::of course
 להישאר::to stay
 גלגל::pulley
-מלא::full
 כוח::force
 כחול::blue
 אובייקט::object
@@ -364,13 +332,11 @@
 פלא::wonder
 צחוק::laughter
 אלף::thousand
-לפני::before
 רצתי::i ran
 לבדוק::to check
 משחק::play
 צורה::shape
 להשוות::compare
-חם::hot
 מתגעגע::nostalgic
 הביא::resulted in
 חום::heat
@@ -378,14 +344,10 @@
 צמיג::viscous
 להביא::bring
 כן::yes
-רחוק::far away
 למלא::play
 מזרח::east
-לצייר::to draw
 שפה::language
-בין::between
 יחידה::unit
-כוח::force
 העיר::the city
 קנס::fine
 מסוים::a certain
@@ -404,10 +366,8 @@
 שם עצם::noun
 שדה::field
 שאר::rest
-נכון::right
 תוכל::will be able to
 קילו::kilo
-עשיתי::i did
 יופי::beauty
 כונן::drive
 עמד::stood
@@ -422,7 +382,6 @@
 מהיר::fast
 לפתח::develop
 אוקיינוס::ocean
-חם::hot
 חופשי::free
 דקות::subtlety
 חזק::strong
@@ -438,7 +397,6 @@
 הטוב ביותר::best
 שעה::hour
 טוב יותר::better
-נכון::right
 במהלך::during
 מאה::century
 חמש::five
@@ -461,7 +419,6 @@
 בוקר::morning
 עשר::ten
 פשוט::simple
-כמה::some
 תנועה::movement
 לקראת::towards
 מלחמה::war
@@ -490,20 +447,16 @@
 מיטה::a bed
 אח::brother
 ביצה::egg
-נסיעה::drive
 תא::cell
 מאמין::believes
-אולי::maybe
 לבחור::to choose
 פתאומי::sudden
 לספור::to count
 רבוע::square
-סיבה::reason
 משך::duration
 מייצג::represents
 אמנות::art
 נושא::topic
-אזור::area
 גודל::size
 להשתנות::vary
 להתיישב::settle down
@@ -511,7 +464,6 @@
 משקל::weight
 כללי::general
 קרח::ice
-עניין::interest
 המעגל::the circle
 זוג::pair
 כולל::including
@@ -533,7 +485,6 @@
 רחב::wide
 מפרש::sail
 חומר::material
-חלק::part
 יער::forest
 לשבת::to sit down
 מירוץ::race
@@ -544,11 +495,9 @@
 לישון::sleep
 להוכיח::prove
 בודד::single
-רגל::foot
 תרגיל::exercise
 קיר::wall
 מלכוד::catch
-הר::mountain
 מאחל לי::wish me
 שמים::sky
 לוח::board
@@ -562,9 +511,7 @@
 זכוכית::glass
 דשא::grass
 פרה::cow
-עבודה::working
 קצה::end
-סימן::sign
 ביקור::a visit
 האחרון::the last one
 רך::soft
@@ -574,7 +521,6 @@
 מזג אוויר::weather
 חודש::a month
 מיליון::one million
-לשאת::bear
 גימור::finishing
 שמח::happy
 מקווה::hope
@@ -586,8 +532,6 @@
 מנגינה::tune
 טיול::trip
 משרד::office
-לקבל::get
-שורה::row
 פה::here
 מדויק::precise
 סמל::symbol
@@ -618,12 +562,10 @@
 חוט::wire
 עלות::cost
 איבדתי::i lost
-חום::heat
 ללבוש::wear
 גן::garden
 שווה::equal
 שלחתי::i sent
-לבחור::to choose
 נפלתי::i fell down
 להתאים::match
 לזרום::flow
@@ -634,7 +576,6 @@
 שליטה::control
 עשרוני::decimal
 אוזן::ear
-אחר::other
 די::enough
 פרץ::breach
 מקרה::case
@@ -647,7 +588,6 @@
 רם::ram
 האביב::spring
 להתבונן::look
-ילד::boy
 ישר::straight
 עיצור::consonant
 אומה::nation
@@ -692,10 +632,8 @@
 להעלות::raise
 לפתור::to solve
 מתכת::metal
-אם::if
 דחיפה::push
 שבע::seven
-סעיף::section
 שלישי::third
 תהא::will be
 מוחזק::is held
@@ -703,22 +641,17 @@
 לתאר::describe
 טבח::massacre
 רצפה::floor
-או::or
 תוצאה::outcome
 לשרוף::burn
 גבעה::hill
-בטוח::sure
 חתול::cat
 המאה::century
 לשקול::consider
-סוג::type
 החוק::the law
 קצת::some
 החוף::the coast
 עותק::copy
 ביטוי::phrase
-שקט::quiet
-גבוה::tall
 חול::sand
 אדמה::land
 גליל::galilee
@@ -742,10 +675,8 @@
 עבה::thick
 חיל::force
 תהליך::process
-פועל::worker
 בפועל::in practice
 נפרד::broke off
-קשה::hard
 רופא::doctor
 בבקשה::you are welcome
 להגן על::protect
@@ -769,17 +700,14 @@
 רדיו::radio
 דיברתי::i spoke
 אטום::atom
-אדם::a person
 היסטוריה::history
 השפעה::effect
 חשמלי::electric
 מצפה::expecting
 עצם::closed
-רכבת::a train
 להניח::let
 לספק::to provide
 מסכים::agree
-כך::so
 עדין::gentle
 אישה::wife
 קפטן::captain
@@ -794,8 +722,6 @@
 ולא::and no
 קהל::crowd
 תירס::corn
-להשוות::compare
-שיר::a poem
 מחרוזת::necklace
 פעמון::bell
 תלויים::hanging
@@ -809,12 +735,10 @@
 מראה::mirror
 דק::thin
 משולש::triangular
-כדור הארץ::earth
 למהר::hurry
 ראשי::main
 מושבה::colony
 שעון::watch
-שלי::my
 עניבה::tie
 להיכנס::to enter
 טרי::fresh
@@ -825,27 +749,21 @@
 לאפשר::enable
 הדפסה::printing
 מת::dead
-מקום::place
 מדבר::speak
 חליפה::a suit
-נוכחי::current
 מעלית::elevators
 עלה::increased
-להגיע::to arrive
 אדון::sir
 מסלול::route
 הורה::parent
-החוף::the coast
 החלוקה::the division
 גיליון::sheet
-חומר::material
 להעדיף::prefer
 להתחבר::connect
 שלאחר::post
 לבלות::spend
 אקורד::chord
 שומן::fat
-שמח::happy
 מקורי::original
 מניה::share
 תחנה::station
@@ -873,10 +791,8 @@
 טבע::nature
 טווח::range
 קיטור::steam
-תנועה::movement
 נתיב::path
 נוזל::liquid
-להיכנס::to enter
 התכוון::meant
 מנה::dose
 שיניים::teeth
@@ -885,16 +801,13 @@
 חמצן::oxygen
 סוכר::sugar
 מוות::death
-די::enough
 מיומנות::proficiency
 נשים::women
 עונה::season
 פתרון::solution
 מגנט::magnet
-כסף::of money
 תודה::thanks
 סניף::branch
-משחק::play
 סיומת::ending
 במיוחד::especially
 תאנה::fig
@@ -906,7 +819,6 @@
 קדימה::forward
 דומה::similar
 להנחות את::guide the
-ניסיון::experience
 ציון::score
 תפוח::an apple
 קניתי::i bought
@@ -928,7 +840,6 @@
 בסיסי::basic
 ריח::smell
 עמק::valley
-ולא::and no
 כפול::dual
 מושב::session
 להמשיך::continue
@@ -943,9 +854,7 @@
 בפרט::in particular
 עסקה::transaction
 לשחות::swim
-טווח::range
 ההפך::the opposite
-אישה::wife
 נעל::shoe
 כתף::shoulder
 התפשטות::spread
@@ -961,8 +870,6 @@
 רעש::noise
 רמה::level
 סיכוי::chance
-לאסוף::pick up
-חנות::shop
 מתיחה::prank
 לזרוק::to throw away
 ברק::lightning
@@ -974,7 +881,6 @@
 אפור::gray
 חוזר::circular
 דורש::requires
-רחב::wide
 להכין::prepare
 מלח::salt
 האף::the nose
