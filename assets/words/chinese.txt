@@ -589,7 +589,6 @@ i::i
 伯::Uncle
 口::mouth
 喜歡::like
-the::the
 在做::doing
 那麼::So
 請::Please
@@ -814,16 +813,6 @@ the::the
 越::cross
 小子::Kid
 有趣::interesting
-喜歡::like
-the::the
-在做::doing
-那麼::So
-請::Please
-五::five
-标::Mark
-画::painting
-身上::Body
-以后::after
 至少::At least
 亞::Asia
 脱::Take off

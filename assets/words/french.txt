@@ -1,7 +1,7 @@
 comme::like, as
 je::I
 son::his
-que::than
+que::that, replaces direct object
 il::he
 était::was
 pour::for
@@ -19,18 +19,14 @@ par::through
 chaud::hot
 mot::word
 mais::corn
-que::than
 certains::some
 est::is
-il::he
 vous::you
 ou::Where
 eu::had
 la::the
 de::of
-à::To
 et::and
-un::a
 dans::in
 nous::we
 boîte::box
@@ -45,7 +41,6 @@ si::if
 volonté::will
 comment::How? 'Or' What
 dit::said
-un::a
 chaque::each
 dire::to say
 ne::born
@@ -70,7 +65,6 @@ même::same
 terre::Earth
 ici::here
 il faut::it is necessary
-grand::big
 haut::high
 tel::Phone
 suivre::to follow
@@ -82,12 +76,9 @@ changement::change
 est allé::went
 lumière::light
 genre::kind
-de::of
 besoin::need
-maison::House
 image::picture
 essayer::to try
-nous::we
 encore::Again
 animal::animal
 point::point
@@ -96,7 +87,6 @@ monde::world
 près de::near
 construire::to build
 soi::self
-terre::Earth
 père::father
 tout::all
 nouveau::new
@@ -125,18 +115,14 @@ notre::our
 sous::under
 nom::name
 très::very
-par::through
 juste::just
 forme::form
 phrase::phrasing
-grand::big
 penser::to think
-dire::to say
 aider::to help
 faible::weak
 ligne::line
 différer::to differ
-tour::tower
 la cause::the cause
 beaucoup::a lot
 signifier::mean
@@ -146,16 +132,13 @@ droit::law
 garçon::boy
 vieux::old
 trop::too much
-même::same
 elle::she
-tous::all
 là::the
 quand::when
 jusqu’à::up to
 utiliser::use
 votre::your
 manière::manner
-sur::on
 beaucoup::a lot
 puis::then
 les::the
@@ -185,10 +168,8 @@ aucun::no
 plus::more
 personnes::people
 ma::my
-sur::on
 savoir::know
 eau::water
-que::than
 appel::call
 première::first
 qui::who
@@ -504,7 +485,6 @@ probable::likely
 lit::bed
 frère::brother
 œuf::egg
-tour::tower
 cellule::cell
 croire::to believe
 peut-être::may be

@@ -6,9 +6,8 @@
 היה::was
 עבור::for
 על::on
-הם::they
+הם::they (masculine)
 עם::with
-הם::they
 להיות::to be
 ב...::at
 אחד::one
@@ -21,24 +20,20 @@
 אבל::but
 מה::what
 כמה::some
-הוא::he
-זה::it
-אתה::are you
+אתה::you (male)
 או::or
-היה לי::i had
-עבור::for
+היה לי::i had (masculine thing)
 של::of
 אל::to
-ו::and
+ו...::and
 זמן::time
 אנחנו::we
-יכול::can
-את::you
-אחר::other
+יכול::can (masculine)
+את::you (feminine)
+אחר::other (masculine)
 היו::there were
 לעשות::to do
 שלהם::their
-זמן::time
 אם::if
 יהיה::will be
 איך::how
@@ -47,17 +42,14 @@
 כל::all
 לספר::tell
 עושה::is doing
-סט::st
 שלוש::three
 רוצה::wants to
 אוויר::air
-גם::also
 גם::also
 לשחק::to play
 קטן::little
 סוף::end
 לשים::to put
-בית::home
 לקרוא::to read
 יד::hand
 נמל::port
@@ -68,7 +60,6 @@
 ארץ::country
 כאן::here
 חייב::have to
-גדול::big
 גבוה::tall
 כזה::such a
 מעקב::tracking
@@ -82,7 +73,6 @@
 סוג::type
 את::you
 צריך::should
-בית::home
 תמונה::image
 לנסות::try
 שלנו::our
@@ -127,7 +117,6 @@
 רק::only
 טופס::form
 משפט::sentence
-גדול::big
 חושב::thinking
 אומר::says
 לעזור::help
@@ -143,7 +132,6 @@
 נכון::right
 ילד::boy
 ישן::old
-גם::also
 אותו::him
 היא::she
 כל::all
@@ -530,7 +518,6 @@
 פער::gap
 הברה::syllable
 הרגיש::felt
-גדול::big
 כדור::ball
 בכל זאת::even though
 גל::wave
@@ -830,7 +817,6 @@
 שלי::my
 עניבה::tie
 להיכנס::to enter
-גדול::big
 טרי::fresh
 חיפוש::search
 לשלוח::to send

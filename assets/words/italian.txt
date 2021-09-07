@@ -15,7 +15,6 @@ uno::one
 avere::to have
 questo::this
 da::from
-da::from
 caldo::hot
 parola::word
 ma::but
@@ -28,7 +27,6 @@ o::or
 aveva::I had
 il::the
 di::from
-a::to
 e::and
 un::a
 in::in
@@ -66,11 +64,9 @@ porto::port
 grande::great
 compitare::spell
 aggiungere::to add
-anche::also
 terra::earth
 qui::here
 mosto::must
-grande::great
 alto::tall
 tale::such
 seguire::to follow
@@ -84,7 +80,6 @@ luce::light
 tipo::guy
 spento::worn out
 bisogno::need
-casa::home
 immagine::image
 provare::try
 noi::we
@@ -129,7 +124,6 @@ attraverso::through
 solo::alone
 forma::form
 frase::phrase
-grande::great
 pensare::to think
 dire::to say
 aiutare::help
@@ -318,7 +312,6 @@ cane::dog
 famiglia::family
 diretto::direct
 posa::pose
-lasciare::to leave
 canzone::song
 misurare::to measure
 porta::brings
@@ -345,7 +338,6 @@ sapeva::he knew
 passare::pass
 da::from
 top::top
-tutto::everything
 re::king
 strada::street
 pollice::thumb
@@ -532,7 +524,6 @@ includere::to include
 divide::divides
 sillaba::syllable
 feltro::felt
-grande::great
 palla::ball
 ancora::still
 onda::wave
