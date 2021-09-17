@@ -42,6 +42,8 @@ export function migrateStorage1() {
     const speed = localStorage.getItem(bestSpeedKeyOld(level));
     if (speed) {
       storage.bestSpeed.set('japanese', level, +speed);
+      // don't overwrite the new score every time
+      localStorage.removeItem(bestSpeedKeyOld(level));
     }
   }
 }
