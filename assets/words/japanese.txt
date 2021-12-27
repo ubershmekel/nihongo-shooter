@@ -1,4 +1,4 @@
-行く:いく:go gone
+行く:いく:going
 見る:みる:see, look at
 多い:おおい:a lot of, many
 家:いえ:home, household, house, dwelling
