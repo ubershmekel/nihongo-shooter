@@ -1,989 +1,1000 @@
-行く:いく:going
-見る:みる:see, look at
-多い:おおい:a lot of, many
-家:いえ:home, household, house, dwelling
-:これ:this, this one
-:それ:that, that one
-私:わたし:I
-仕事:しごと:work, job
-:いつ:when
-:する:do, make
-出る:でる:go out, leave
-使う:つかう:use, make use of
-所:ところ:place
-作る:つくる:make, create
-思う:おもう:think
-持つ:もつ:have, possess
-買う:かう:buy
-時間:じかん:time, hour
-知る:しる:know
-同じ:おなじ:same, identical
-今:いま:now
-新しい:あたらしい:new
-:なる:become
-:まだ:not yet, still
-:あと:after
-聞く:きく:hear, ask
-言う:いう:say, tell
-少ない:すくない:few, little
-高い:たかい:high, tall
-子供:こども:child
-:そう:so, that way
-:もう:already, yet, another, again
-学生:がくせい:student
-熱い:あつい:hot to touch
-:どうぞ:please
-午後:ごご:afternoon, p.m.
-長い:ながい:long
-本:ほん:book, volume
-今年:ことし:this year
-:よく:often, well
-彼女:かのじょ:she, one’s girlfriend
-:どう:how, what
-言葉:ことば:word, language
-顔:かお:face
-終わる:おわる:finish, end
-一つ:ひとつ:one thing
-:あげる:give, offer
-:こう:like this, such
-学校:がっこう:school
-:くれる:be given
-始める:はじめる:start something
-起きる:おきる:get up, get out of bed, occur, happen
-春:はる:spring
-午前:ごぜん:morning, a.m.
-別:べつ:another, different
-:どこ:where
-部屋:へや:room
-若い:わかい:young
-車:くるま:car, automobile
-置く:おく:put, place
-住む:すむ:live, reside
-働く:はたらく:work
-難しい:むずかしい:difficult
-先生:せんせい:teacher
-立つ:たつ:stand, rise
-呼ぶ:よぶ:call, name
-大学:だいがく:university, college
-安い:やすい:cheap, inexpensive
-:もっと:more
-帰る:かえる:go back home
-分かる:わかる:understand
-広い:ひろい:wide, big
-数:すう:number
-近い:ちかい:near, close
-:そこ:there
-走る:はしる:run
-入れる:いれる:put in
-教える:おしえる:teach, tell
-歩く:あるく:walk, go on foot
-会う:あう:meet
-書く:かく:write
-頭:あたま:head
-売る:うる:sell
-大好き:だいすき:like something a lot
-体:からだ:body, physique
-直ぐ:すぐ:at once, soon
-飛ぶ:とぶ:fly
-:とても:very
-誰:だれ:who
-好き:すき:favorite, liked
-読む:よむ:read
-次:つぎ:next
-:あなた:you
-飲む:のむ:drink
-古い:ふるい:old
-質問:しつもん:question
-今日:きょう:today
-友達:ともだち:friend, companion
-早い:はやい:early
-:どれ:what, which
-美しい:うつくしい:beautiful
-:いつも:always
-足:あし:leg, foot
-起こす:おこす:wake someone up
-見せる:みせる:show
-娘:むすめ:daughter, girl
-楽しむ:たのしむ:enjoy
-色:いろ:color
-:みんな:everybody
-取る:とる:take, get
-勉強:べんきょう:study
-:できる:can do, be good at
-短い:みじかい:short, brief
-落ちる:おちる:fall, come down
-息子:むすこ:son
-白い:しろい:white, blank
-飛行機:ひこうき:airplane
-病気:びょうき:illness
-冬:ふゆ:winter
-年:とし:year, age
-重い:おもい:heavy
-胸:むね:chest, breast
-払う:はらう:pay money, respect, attention, etc.
-軽い:かるい:light of weight
-見つける:みつける:find
-忘れる:わすれる:forget, leave behind
-酒:さけ:alcohol, rice wine
-:どちら:which
-姉:あね:one’s own older sister
-覚える:おぼえる:memorize, learn
-狭い:せまい:narrow, small
-赤い:あかい:red
-着る:きる:wear, put on
-笑う:わらう:laugh, smile
-一番:いちばん:most, best
-授業:じゅうぎょ:class session, lecture
-週:しゅう:week
-漢字:かんじ:Chinese character
-自転車:じてんしゃ:bicycle
-電車:でんしゃ:train
-探す:さがす:search for, look for
-紙:かみ:paper
-歌う:うたう:sing
-遅い:おそい:slow, late
-首:くび:neck
-速い:はやい:fast
-一緒に:いっしょに:together, at the same time
-今月:こんげつ:this month
-遊ぶ:あそぶ:play
-遠い:とおい:far, distant
-弱い:よわい:weak
-耳:みみ:ear
-座る:すわる:sit, sit down
-右:みぎ:right
-浴びる:あびる:take a shower
-肩:かた:shoulder
-寝る:ねる:lie down and sleep, go to sleep
-消す:けす:switch off, turn off
-元気:げんき:healthy, energetic
-全部:ぜんぶ:all, whole
-去年:きょねん:last year
-引く:ひく:draw, pull
-図書館:としょかん:library
-上げる:あげる:raise, lift
-緑:みどり:green
-腕:うで:arm
-:ドア:door (loan word)
-女の子:おんなのこ:little girl
-男の子:おとこのこ:boy
-私たち:わたしたち:we
-近く:ちかく:near, close to, in the near future, before long
-:やる:do, give, give to an inferior
-:かなり:fairly, rather
-国:くに:country
-起こる:おこる:happen
-秋:あき:autumn, fall
-送る:おくる:send
-死ぬ:しぬ:die
-気持ち:きもち:feeling, sensation
-乗る:のる:ride, take
-:いる:be present, stay
-木:き:tree, wood
-開ける:あける:open, unlock doors, windows, etc.
-閉める:しめる:shut, close doors, windows, etc.
-続く:つずく:continue, follow
-お医者さん:おいしゃさん:doctor
-円:えん:Japanese yen, circle
-:ここ:here
-待つ:まつ:wait, wait for
-低い:ひくい:low, short
-:もらう:receive
-食べる:たべる:eat
-兄:あに:one’s own older brother
-名前:なまえ:name
-夫:おっと:husband
-一:いち:one
-結婚:けっこん:marriage
-親:おや:parent
-話す:はなす:speak, talk
-少し:すこし:a bit, a little while
-閉じる:とじる:shut, close books, eyes, etc.
-時:とき:time, moment
-米:こめ:rice grain
-切る:きる:cut
-楽しい:たのしい:fun, enjoyable
-服:ふく:clothes
-後ろ:うしろ:back, behind
-嬉しい:うれしい:happy, glad
-腰:こし:waist, lower back
-日曜日:にちようび:Sunday
-昼:ひる:daytime, midday
-お母さん:おかあさん:mother
-大学生:だいがくせい:university student
-終わり:おわり:end, conclusion
-背:せ:height, stature
-手伝う:てつだう:help, assist
-鼻:はな:nose
-載せる:のせる:place, put on
-悲しい:かなしい:sad
-:しゃべる:chat, talk
-甘い:あまい:sweet
-:テーブル:table
-食べ物:たべもの:food
-始まる:はじまる:begin
-:ゲーム:game
-十:じゅう:ten
-天気:てんき:weather
-暑い:あつい:hot of weather
-太い:ふとい:thick, fat
-晩:ばん:evening, night from sunset to bedtime
-土曜日:どようび:Saturday
-痛い:いたい:sore, painful
-お父さん:おとうさん:father, dad
-多分:たぶん:probably, perhaps
-時計:とけい:clock, watch
-泊まる:とまる:stay overnight
-:どうして:how come
-掛ける:かける:hang, put on
-曲がる:まがる:make a turn, turn
-お腹:おなか:stomach, belly
-:ミーティング:meeting
-嫌い:きらい:dislike habitual
-金曜日:きんようび:Friday
-要る:いる:need, require
-無い:ない:to not be
-風邪:かぜ:cold illness
-黄色い:きいろい:yellow (adjective)
-優しい:やさしい:gentle, kind
-晴れる:はれる:be sunny, clear up
-汚い:きたない:dirty
-茶色:ちゃいろ:brown
-空く:すく:be empty, become less crowded
-上る:のぼる:go up, climb
-ご飯:ごはん:meal, cooked rice
-日:にち:counter for days
-髪の毛:かみのけ:hair, each single hair
-:つける:switch on, turn on
-月曜日:げつようび:Monday
-入る:はいる:enter
-:カタカナ:katakana
-今週:こんしゅう:this week
-開く:ひらく:open books, eyes, etc.
-水:みず:water
-:あれ:that over there
-二:に:two
-締める:しめる:tighten, fasten
-:まずい:bad taste, distasteful
-平仮名:ひらがな:hiragana
-曇る:くもる:become cloudy
-触る:さわる:touch, feel
-駄目:だめ:no good
-飲み物:のみもの:beverage, drink
-木曜日:もくようび:Thursday
-曜日:ようび:day of the week
-:そば:side, vicinity
-:こっち:here, this way casual
-火曜日:かようび:Tuesday
-渇く:かわく:be thirsty
-三:さん:three
-水曜日:すいようび:Wednesday
-二つ:ふたつ:two things
-今晩:こんばん:this evening, tonight
-千:せん:thousand
-六日:むいか:six days, sixth of the month
-お姉さん:おねえさん:older sister
-直る:なおる:be repaired, get fixed
-:ちょっと:just a moment, just a little
-四:よん:four (Japanese origin)
-:これから:from now on, after this
-考える:かんがえる:think, consider
-戻る:もどる:return to a point of departure
-変える:かえる:change something, alter
-朝:あさ:morning
-歯:は:tooth
-頑張る:がんばる:work hard, do one’s best
-携帯電話:けいたいでんわ:cellular phone
-雨:あめ:rain
-金:かね:money
-易しい:やさしい:easy, simple
-お兄さん:おにいさん:older brother
-大きい:おおきい:big
-小さい:ちいさい:small
-辛い:からい:spicy, hot
-八:はち:eight
-:あそこ:over there
-来る:くる:come
-前:まえ:front, before
-五日:いつか:five days, fifth of the month
-:いっぱい:full
-九:きゅう:nine
-酸っぱい:すっぱい:sour
-違う:ちがう:differ, be wrong
-細い:ほそい:thin, slender
-三つ:みつ:three things
-八日:ようか:eight days, eighth of the month
-高校生:こうこうせい:high school student
-上手:じょうず:good, skilled
-強い:つよい:strong
-七:なな:seven (Japanese origin)
-二十日:はつか:20 days, 20th of the month
-左:ひだり:left
-二日:ふつか:two days, second of the month
-四つ:よつ:four things
-暖かい:あたたかい:warm
-:ある:exist, there is
-:いい:good in (spoken form)
-上:うえ:up, above
-駅:えき:train station
-美味しい:おいしい:tasty
-昨日:きのう:yesterday
-綺麗:きれい:pretty, clean
-五:ご:five
-九つ:ここのつ:nine things
-お願い:おねがい:favor
-答える:こたえる:give an answer
-先:さき:ahead, first
-寒い:さむい:cold temperature of the air
-四:し:four (Chinese origin)
-三日:みっか:three days, third of the month
-下:した:under, below
-大丈夫:だいじょうぶ:all right, OK
-大人:おとな:adult
-出す:だす:take out
-父:ちち:speaker’s father
-母:はは:speaker’s mother
-月:つき:moon
-妹:いもうと:younger sister
-冷たい:つめたい:cold to touch
-弟:おとうと:younger brother
-手:て:hand
-十日:とおか:ten days, tenth of the month
-口:くち:mouth
-夏:なつ:summer
-七つ:ななつ:seven things
-時々:ときどき:sometimes
-何:なに:what
-人:ひと:person
-一人:ひとり:one person
-一日:ついたち:first of the month
-九日:ここのか:nine days, ninth of the month
-方:ほう:direction, side
-他:ほか:other (Japanese origin)
-僕:ぼく:I, me usually used by young males
-欲しい:ほしい:want, desire of the speaker
-万:まん:ten thousand
-見える:みえる:be visible, can see
-道:みち:street, way
-五つ:いつつ:five things
-目:め:eye
-八つ:やっつ:eight things
-止める:とめる:to stop something or someone
-四日:よっか:four days, fourth of the month
-夜:よる:night from sunset to sunrise
-来年:らいねん:next year
-六:ろく:six
-悪い:わるい:bad
-お手洗い:おてあらい:toilet, bathroom
-ご主人:ごしゅじん:someone else’s husband
-本当に:ほんとうに:really, truly
-自分:じぶん:self, oneself
-:ため:sake, purpose
-見つかる:みつかる:be found, be caught
-休む:やすむ:take a rest, take a break
-:ゆっくり:slowly
-六つ:むっつ:six things
-花:はな:flower
-動く:うごく:move
-線:せん:line
-七日:なのか:seven days, seventh of the month
-以外:いがい:except for
-男:おとこ:man, male
-彼:かれ:he, one’s boyfriend
-女:おんな:woman
-妻:つま:wife
-百:ひゃく:hundred
-辺:あたり:vicinity
-店:みせ:shop, store
-閉まる:しまる:be shut, be closed
-問題:もんだい:problem, question
-必要:ひつよう:need, necessary
-:もつ:last long, be durable
-昨年:さくねん:last year , often used in writing
-治る:なおる:be cured, get well
-:ドル:dollar
-:システム:system (loan word)
-以上:いじょう:more than, not less than
-最近:さいきん:recent, latest
-世界:せかい:world
-:コンピューター:computer
-意味:いみ:meaning, sense
-増える:ふえる:increase, accrue
-選ぶ:えらぶ:choose, elect
-生活:せいかつ:life, living
-進める:すすめる:go ahead, proceed
-続ける:つずける:continue, keep up
-:ほとんど:almost, hardly
-会社:かいしゃ:company, corporation
-多く:おおく:much, largely
-話:はなし:talk, story
-上がる:あがる:go up, rise physical movement
-集める:あつめる:collect, gather
-声:こえ:voice, sound
-初めて:はじめて:for the first time
-変わる:かわる:change, turn into
-:まず:first of all, to begin with
-社会:しゃかい:society
-:プログラム:program booklet
-力:ちから:strength, power
-今回:こんかい:this time
-予定:よてい:schedule, plan
-:まま:as is, still in the current state
-:テレビ:television
-減る:へる:decrease, diminish
-消える:きえる:be extinguished, disappear
-家族:かぞく:family, household
-比べる:くらべる:compare, contrast
-生まれる:うまれる:be born, come into existence
-:ただ:free
-:これら:these
-調べる:しらべる:investigate, check
-事故:じこ:accident, trouble
-電話:でんわ:telephone, phone call
-外国:がいこく:foreign country
-銀行:ぎんこう:bank
-十分:じゅうぶん:enough, plentiful
-:あまり:not much
-写真:しゃしん:photograph
-繰り返す:くりかえす:repeat
-種類:しゅるい:kind, type
-意見:いけん:opinion
-新聞:しんぶん:newspaper
-文章:ぶんしょう:sentence, writing
-目立つ:めだつ:stand out, be conspicuous
-相手:あいて:opponent, the other party
-病院:びょういん:hospital
-厚い:あつい:thick, bulky
-忙しい:いそがしい:busy, occupied
-薄い:うすい:thin, weak
-川:かわ:river, stream
-暗い:くらい:dark, gloomy
-:クラス:class in school
-黒い:くろい:black, dark
-:バス:bus
-青い:あおい:blue
-買い物:かいもの:shopping, purchase
-薬:くすり:drug, medicine
-砂糖:さとう:sugar
-休み:やすみ:holiday, break
-郵便局:ゆうびんきょく:post office
-住所:じゅうしょ:address
-:こちら:here, this way
-財布:さいふ:purse, wallet
-:パスポート:passport
-椅子:いす:chair
-可愛い:かわいい:cute, sweet
-お祖父さん:おじいさん:grandfather
-切手:きって:postage stamp
-涼しい:すずしい:cool of temperature
-:いくつ:how many, how old
-:メニュー:menu
-電気:でんき:electricity, electric light
-勝つ:かつ:win
-負ける:まける:lose
-建てる:たてる:build, erect
-日記:にっき:diary
-売り切れ:うりきれ:sell out
-お巡りさん:おまわりさん:police officer
-目覚まし時計:めざましとけい:alarm clock
-:レシート:receipt (loan word)
-:ティッシュ:tissue
-歯ブラシ:はぶらし:toothbrush
-下りる:おりる:go down, come down
-洗う:あらう:wash
-:パート:part-time
-氏名:しめい:full name
-今夜:こんや:tonight, this evening
-夜中:よなか:midnight
-来週:らいしゅう:next week
-誰か:だれか:someone
-今朝:けさ:this morning
-寿司:すし:sushi
-履く:はく:put on shoes, wear pants, skirt
-:おじさん:uncle
-:おばさん:aunt
-お祖母さん:おばあさん:grandmother
-:いとこ:cousin
-辞書:じしょ:dictionary category
-朝ご飯:あさごはん:breakfast
-白:しろ:white
-:どっち:which casual
-:そっち:there casual
-明日:あした:tomorrow
-明後日:みょうごにち/あさって:day after tomorrow
-一昨日:おととい:the day before yesterday
-庭:にわ:garden, yard
-左側:ひだりがわ:left side
-右側:みぎがわ:right side
-指:ゆび:finger, toe
-眼鏡:めがね:glasses
-鞄:かばん:bag, handbag
-:あっち:other side, over there casual
-大人しい:おとなしい:gentle, quiet
-下手:へた:not good at
-厳しい:きびしい:strict, severe
-一人で:ひとりで:by oneself, alone
-答え:こたえ:answer, solution
-この頃:このごろ:these days, recently
-残念:ざんねん:regretful, disappointing
-仕舞う:しまう:put away, put in
-心配:しんぱい:anxiety, worry
-外:そと:outside, open air
-大切:たいせつ:important, valuable
-:ちょうど:just, exactly
-助ける:たすける:help, save
-勤める:つとめる:serve, hold a job
-連れていく:つれていく:take along, bring along a person
-丈夫:じょうぶ:healthy, sturdy
-賑やか:にぎやか:lively, exciting
-眠い:ねむい:sleepy
-山:やま:mountain
-橋:はし:bridge
-止まる:とまる:come to a stop, cease
-降る:ふる:fall, come down rain, snow, etc.
-本当:ほんとう:reality, genuine
-町:まち:town, city
-お菓子:おかし:sweets, snacks
-緩い:ゆるい:slack, loose
-良い:よい:good, ready
-:ようこそ:welcome greeting
-お土産:おみやげ:souvenir
-両親:りょうしん:parents
-:ウェーター:waiter
-:ウェートレス:waitress
-絶対に:ぜったいに:absolutely, definitely
-:ごちそう:feast, treat
-:フォーク:fork
-:スプーン:spoon
-瓶:びん:bottle
-:つく:be on, be switched on
-醤油:しょうゆ:soy sauce
-茶碗:ちゃわん:rice bowl
-決める:きめる:decide, agree upon
-感じる:かんじる:feel, sense
-生きる:いきる:live one’s life
-動かす:うごかす:move something
-壊れる:こわれる:break, break down
-復習:ふくしゅう:review
-眉:まゆ:eyebrow
-客:きゃく:visitor, customer
-机:つくえ:desk
-風呂:ふろ:bath
-湯:ゆ:hot water
-:ぬるい:tepid, lukewarm
-風邪薬:かぜぐすり:cold medicine
-靴下:くつした:socks
-:たばこ:tobacco, cigarette
-:アイスコーヒー:iced coffee
-天ぷら:てんぷら:Japanese deep-fried food
-肉:にく:flesh, meat
-昨夜:さくや:last night, last evening
-流行る:はやる:be in fashion, be popular
-連れて来る:つれてくる:bring a person
-方:かた:person form
-零:れい:zero
-雲:くも:cloud
-空:そら:sky
-人気:にんき:popularity
-兄さん:にいさん:one’s own older brother
-姉さん:ねえさん:one’s own older sister
-平成:へいせい:Heisei era
-毎月:まいつき:every month
-半日:はんにち:half a day
-半月:はんつき:half a month
-:なるほど:I see, really
-:つまり:in short, that is to say
-:そのまま:as it is, just like that
-:はっきり:clearly
-大変:たいへん:awful, hard
-簡単:かんたん:simple, easy
-似ている:にている:look like, resemble
-驚く:おどろく:be surprised, be startled
-嫌:いや/きらーい:dislike situational
-喧嘩:けんか:fight, argument
-遅れる:おくれる:be late
-:にんじん:carrot
-:ジャガイモ:potato
-:ナス:eggplant
-:やかん:kettle
-話し合う:はなしあう:discuss, talk over
-残す:のこす:leave, leave undone
-:ごちそうする:treat, host a meal
-合う:あう:fit, match
-当たる:あたる:go straight and hit, strike
-集まる:あつまる:gather, be collected
-場所:ばしょ:place, space
-海:うみ:sea, ocean
-少年:しょうねん:boy between and years old
-孫:まご:grandchild
-生徒:せいと:pupil, student
-高校:こうこう:high school for short
-年上:としうえ:older, senior
-卒業:そつぎょう:graduation
-運動:うんどう:movement, exercise
-選手:せんしゅ:athlete, sports player
-映画:えいが:movie
-英語:えいご:English
-手紙:てがみ:letter
-動物:どうぶつ:animal
-音:おと:sound, noise
-海外:かいがい:overseas, abroad
-外国人:がいこくじん:foreigner
-帰国:きこく:return to one’s country
-彼ら:かれら:they
-機械:きかい:machine
-基本:きほん:basics
-今度:こんど:this time, next time
-最後:さいご:last
-最初:さいしょ:first, outset
-準備:じゅんび:preparation, arrangement
-進む:すすむ:advance, move forward
-直接:ちょくせつ:directly
-特に:とくに:specially, particularly
-届く:とどく:reach, be received
-:なぜ:why
-並ぶ:ならぶ:line up, be parallel
-運ぶ:はこぶ:carry, transport
-直す:なおす:repair, fix
-反対:はんたい:oppose, object
-場合:ばあい:situation, case
-詳しい:くわしい:detailed
-:いたずら:mischief, prank
-お祝い:おいわい:celebrate
-:くし:comb
-:こぼれる:spill, overflow
-伝える:つたえる:convey, transmit
-膝:ひざ:knee
-肘:ひじ:elbow
-枕:まくら:pillow
-建物:たてもの:building, structure
-道路:どうろ:road
-四つ角:よつかど:intersection
-曲がり角:まがりかど:corner to turn
-警察:けいさつ:police
-空気:くうき:air, atmosphere
-:スポーツ:sport
-:チャンス:chance
-:クリーニング:dry cleaning
-:サービス:service, on the house
-:グループ:group
-自宅:じたく:one’s house, one’s home
-家庭:かてい:home, family
-期間:きかん:term, period
-年度:ねんど:year, school year
-経験:けいけん:experience, knowledge
-安全:あんぜん:safety, security
-危険:きけん:danger, dangerous
-注意:ちゅうい:attention, care
-成功:せいこう:success
-努力:どりょく:endeavor, effort
-説明:せつめい:explanation, description
-地震:じしん:earthquake
-手術:しゅじゅつ:surgical operation
-火傷:やけど:burn
-課題:かだい:task, assignment
-子:こ:young child, kid
-確認:かくにん:confirmation
-実際:じっさい:reality, actual state
-国際:こくさい:international
-会議:かいぎ:conference, meeting
-提案:ていあん:proposition, proposal
-事務所:じむしょ:office, one’s place of business
-教授:きょうじゅ:professor
-世紀:せいき:century
-:あちこち:all over, here and there
-:そちら:there, that way
-:あちら:over there, that way
-:もし:if, in case of
-:うるさい:noisy, annoying
-固い:かたい:stiff, tight
-深い:ふかい:deep, profound
-面白い:おもしろい:interesting, amusing
-全く:まったく:entirely, truly
-半分:はんぶん:half
-普通:ふつう:normal, regular
-分:ぶん:amount, share
-文化:ぶんか:culture
-毎日:まいにち:every day
-気を付ける:きをつける:be careful about, pay attention to
-守る:まもる:protect, observe
-:もちろん:of course
-:やはり:as expected
-:いくら:how much money
-:よろしく:one’s regards
-:どなた:who
-許す:ゆるす:permit, forgive
-分ける:わける:divide, share
-自然:しぜん:nature, natural
-:アパート:apartment, flat
-:ホテル:hotel
-:パソコン:personal computer
-明るい:あかるい:bright, cheerful
-急ぐ:いそぐ:hurry, do quickly
-歌:うた:song
-中学校:ちゅうがっこう:junior high school
-:テスト:test
-:ポスト:postbox, mailbox
-:ハンカチ:handkerchief
-髪:かみ:hair, hairstyle
-帽子:ぼうし:hat, cap
-被る:かぶる:wear, put on on one’s head
-:ブラウス:blouse
-週末:しゅうまつ:weekend
-先週:せんしゅう:last week
-再来週:さらいしゅう:the week after next
-:いつか:some time, some day
-宿題:しゅくだい:homework
-鍵:かぎ:key, lock
-傘:かさ:umbrella, parasol
-乗り換える:のりかえる:change, transfer
-向かう:むかう:face, head toward
-本屋:ほんや:bookstore
-お茶:おちゃ:tea
-改札口:かいさつぐち:ticket gate
-晴れ:はれ:fine weather, clear sky
-バス停:ばすてい:bus stop
-曇り:くもり:cloudy weather
-塩:しお:salt
-:たくさん:a lot, in large quantity
-大嫌い:だいきらい:hate
-中:なか:inside, middle
-二階:にかい:second floor, upstairs
-無くす:なくす:lose, get rid of
-:まあまあ:OK, not bad
-黄色:きいろ:yellow (noun)
-:ランチ:lunch (loan word)
-魚:さかな:fish
-味:あじ:taste, flavor
-:りんご:apple
-:みかん:tangerine
-皿:さら:plate, counter for plates or helpings
-:コーヒー:coffee
-:コップ:cup, glass
-二人:ふたり:two persons
-止む:やむ:stop, cease
-昼間:ひるま:daytime, during the day
-いつ頃:いつごろ:about when, about what time
-字:じ:individual character, letter
-七:しち:seven (Chinese origin)
-お釣り:おつり:change of money
-名字:みょうじ:surname, family name
-:おじ:one’s own uncle
-:おば:one’s own aunt
-祖父:そふ:grandfather
-祖母:そぼ:grandmother
-大事:だいじ:importance
-見方:みかた:view, perspective
-鳥:とり:bird, poultry
-犬:いぬ:dog
-返事:へんじ:reply, answer, response
-:また:again, also, or
-年間:ねんかん:period of one year
-青:あお:blue, green
-赤:あか:red color
-信号:しんごう:signal, traffic light
-非常に:ひじょうに:very, extremely
-複雑:ふくざつ:complicated, intricate
-平和:へいわ:peace, harmony
-回る:まわる:turn round, go around
-若者:わかもの:young person, youth
-雪:ゆき:snow, snowfall
-:うまい:sweet, delicious, skillful
-思い出す:おもいだす:recollect, recall
-聞こえる:きこえる:hear, be heard
-借りる:かりる:borrow
-返す:かえす:return, repay
-受け取る:うけとる:receive, get
-捨てる:すてる:discard, abandon
-一緒:いっしょ:together, same
-遊び:あそび:play, amusement
-移す:うつす:move, transfer
-大きさ:おおきさ:size, dimension
-考え:かんがえ:thought, idea
-空港:くうこう:airport for public transportation
-出発:しゅっぱつ:departure, starting
-地図:ちず:map, atlas
-運転:うんてん:drive
-降りる:おりる:get off, land
-:ガス:gas (loan word)
-必ず:かならず:without exception, always
-:カメラ:camera
-通う:かよう:go to and from, frequent a place
-急に:きゅうに:suddenly, unexpectedly
-:サラリーマン:office worker, company employee
-給料:きゅうりょう:salary, pay
-曲:きょく:piece of music
-切れる:きれる:cut well, be sharp
-正しい:ただしい:correct, righteous
-苦しい:くるしい:painful, agonizing
-細かい:こまかい:minute, fine
-静か:しずか:quiet, tranquil
-健康:けんこう:health
-:ゴルフ:golf
-:コース:course, route
-頼む:たのむ:order, ask for
-困る:こまる:be in trouble, not know what to do
-:ずっと:all the time, all through
-例えば:たとえば:for example
-:つもり:intention, purpose
-:しばらく:a little while, a while
-紹介:しょうかい:introduction
-小学校:しょうがっこう:elementary school
-公園:こうえん:park, public garden
-中学:ちゅうがく:junior high
-成績:せいせき:results, grade
-教科書:きょうかしょ:textbook, schoolbook
-席:せき:seat, one’s place
-教室:きょうしつ:classroom, class
-教師:きょうし:teacher, instructor
-試験:しけん:exam
-合格:ごうかく:pass an examination
-数学:すうがく:mathematics
-数字:すうじ:numeric characters
-音楽:おんがく:music
-食事:しょくじ:meal
-壁:かべ:wall, partition
-信じる:しんじる:believe, trust
-育てる:そだてる:bring up, raise
-倒れる:たおれる:fall over
-落とす:おとす:drop
-代わる:かわる:substitute, be substituted for
-:タクシー:taxi
-確か:たしか:for sure, for certain
-立てる:たてる:stand, set up
-中学生:ちゅうがくせい:junior high school student
-売れる:うれる:sell, be in demand
-着く:つく:arrive at, reach
-決まる:きまる:be decided
-飾る:かざる:decorate
-殺す:ころす:kill
-下げる:さげる:lower, turn down
-贈る:おくる:offer, give
-訪ねる:たずねる:visit, go to see
-打つ:うつ:hit, strike
-相談:そうだん:consultation, advice
-玄関:げんかん:entrance, door
-兄弟:きょうだい:sibling
-長男:ちょうなん:eldest son
-高さ:たかさ:height
-用:よう:things to do
-時代:じだい:age, era
-位置:いち:position, location
-季節:きせつ:season
-穴:あな:hole
-裏:うら:the back, the reverse side
-島:しま:island (Japanese origin)
-海岸:かいがん:seashore, coast
-:ガラス:glass material
-風:かぜ:wind
-科学:かがく:science
-太陽:たいよう:sun
-台風:たいふう:typhoon
-北:きた:north
-馬:うま:horse
-牛肉:ぎゅうにく:beef
-雑誌:ざっし:magazine, journal
-小説:しょうせつ:novel
-大使館:たいしかん:embassy
-故障:こしょう:malfunction, breakdown
-温度:おんど:temperature
-何か:なにか:something, some
-向こう:むこう:over there, on the other side
-真ん中:まんなか:center, middle casual
-遠く:とおく:far away, at a distance
-横:よこ:side, width across
-:つまらない:boring, dull
-素晴らしい:すばらしい:excellent, wonderful
-毎年:まいとし/まいねん:every year
-来月:らいげつ:next month
-日時:にちじ:date and time
-夕方:ゆうがた:early evening, at dusk
-通る:とおる:pass, go through
-自動車:じどうしゃ:automobile
-慣れる:なれる:grow accustomed to, get used to
-撮る:とる:take a photograph, film
-:やっと:at last, finally
-:どんどん:knock, bang
-並べる:ならべる:line up, arrange
-逃げる:にげる:escape, run away
-渡す:わたす:hand over, give
-値段:ねだん:price
-両方:りょうほう:both
-約束:やくそく:promise, vow
-一部:いちぶ:part
-:ラジオ:radio
-入院:にゅういん:be hospitalized
-:ニュース:news
-旅行:りょこう:travel, trip
-用意:ようい:preparation
-伸びる:のびる:stretch, grow
-:パーティー:party
-:ビール:beer
-早く:はやく:early, soon
-番組:ばんぐみ:program
-:ビデオ:video
-増やす:ふやす:increase
-振る:ふる:wave, shake
-迎える:むかえる:welcome, receive a visitor
-無理:むり:unreasonable, impossible
-珍しい:めずらしい:rare, scarce
-有名:ゆうめい:famous
-喜ぶ:よろこぶ:be happy, be delighted
-留学:りゅうがく:study abroad
-料理:りょうり:cooking
-野菜:やさい:vegetable
-分かれる:わかれる:be divided, split off
-特別:とくべつ:special
-理由:りゆう:reason, cause
-自由:じゆう:freedom
-方向:ほうこう:direction, course
-残る:のこる:remain, be left over
-:ビル:building
-:まとめる:gather together, put in order
-流れる:ながれる:flow, run
-:セーター:sweater
-:シャツ:shirt
-洗濯:せんたく:laundry, washing
-間違える:まちがえる:make a mistake, fail at
-:アイスクリーム:ice cream
-乾く:かわく:become dry
-冷める:さめる:cool off
-色々:いろいろ:a variety of
-持って行く:もっていく:take, bring
-着替える:きがえる:change clothes
-石鹸:せっけん:soap
-野球:やきゅう:baseball
-昼食:ちゅうしょく:lunch
-朝食:ちょうしょく:breakfast
-眠る:ねむる:sleep, lie idle
-初め:はじめ:beginning
-火:ひ:fire, flame
-西:にし:west, western
-東:ひがし:east, eastern
-南:みなみ:south
-夕食:ゆうしょく:supper, dinner
-:なかなか:rather, pretty
-励ます:はげます:encourage, cheer up
-涙:なみだ:tear
-夢:ゆめ:dream
-職場:しょくば:place of work, office
-隣:となり:next to, next door
-:マンション:apartment, residential building
-:エレベーター:elevator
-窓:まど:window
-押す:おす:push, press down
-入学:にゅうがく:enter a school, matriculate
-戸:と:door, sliding door
-通り:とおり:street, road
-亡くなる:なくんある:die, pass away
-夫婦:ふうふ:husband and wife, married couple
-女性:じょせい:woman, female
-森:もり:forest
-:トラック:truck
-:レコード:record
-熱:ねつ:heat, fever
-:ページ:page
-踊る:おどる:dance
-長さ:ながさ:length
-厚さ:あつさ:thickness
-秘密:ひみつ:secret, privacy
+いる:いる:to exist (living things)
+する:する:to do
+何:何[なに]:what
+これ:これ:this
+学校:学校[がっこう]:school
+行く:行[い]く:to go
+たくさん:たくさん:a lot
+子供:子供[こども]:"child, children"
+連れる:連[つ]れる:to take (a person along)
+犬:犬[いぬ]:dog
+宿題:宿題[しゅくだい]:homework
+私:私[わたし]:I
+屋:屋[や]:(something) shop
+ある:ある:to exist (inanimate objects)
+あそこ:あそこ:over there
+人:人[ひと]:person
+教室:教室[きょうしつ]:classroom
+そんな:そんな:"such (actions, ideas), like that, that sort of"
+鳴る:鳴[な]る:"to sound, to ring"
+買う:買[か]う:to buy
+本:本[ほん]:book
+有名:有名[ゆうめい]:famous
+読む:読[よ]む:to read
+上がる:上[あ]がる:"to ascend, to go up, to be raised, to lift"
+成績:成績[せいせき]:grades (school)
+ここ:ここ:here
+言う:言[い]う:"to say, speak"
+この:この:this (thing)
+問題:問題[もんだい]:"problem, question"
+考える:考[かんが]える:to think (about something)
+後:後[あと]:"later, after"
+毎日:毎日[まいにち]:every day
+彼:彼[かれ]:"he, him"
+来る:来[く]る:to come
+彼氏:彼氏[かれし]:boyfriend
+電話:電話[でんわ]:phone
+集まる:集[あつ]まる:"to gather, to collect, to assemble"
+事:事[こと]:"thing, matter"
+好き:好[す]き:"liking, fondness, love, being attractive (to)"
+僕:僕[ぼく]:"I, me (male)"
+勉強:勉強[べんきょう]:study
+英語:英語[えいご]:english
+教える:教[おし]える:"to teach, to tell"
+分かる:分[わ]かる:"to understand, to comprehend"
+手:手[て]:hand
+上げる:上[あ]げる:to raise
+君:君[きみ]:you
+全然:全然[ぜんぜん]:not at all (with neg. verb)
+友達:友達[ともだち]:"friend, companion"
+会う:会[あ]う:to meet
+生徒:生徒[せいと]:"pupil, student"
+兄:兄[あに]:older brother
+大学:大学[だいがく]:"university, college"
+部:部[ぶ]:"department, club"
+方:方[ほう]:"side (of an argument, etc.)"
+より:より:than
+力:力[ちから]:"strength, power"
+猫:猫[ねこ]:cat
+上:上[うえ]:above
+置く:置[お]く:"to put, to place"
+色々:色々[いろいろ]:"various, all sorts of"
+かばん:かばん:bag
+家:家[いえ]:house
+美味しい:美味[おい]しい:delicious
+遊ぶ:遊[あそ]ぶ:"to play, to hang out"
+明日:明日[あした]:tomorrow
+料理:料理[りょうり]:"cooking, cuisine"
+そう:そう:"appearing that, seeming that"
+立つ:立[た]つ:to stand
+ください:ください:please (give/do for me)
+ゆっくり:ゆっくり:"slowly, at ease"
+作る:作[つく]る:"to create, to make"
+その:その:that (thing)
+通る:通[とお]る:to pass
+高校:高校[こうこう]:high school
+彼女:彼女[かのじょ]:"she, her; girlfriend"
+手伝う:手伝[てつだ]う:"to help, to assist"
+両親:両親[りょうしん]:parents
+もらう:もらう:to recieve
+手紙:手紙[てがみ]:letter
+くれる:くれる:to give
+そこ:そこ:that (a little distant)
+場所:場所[ばしょ]:"place, location"
+ありがとう:ありがとう:thank you (informal)
+様:様[さま]:"Mr., Mrs., Ms. (very formal)"
+いらっしゃる:いらっしゃる:to be (honorific version of いる)
+数学:数学[すうがく]:mathematics
+解く:解[と]く:"to untie, to unfasten, to solve"
+難しい:難[むずか]しい:"difficult, hard"
+とても:とても:very
+中:中[なか]:"middle, within"
+忙しい:忙[いそが]しい:busy
+仕事:仕事[しごと]:"work, job"
+疲れる:疲[つか]れる:"to get tired, to be worn out"
+休憩:休憩[きゅうけい]:break (from doing something)
+取る:取[と]る:to take
+任せる:任[まか]せる:to entrust (a task) to another
+新しい:新[あたら]しい:new
+前:前[まえ]:"in front (of), before"
+朝:朝[あさ]:morning
+降る:降[ふ]る:"to fall (rain, snow, etc)"
+日:日[ひ]:day
+なる:なる:to become
+聞く:聞[き]く:to listen
+先生:先生[せんせい]:teacher
+今年:今年[ことし]:this year
+冬:冬[ふゆ]:winter (season)
+寒い:寒[さむ]い:cold (weather)
+誰:誰[だれ]:who
+店:店[みせ]:"store, shop"
+入る:入[はい]る:to enter
+本当:本当[ほんとう]:"really, truth"
+妹:妹[いもうと]:younger sister
+買い物:買[か]い 物[もの]:shopping
+携帯:携帯[けいたい]:cell phone
+今日:今日[きょう]:today
+暑い:暑[あつ]い:hot (weather)
+ちょっと:ちょっと:a little bit
+見る:見[み]る:"to see, to look, to watch"
+一緒:一緒[いっしょ]:"together, at the same time"
+映画:映画[えいが]:movie
+面白い:面白[おもしろ]い:"interesting, amusing"
+周り:周[まわ]り:surroundings
+もちろん:もちろん:of course
+知る:知[し]る:"to know, to be aware of"
+すごい:すごい:"amazing, terrific"
+みんな:みんな:"everyone, everybody, all"
+名前:名前[なまえ]:"name, first name"
+思い:思[おも]い:"thought, feeling"
+出す:出[だ]す:to take out
+忘れる:忘[わす]れる:to forget
+恥ずかしい:恥[は]ずかしい:"shameful, embarrassing"
+乾かす:乾[かわ]かす:to dry
+髪:髪[かみ]:hair (on the head)
+変わる:変[か]わる:"to change, to be transformed, to be altered"
+長い:長[なが]い:"long (length, time)"
+足:足[あし]:"leg, foot"
+強い:強[つよ]い:"strong, tough"
+別:別[べつ]:"separate, different"
+色:色[いろ]:color
+まだ:まだ:not yet
+歳:歳[さい]:age counter
+生きる:生[い]きる:to live
+二人:二人[ふたり]:two people
+環境:環境[かんきょう]:environment
+息子:息子[むすこ]:son
+受ける:受[う]ける:"to take (a test), to accept (a challenge), to receive"
+授業:授業[じゅぎょう]:"lesson, class (school)"
+終わる:終[お]わる:"to finish, to end"
+俺:俺[おれ]:"I, me (male)"
+もう:もう:"now, soon, already, yet"
+待つ:待[ま]つ:to wait
+椅子:椅子[いす]:chair
+すぐ:すぐ:"immediately, right away"
+試合:試合[しあい]:"match, game"
+始まる:始[はじ]まる:"to begin, to start"
+年:年[とし]:year
+時:時[とき]:when
+経つ:経[た]つ:to elapse (time)
+最近:最近[さいきん]:"nowadays, recently"
+座る:座[すわ]る:to sit
+走る:走[はし]る:to run
+必死:必死[ひっし]:"frantic, desperate"
+机:机[つくえ]:desk
+鉛筆:鉛筆[えんぴつ]:pencil
+子:子[こ]:child
+運動:運動[うんどう]:exercise (physical)
+もっと:もっと:(some) more
+夢:夢[ゆめ]:dream
+不思議:不思議[ふしぎ]:"wonder, mystery"
+歌:歌[うた]:song
+上手:上手[じょうず]:"good (at), skilled"
+絵:絵[え]:"drawing, painting, sketch"
+上手い:上手[うま]い:"good, skilled"
+どれ:どれ:which
+くらい:くらい:approximately
+褒める:褒[ほ]める:to praise
+なかなか:なかなか:quite
+眠る:眠[ねむ]る:to sleep
+思う:思[おも]う:to think
+綺麗:綺麗[きれい]:"clean, beautiful"
+花:花[はな]:flower
+咲く:咲[さ]く:to bloom
+桜:桜[さくら]:cherry blossom
+春:春[はる]:spring (season)
+公園:公園[こうえん]:park
+夜:夜[よる]:night
+風呂:風呂[ふろ]:bath
+脱ぐ:脱[ぬ]ぐ:to take off (clothes)
+部屋:部屋[へや]:room
+片付ける:片付[かたづ]ける:to organize
+一人:一人[ひとり]:one person
+食べる:食[た]べる:to eat
+全部:全部[ぜんぶ]:"all, entire, whole, altogether"
+月:月[つき]:moon
+服:服[ふく]:clothes
+山:山[やま]:mountain
+見える:見[み]える:"be able to see, to be in sight"
+今夜:今夜[こんや]:"this evening, tonight"
+優しい:優[やさ]しい:"kind, nice"
+対する:対[たい]する:relating to something
+厳しい:厳[きび]しい:strict
+どう:どう:how
+あなた:あなた:you
+頃:頃[ころ]:(approximate) time
+小学生:小学生[しょうがくせい]:elementary school student
+どんどん:どんどん:more and more
+音:音[おと]:"sound, noise"
+雨:雨[あめ]:rain
+聞こえる:聞[き]こえる:"to be audible, can hear"
+海:海[うみ]:"sea, ocean"
+波:波[なみ]:wave (ocean)
+はっきり:はっきり:"clearly, plainly, distinctly"
+応援:応援[おうえん]:"to cheer for, to support"
+選手:選手[せんしゅ]:"player (sports), athlete"
+目指す:目指[めざ]す:"to aim at (for, to do, to become)"
+将来:将来[しょうらい]:future (near term)
+野球:野球[やきゅう]:baseball
+物:物[もの]:"item, thing"
+姉:姉[あね]:older sister
+やる:やる:to do
+自分:自分[じぶん]:oneself
+高い:高[たか]い:"high, tall; expensive"
+選ぶ:選[えら]ぶ:"to choose, to select"
+間違う:間違[まちが]う:"to be incorrect, to be mistaken"
+答え:答[こた]え:"answer, reply, response"
+しまう:しまう:"to complete, to finish"
+濡れる:濡[ぬ]れる:to get wet
+止まる:止[と]まる:to come to a stop
+雪:雪[ゆき]:snow
+戦争:戦争[せんそう]:war
+世界:世界[せかい]:"the world, society"
+平和:平和[へいわ]:peace
+弟:弟[おとうと]:"younger brother, little brother"
+車:車[くるま]:car
+多い:多[おお]い:"frequent, many"
+危ない:危[あぶ]ない:"dangerous, risky, hazardous"
+道:道[みち]:road
+父親:父親[ちちおや]:father
+病院:病院[びょういん]:hospital
+気持ち:気持[きも]ち:"feeling, emotion, mood"
+伝える:伝[つた]える:"to convey, to communicate"
+飲む:飲[の]む:to drink
+酒:酒[さけ]:alcohol
+風:風[かぜ]:wind
+冷たい:冷[つめ]たい:cold (to touch)
+吹く:吹[ふ]く:to blow
+どんな:どんな:what kind of
+危険:危険[きけん]:danger
+こんな:こんな:this kind of
+初めて:初[はじ]めて:for the first time
+肉:肉[にく]:meat
+昨日:昨日[きのう]:yesterday
+覚える:覚[おぼ]える:"to memorize, to remember"
+今:今[いま]:now
+話す:話[はな]す:"to talk, to converse, to speak"
+一番:一番[いちばん]:"number one, first"
+外:外[そと]:outside
+電気:電気[でんき]:electricity
+暗い:暗[くら]い:dark
+気をつける:気[き]をつける:to be careful
+迎える:迎[むか]える:"to receive, to welcome, to greet"
+質問:質問[しつもん]:question
+答える:答[こた]える:to answer
+出来る:出来[でき]る:"can, to be able to do"
+祈る:祈[いの]る:to pray
+受験:受験[じゅけん]:taking an examination (school and university entrance)
+合格:合格[ごうかく]:passing (exam)
+休む:休[やす]む:"to rest, to take a day off"
+しばらく:しばらく:for the time being
+写真:写真[しゃしん]:"photo, picture"
+家族:家族[かぞく]:family
+飾る:飾[かざ]る:to decorate
+壁:壁[かべ]:wall
+塗る:塗[ぬ]る:"to paint, to spread"
+旅行:旅行[りょこう]:"travel, trip"
+帰る:帰[かえ]る:to return home
+遅れる:遅[おく]れる:to be late
+今朝:今朝[けさ]:this morning
+ごめん:ごめん:sorry
+時間:時間[じかん]:time hours (period of)
+大きい:大[おお]きい:"big, large"
+卒業:卒業[そつぎょう]:graduation
+会社:会社[かいしゃ]:"company, corporation"
+働く:働[はたら]く:to work
+掛ける:掛[か]ける:to hang
+起きる:起[お]きる:"to wake up, to be awake"
+早い:早[はや]い:early
+出る:出[で]る:"to leave, to come out"
+悪い:悪[わる]い:bad
+楽しい:楽[たの]しい:"enjoyable, fun"
+気:気[き]:"mood, spirit, mind"
+意味:意味[いみ]:meaning
+得意:得意[とくい]:one's strong point
+母親:母親[ははおや]:mother
+欲しい:欲[ほ]しい:"want, wanted, desired"
+だけ:だけ:"only, just"
+頑張る:頑張[がんば]る:"good luck, do your best"
+持つ:持[も]つ:"to possess, to have, to carry, to hold"
+痛い:痛[いた]い:"ouch, painful"
+頭:頭[あたま]:head
+人気:人気[にんき]:popular
+商品:商品[しょうひん]:"product (business), merchandise"
+払う:払[はら]う:"to pay (money, bill, etc.)"
+金:金[かね]:money
+小さい:小[ちい]さい:"small, little"
+女優:女優[じょゆう]:actress
+勝つ:勝[か]つ:"to win, to gain victory"
+ため:ため:"sake, purpose"
+体:体[からだ]:body
+当たり前:当たり前[あたりまえ]:"of course, obvious, commonplace, the norm"
+過ぎる:過[す]ぎる:"to exceed, to surpass"
+太る:太[ふと]る:to fatten
+世話:世話[せわ]:care (for)
+間:間[あいだ]:"period of time (during, while), between"
+食う:食[く]う:to eat (informal)
+飯:飯[めし]:meal
+着く:着[つ]く:to arrive
+話:話[はなし]:"story, conversation"
+声:声[こえ]:voice
+男:男[おとこ]:man
+いつも:いつも:always
+合う:合[あ]う:"to fit, to match, to suit"
+通り:通[とお]り:"avenue, street, way, road"
+いっぱい:いっぱい:full
+若い:若[わか]い:young
+女:女[おんな]:woman
+どこ:どこ:where
+向かう:向[む]かう:"to go towards, to head towards"
+次:次[つぎ]:next (in sequence)
+飛ぶ:飛[と]ぶ:to fly
+打つ:打[う]つ:"to hit, to strike, to knock, to beat"
+探す:探[さが]す:"to search (for something desired, needed, lost), to look for"
+捕まる:捕[つか]まる:to be caught
+事件:事件[じけん]:"incident, affair"
+逃げる:逃[に]げる:"to escape, to run away"
+犯人:犯人[はんにん]:"offender, criminal"
+現実:現実[げんじつ]:"reality, actuality"
+描く:描[えが]く:"to draw, to paint, to sketch"
+けが:けが:injury
+せい:せい:"reason, cause"
+変:変[へん]:strange
+様子:様子[ようす]:"appearance, condition"
+見つける:見[み]つける:"to find, to discover"
+やっと:やっと:finally
+素敵:素敵[すてき]:"lovely, wonderful"
+駅:駅[えき]:train station
+食事:食事[しょくじ]:meal
+眼鏡:眼鏡[めがね]:glasses
+町:町[まち]:town
+あれ:あれ:that (distant)
+洗う:洗[あら]う:to wash
+顔:顔[かお]:face
+少し:少[すこ]し:"small quantity, little, few"
+使う:使[つか]う:"to use (a thing, method, etc.)"
+頼む:頼[たの]む:"to rely on, to entrust to, to request, to order"
+違う:違[ちが]う:to differ
+空:空[そら]:sky
+鳥:鳥[とり]:bird
+そろそろ:そろそろ:"soon, momentarily"
+始める:始[はじ]める:"to start, to begin"
+乗る:乗[の]る:to ride
+生活:生活[せいかつ]:"living, life (one's daily existence)"
+週間:週間[しゅうかん]:week (period of time)
+続く:続[つづ]く:to continue (without a break)
+赤い:赤[あか]い:red
+着る:着[き]る:to wear clothes (shoulders down)
+女の子:女の子[おんなのこ]:"young woman, girl"
+泣く:泣[な]く:to cry
+記憶:記憶[きおく]:memory
+失う:失[うしな]う:to lose
+昔:昔[むかし]:a long time ago
+それ:それ:that
+無理:無理[むり]:"impossible, can't"
+ご飯:ご 飯[はん]:"meal, rice"
+絶対:絶対[ぜったい]:"absolutely, certainly"
+怒る:怒[おこ]る:"to get angry, to scold"
+ちゃんと:ちゃんと:"sufficiently, properly"
+倒れる:倒[たお]れる:to collapse
+席:席[せき]:seat
+老人:老人[ろうじん]:elderly person
+助ける:助[たす]ける:"to help, to rescue"
+捨てる:捨[す]てる:"to throw away, to discard"
+所:所[ところ]:place
+静か:静[しず]か:quiet
+夏休み:夏休[なつやす]み:summer vacation
+最後:最後[さいご]:"final, last"
+戦う:戦[たたか]う:"to fight, to struggle (against adversities, etc.)"
+調べる:調[しら]べる:"to look up, to investigate"
+情報:情報[じょうほう]:"information, data"
+近く:近[ちか]く:"near, shortly"
+住む:住[す]む:to live (of humans)
+回る:回[まわ]る:"to turn, to revolve"
+決まる:決[き]まる:to be decided
+当たる:当[あ]たる:"to be hit, to be successful"
+冗談:冗談[じょうだん]:joke
+付く:付[つ]く:"to be attached, to be connected with, to lit (fire, turn on TV)"
+失敗:失敗[しっぱい]:"failure, mistake, blunder"
+予定:予定[よてい]:"plans, arrangement"
+殴る:殴[なぐ]る:to punch
+誘う:誘[さそ]う:to invite
+暮らす:暮[く]らす:"to live, to get along"
+また:また:again
+いつ:いつ:when
+どういう:どういう:"what kind of, in what way"
+関係:関係[かんけい]:"relationship, connection"
+時計:時計[とけい]:"clock, watch"
+大きな:大[おお]きな:"big, loud"
+掛かる:掛[か]かる:to hang
+酷い:酷[ひど]い:"awful, terrible"
+おかげ:おかげ:thanks to ...
+けんか:けんか:fight
+親:親[おや]:parents
+安い:安い:cheap
+大好き:大好[だいす]き:love
+可愛い:可愛[かわい]い:cute
+かなり:かなり:considerably
+数:数[かず]:"number, quantity"
+減る:減[へ]る:to decrease
+隣:隣[となり]:next to
+貸す:貸[か]す:"to lend, to loan"
+頼る:頼[たよ]る:to rely on
+集中:集中[しゅうちゅう]:concentration
+壊れる:壊[こわ]れる:to be broken
+魚:魚[さかな]:fish
+音楽:音楽[おんがく]:music
+楽しむ:楽[たの]しむ:to enjoy (oneself)
+自然:自然[しぜん]:nature
+豊か:豊[ゆた]か:abundant
+表情:表情[ひょうじょう]:facial expression
+体力:体力[たいりょく]:"endurance, physical strength"
+吸う:吸[す]う:to smoke
+部活:部活[ぶかつ]:club activity
+負ける:負[ま]ける:to lose
+辞める:辞[や]める:to resign; to quit
+近づく:近[ちか]づく:to approach
+削る:削[けず]る:to sharpen
+口:口[くち]:mouth
+言葉:言葉[ことば]:word
+我々:我々[われわれ]:we (formal)
+人間:人間[にんげん]:human
+笑う:笑[わら]う:"to laugh, to smile"
+歩く:歩[ある]く:to walk
+お父さん:お 父[とう]さん:father
+病気:病気[びょうき]:"illness, disease"
+死ぬ:死[し]ぬ:to die
+開く:開[ひら]く:to open
+殺す:殺[ころ]す:to kill
+戻る:戻[もど]る:"to return, to go back"
+入れる:入[い]れる:to put in
+敵:敵[てき]:"enemy, opponent, adversary"
+以上:以上[いじょう]:more than ...
+振る:振[ふ]る:"to wave, to shake, to turn down (somebody)"
+動く:動[うご]く:to move
+必要:必要[ひつよう]:"need, necessity"
+他:他[ほか]:other
+書く:書[か]く:to write
+落ちる:落[お]ちる:to fall
+引く:引[ひ]く:to pull
+練習:練習[れんしゅう]:practice
+続ける:続[つづ]ける:to continue
+行う:行[おこな]う:"to perform, to do, to conduct oneself, to carry out"
+残る:残[のこ]る:"to remain, to be left"
+ずっと:ずっと:"always, throughout, continuously in some state (for a long time, distance)"
+今度:今度[こんど]:next time
+包丁:包丁[ほうちょう]:knife
+新鮮:新鮮[しんせん]:fresh
+農家:農家[のうか]:farmer
+畑:畑[はたけ]:"field (fruits, vegetables)"
+野菜:野菜[やさい]:vegetable
+切る:切[き]る:"to cut, to hang up (the phone)"
+あんな:あんな:that sort of
+奴:奴[やつ]:person (derogatory)
+驚く:驚[おどろ]く:to be surprised
+黙る:黙[だま]る:to be silent
+説明:説明[せつめい]:explanation
+似る:似[に]る:"to be alike, to resemble, to look like"
+急:急[きゅう]:"sudden, unexpected, urgent"
+困る:困[こま]る:"to be troubled, to have difficulty, to be in a fix, to be at a loss, to be stumped"
+借りる:借[か]りる:"to borrow, to rent"
+返す:返[かえ]す:to return (something)
+大丈夫:大丈夫[だいじょうぶ]:"undoubtedly safe, all right"
+時代:時代[じだい]:"era, time period"
+以外:以外[いがい]:"with the exception of, except"
+気分:気分[きぶん]:"feeling, mood"
+隠す:隠[かく]す:to hide
+仲間:仲間[なかま]:"friends, colleauges"
+送る:送[おく]る:"to send (a thing), to take or escort (a person somewhere)"
+許す:許[ゆる]す:"to forgive, to permit, to allow"
+どうぞ:どうぞ:"please, by all means, go ahead"
+こちら:こちら:this (directional)
+向く:向[む]く:"to turn toward, to look (up, down, etc.), to to go in the direction of"
+起こす:起[お]こす:"to wake up, to cause"
+結果:結果[けっか]:"result, outcome"
+認める:認[みと]める:"to acknowledge, to admit"
+地震:地震[じしん]:earthquake
+突然:突然[とつぜん]:"abrupt, sudden, unexpected"
+簡単:簡単[かんたん]:"easy, simple"
+怖い:怖[こわ]い:"(I'm) afraid, scary"
+確認:確認[かくにん]:"confirmation, verification, validation"
+生まれる:生[う]まれる:to be born
+全員:全員[ぜんいん]:"all members (group), the whole crew"
+途中:途中[とちゅう]:"in the middle of, en route"
+急ぐ:急[いそ]ぐ:"to hurry, to rush, to hasten"
+抜く:抜[ぬ]く:"to extract, to omit, to draw out"
+噂:噂[うわさ]:"rumor, gossip"
+勝手に:勝手[かって]に:selfishly
+勝手:勝手[かって]:selfish
+約束:約束[やくそく]:promise
+遅い:遅[おそ]い:"late, slow"
+貼る:貼[は]る:"to stick, to paste, to affix"
+届く:届[とど]く:to be delivered
+挨拶:挨拶[あいさつ]:greetings
+先輩:先輩[せんぱい]:senior (at work or school)
+連絡:連絡[れんらく]:"to contact, to get in touch with"
+渡す:渡[わた]す:to hand over
+必ず:必[かなら]ず:"without exception, invariably"
+特に:特[とく]に:"particularly, especially"
+無事:無事[ぶじ]:"safe, unharmed"
+済む:済[す]む:to be completed
+大人:大人[おとな]:adult
+売る:売[う]る:to sell
+準備:準備[じゅんび]:preparation
+嬉しい:嬉[うれ]しい:"happy, glad, pleasant"
+離す:離[はな]す:"to separate, to part, to divide, to keep apart"
+触る:触[さわ]る:"to touch, to feel"
+癖:癖[くせ]:habit
+大事:大事[だいじ]:"important, serious"
+鍵:鍵[かぎ]:"key, lock"
+今回:今回[こんかい]:this time
+奪う:奪[うば]う:"to snatch away, to steal"
+なくなる:なくなる:"to be used up, to be consumed, to die"
+掴む:掴[つか]む:"to grasp, to grip, to grab, to clutch, to hold"
+まるで:まるで:"entirely, completely"
+窓:窓[まど]:window
+景色:景色[けしき]:scenery
+絵画:絵画[かいが]:"painting, picture"
+本物:本物[ほんもの]:"genuine, the real thing"
+気付く:気付[きづ]く:"to notice, to realize"
+嫌い:嫌[きら]い:"hate, dislike"
+面倒:面倒[めんどう]:"trouble, bother"
+迷惑:迷惑[めいわく]:"trouble, bother, annoyance"
+助かる:助[たす]かる:"to be saved, to be rescued"
+祭:祭[まつり]:festival
+花火:花火[はなび]:fireworks
+打ち上げ:打[う]ち上[あ]げ:launch
+参加:参加[さんか]:participation
+幸せ:幸[しあわ]せ:happiness
+恋人:恋人[こいびと]:person who someone is dating
+寂しい:寂[さび]しい:"lonely, lonesome"
+過ごす:過[す]ごす:"to overdo, to do too much; to pass (time)"
+断る:断[ことわ]る:"to refuse, to reject, to turn down, to decline"
+真剣:真剣[しんけん]:"serious, earnest"
+こう:こう:"in this way, such"
+ばかり:ばかり:"only, just (started, finished, etc.)"
+頂く:頂[いただ]く:to receive (formal)
+分:分[ふん]:minutes
+一度:一度[いちど]:once
+信じる:信[しん]じる:to believe
+成功:成功[せいこう]:success
+望む:望[のぞ]む:"to wish for, to desire"
+おかしい:おかしい:"strange, unusual"
+うるさい:うるさい:"annoying, troublesome"
+大体:大体[だいたい]:mostly
+なるほど:なるほど:"I see, indeed"
+嘘:嘘[うそ]:lie
+間に合う:間[ま]に 合[あ]う:to be in time (for)
+どうせ:どうせ:"in any case, at any rate"
+見つかる:見[み]つかる:"to find, to discover"
+間違い:間違[まちが]い:mistake
+久しぶり:久[ひさ]しぶり:for the first time in a while
+致す:致[いた]す:to do (formal)
+繋ぐ:繋[つな]ぐ:to connect
+いきなり:いきなり:"suddenly, abruptly"
+びっくり:びっくり:suprise
+お母さん:お 母[かあ]さん:mother
+おる:おる:to exist (living things) {formal}
+喋る:喋[しゃべ]る:"to chat, to talk"
+構う:構[かま]う:to be concerned about
+詰まる:詰[つ]まる:to be packed (with)
+仲:仲[なか]:relationship
+暇:暇[ひま]:free-time
+腹:腹[はら]:"abdomen, stomach"
+どの:どの:which
+参る:参[まい]る:"to go, to come, to call"
+苦手:苦手[にがて]:poor (at)
+揃う:揃[そろ]う:"to be complete, to be satisfied (of conditions)"
+さて:さて:"well, now then"
+大会:大会[たいかい]:tournament
+悔しい:悔[くや]しい:"frustrating, regrettable"
+腕:腕[うで]:arm
+悩む:悩[なや]む:"to be worried, to be troubled"
+迷う:迷[まよ]う:to get lost​
+行動:行動[こうどう]:"action, conduct"
+学年:学年[がくねん]:year/grade in school
+狙う:狙[ねら]う:to aim at
+入学:入学[にゅうがく]:entry to school or university
+希望:希望[きぼう]:"hope, wish, aspiration"
+熱い:熱[あつ]い:hot (to touch)
+下がる:下[さ]がる:to go down
+お礼:お 礼[れい]:"thanks, gratitude​"
+素直:素直[すなお]:"honest, frank"
+直る:直[なお]る:to be fixed
+嫌う:嫌[きら]う:to hate
+機会:機会[きかい]:opportunity
+まくる:まくる:to roll up (sleeves)​
+叱る:叱[しか]る:to scold
+散々:散々[さんざん]:"severely, harshly"
+日々:日々[ひび]:"daily, day after day"
+格好:格好[かっこう]:appearance; outfit
+めっちゃ:めっちゃ:"excessive, extreme"
+大人しい:大人[おとな]しい:"docile, quiet​"
+拾う:拾[ひろ]う:to pick up
+計画:計画[けいかく]:plan
+止める:止[と]める:to stop
+健康:健康[けんこう]:health
+やめる:やめる:to quit
+遅刻:遅刻[ちこく]:late
+漫画:漫画[まんが]:comic
+後悔:後悔[こうかい]:regret
+上司:上司[じょうし]:"(one's) superior, (one's) boss"
+めちゃくちゃ:めちゃくちゃ:"incredibly, really"
+靴下:靴下[くつした]:socks
+紙:紙[かみ]:paper
+方向:方向[ほうこう]:direction
+磨く:磨[みが]く:to polish
+床:床[ゆか]:floor
+夕方:夕方[ゆうがた]:"evening, dusk​"
+煙:煙[けむり]:smoke
+釣り:釣[つ]り:fishing
+趣味:趣味[しゅみ]:hobby
+集める:集[あつ]める:to collect
+瞬間:瞬間[しゅんかん]:"moment, second"
+試す:試[ため]す:to try
+結ぶ:結[むす]ぶ:"to tie, to bind"
+狭い:狭[せま]い:narrow
+増やす:増[ふ]やす:to increase
+学ぶ:学[まな]ぶ:to learn
+目:目[め]:eye
+そして:そして:"and then, thus, and finally"
+心:心[こころ]:"heart, mind, spirit, vitality"
+同じ:同[おな]じ:"same, identical"
+遠い:遠[とお]い:"far, distant"
+姿:姿[すがた]:"figure, form"
+相手:相手[あいて]:"partner, other party, opponent (sports, etc.)"
+先:先[さき]:"before, ahead, prior, former"
+胸:胸[むね]:"chest, breasts"
+呼ぶ:呼[よ]ぶ:"to call, to call out (to)"
+水:水[みず]:water
+見せる:見[み]せる:to show
+娘:娘[むすめ]:daughter
+神:神[かみ]:"god, deity"
+得る:得[え]る:"to earn, to acquire, to gain"
+存在:存在[そんざい]:"existence, being"
+確か:確[たし]か:"If I'm not mistaken, If I remember correctly"
+消える:消[き]える:"to go out, to vanish, to disappear"
+最初:最初[さいしょ]:"beginning, first"
+きっと:きっと:"surely, almost certainly, most likely (90 percent)"
+場合:場合[ばあい]:"case, situation"
+感じ:感[かん]じ:"feeling, sense, impression"
+心配:心配[しんぱい]:"worry, concern, anxiety"
+離れる:離[はな]れる:"to be separated, to be apart, to be distant"
+思い出す:思い出[おもいだ]す:"to recall, to remember"
+点:点[てん]:"score (exams), dot, point"
+理由:理由[りゆう]:reason
+押す:押[お]す:"to push, to press"
+男の子:男の子[おとこのこ]:boy
+想像:想像[そうぞう]:imagination
+近い:近[ちか]い:"near (distance), close (in time)"
+女性:女性[じょせい]:"woman, feminine gender"
+事実:事実[じじつ]:"fact, truth, reality"
+寝る:寝[ね]る:"to lie down, to go to sleep"
+理解:理解[りかい]:"understanding, comprehension"
+進む:進[すす]む:"to advance, to go forward"
+状態:状態[じょうたい]:"current status, condition, situation"
+かしら:かしら:I wonder (female)
+完全:完全[かんぜん]:"perfection, completeness"
+当然:当然[とうぜん]:"of course, obviously"
+向こう:向[む]こう:"over there, that way"
+残す:残[のこ]す:"to leave (behind, over), to save, to reserve"
+普通:普通[ふつう]:"general, ordinary, usual, normally"
+星:星[ほし]:star
+守る:守[まも]る:"to protect, to keep (a promise)"
+命:命[いのち]:life
+宇宙:宇宙[うちゅう]:"universe, cosmos, space"
+変える:変[か]える:"to change, to reform, to revise, to amend"
+重い:重[おも]い:heavy (weight)
+まさか:まさか:"It couldn't be, something unexpected"
+落とす:落[お]とす:to drop
+例:例[れい]:example
+方法:方法[ほうほう]:method
+状況:状況[じょうきょう]:"state of affairs (around you), situation, circumstances"
+自由:自由[じゆう]:"freedom, liberty"
+決める:決[き]める:"to decide, to choose"
+結局:結局[けっきょく]:"ultimately, in the end"
+用意:用意[ようい]:"preparation, arrangements"
+秘密:秘密[ひみつ]:secret
+報告:報告[ほうこく]:report
+匂い:匂[にお]い:"scent, smell"
+調子:調子[ちょうし]:"condition, state of health"
+緊張:緊張[きんちょう]:nervousness
+安心:安心[あんしん]:"relief, peace of mind"
+他人:他人[たにん]:"other people, strangers"
+一体:一体[いったい]:what the ...
+大変:大変[たいへん]:"greatly, terribly"
+夏:夏[なつ]:summer
+結婚:結婚[けっこん]:marriage
+興味:興味[きょうみ]:"interest (in something), curiosity (about something)"
+事情:事情[じじょう]:"circumstances, consideration, situation, state of affairs"
+少ない:少[すく]ない:"few, a little, insufficient"
+甘い:甘[あま]い:sweet
+元気:元気[げんき]:"healthy, doing well"
+作戦:作戦[さくせん]:"tactics, strategy"
+教師:教師[きょうし]:teacher (fomral)
+期待:期待[きたい]:"expectation, anticipation, hope"
+喜ぶ:喜[よろこ]ぶ:"to be delighted, to be glad"
+相談:相談[そうだん]:"consultation, advice"
+落ち着く:落ち着[おちつ]く:"to calm down, to be calm"
+正直:正直[しょうじき]:"honestly, frankly"
+味:味[あじ]:"(sense of) taste, flavor"
+自信:自信[じしん]:"self-confidence, confidence (in oneself)"
+覚悟:覚悟[かくご]:"resolution, readiness, preparedness"
+結構:結構[けっこう]:"sufficient, quite, ok"
+駄目:駄目[だめ]:"hopeless, wasted, purposeless, no good, not allowed"
+邪魔:邪魔[じゃま]:"hindrance, obstacle, nuisance"
+代わり:代[か]わり:"second helping, seconds; substitute"
+本気:本気[ほんき]:serious
+意外:意外[いがい]:"unexpected, surprising"
+失礼:失礼[しつれい]:"excuse me, rude"
+証拠:証拠[しょうこ]:"evidence, proof"
+特別:特別[とくべつ]:special
+大切:大切[たいせつ]:"important, necessary, indispensable"
+十分:十分[じゅうぶん]:"plenty, enough, sufficient, satisfactory, adequate"
+立派:立派[りっぱ]:"praiseworthy, creditable, splendid, fine, elegant"
+人生:人生[じんせい]:(human) life
+残念:残念[ざんねん]:unfortunate
+焼く:焼[や]く:"to bake, to grill, to bake, to burn"
+本人:本人[ほんにん]:the person himself
+野郎:野郎[やろう]:guy (derogatory)
+我慢:我慢[がまん]:"patience, endurance"
+責任:責任[せきにん]:responsibility
+全て:全[すべ]て:"all, entirely"
+茶:茶[ちゃ]:tea
+多分:多分[たぶん]:"perhaps, probably"
+弱い:弱[よわ]い:"weak, frail"
+偶然:偶然[ぐうぜん]:"coincidence, by chance"
+願う:願[ねが]う:"to desire, to wish, to request, to implore"
+活動:活動[かつどう]:"activity, action"
+親父:親父[おやじ]:"one's father, middle aged man"
+別れる:別[わか]れる:to break up
+出会う:出会[であ]う:"to meet (by chance), to come across"
+付ける:付[つ]ける:"to attach, to turn on (light)"
+未来:未来[みらい]:the future (usually distant)
+一応:一応[いちおう]:"more or less, tentatively"
+協力:協力[きょうりょく]:"cooperation, collaboration"
+一生:一生[いっしょう]:"whole life, a lifetime"
+最高:最高[さいこう]:"best, wonderful, finest"
+同士:同士[どうし]:"fellow, mutual, companion, comrade"
+感謝:感謝[かんしゃ]:"thanks, gratitude"
+紹介:紹介[しょうかい]:introduction
+女子:女子[じょし]:girl
+せめて:せめて:at least
+平気:平気[へいき]:"calmness, composure, unconcern"
+事故:事故[じこ]:"accident, incident"
+足りる:足[た]りる:"to be sufficient, to be enough"
+勝負:勝負[しょうぶ]:"match, contest, game"
+恋:恋[こい]:(romantic) love
+真面目:真面目[まじめ]:"serious, earnest"
+掃除:掃除[そうじ]:cleaning
+似合う:似合[にあ]う:"to suit, to match"
+余計:余計[よけい]:"excessive, superfluous"
+申し訳:申し訳[もうしわけ]:"apology, excuse"
+歌う:歌[うた]う:to sing
+無い:無[な]い:to not exist (inanimate objects)
+良い:良[よ]い:"good, nice"
+お前:お 前[まえ]:you (slightly derogatory)
+訳:訳[わけ]:"reason, rationale"
+やっぱり:やっぱり:"as expected, after all"
+あいつ:あいつ:him (informal)
+まま:まま:as it is (moment in time)
+馬鹿:馬鹿[ばか]:"idiot, stupid"
+嫌:嫌[いや]:"unpleasant, detestable"
+ただ:ただ:"simply, merely"
+はず:はず:"should be, must be"
+達:達[たち]:pluralizing suffix (for people and animals)
+つもり:つもり:intention
+さっき:さっき:a short while ago
+全く:全[まった]く:"truly, entirely"
+実:実[じつ]:"truth, reality"
+なぜ:なぜ:why (formal)
+しかし:しかし:however
+祖母:祖母[そぼ]:grandmother
+ほど:ほど:"degree, extent"
+さすが:さすが:as you'd expect
+こいつ:こいつ:this (informal)
+あまり:あまり:"not much, not very"
+おはよう:おはよう:good morning
+者:者[もの]:person
+まじ:まじ:serious
+まず:まず:first
+とにかく:とにかく:anyway
+祖父:祖父[そふ]:grandfather
+そちら:そちら:there (location)
+お願い:お 願[ねが]い:favor
+付き合う:付[つ]き 合[あ]う:to go out with (romantically)
+今まで:今[いま]まで:until now
+どっち:どっち:which
+下:下[した]:below
+など:など:etc
+しっかり:しっかり:dependable
+辛い:辛[から]い:spicy
+せっかく:せっかく:"with trouble, at great pains"
+しかも:しかも:moreover
+円:円[えん]:yen
+つまり:つまり:in other words
+形:形[かたち]:shape
+いくら:いくら:how much
+無し:無[な]し:without
+とりあえず:とりあえず:"for now, at once"
+仕方ない:仕方[しかた]ない:"cannot be helped, unavoidable"
+諦める:諦[あきら]める:to give up
+ただいま:ただいま:I'm home!
+謝る:謝[あやま]る:to apologize
+お兄ちゃん:お 兄[にい]ちゃん:older brother (informal)
+もしもし:もしもし:hello (on phone)
+感じる:感[かん]じる:to feel
+あっち:あっち:over there
+無駄:無駄[むだ]:"waste (of time, etc), pointlessness"
+何度:何度[なんど]:how many times
+件:件[けん]:"matter, incident"
+ちょうど:ちょうど:exact
+随分:随分[ずいぶん]:"considerably, awfully"
+やばい:やばい:"terrible, crap (slang)"
+第:第[だい]:prefix for forming ordinal numbers
+楽しみ:楽[たの]しみ:"enjoyment, anticipation"
+側:側[そば]:near
+ばれる:ばれる:"to be exposed (a lie, etc.)"
+番:番[ばん]:"number (in a series), turn (in line)"
+お腹:お 腹[なか]:stomach
+わざわざ:わざわざ:"especially, taking the trouble (to do)"
+まずい:まずい:bad (taste)
+伯父:伯父[おじ]:uncle
+いい加減:いい 加減[かげん]:"irresponsible, careless"
+おめでとう:おめでとう:congratulations
+身:身[み]:"body, oneself"
+くそ:くそ:"damn, shit"
+いろんな:いろんな:various
+可能性:可能性[かのうせい]:"possibly, potentially"
+互い:互[たが]い:"each other, one another​"
+臭い:臭[くさ]い:smelly
+愛する:愛[あい]する:to love
+たまに:たまに:occasionally
+さっさと:さっさと:quickly
+今更:今更[いまさら]:now (when it is already much too late)
+知り合い:知[し]り 合[あ]い:acquaintance
+つい:つい:unintentionally
+大した:大[たい]した:considerable
+偉い:偉[えら]い:distinguished
+一言:一言[ひとこと]:a few words
+相変わらず:相変[あい]わらず:as usual
+ほとんど:ほとんど:"mostly, nearly"
+よろしい:よろしい:"OK, all right"
+工事:工事[こうじ]:construction
+ばばあ:ばばあ:old woman (informal)
+どちら:どちら:which
+増える:増[ふ]える:to increase
+そもそも:そもそも:in the first place
+逆:逆[ぎゃく]:opposite
+裏:裏[うら]:opposite side
+不安:不安[ふあん]:"anxiety, uneasiness"
+既に:既[すで]に:already
+そいつ:そいつ:person (informal)
+深い:深[ふか]い:deep
+限り:限[かぎ]り:limit
+珍しい:珍[めずら]しい:rare
+傷つく:傷[きず]つく:to hurt
+納得:納得[なっとく]:"agreement, understanding"
+懸命:懸命[けんめい]:"earnest, with utmost effort"
+まあまあ:まあまあ:so-so
+慣れる:慣[な]れる:to get used to
+可哀想:可哀想[かわいそう]:pitiful​
+現れる:現[あらわ]れる:to show
+元々:元々[もともと]:originally
+直す:直[なお]す:to repair
+勘違い:勘違[かんちが]い:"misunderstanding, mistaken idea"
+辺:辺[へん]:area
+早速:早速[さっそく]:"at once, immediately"
+場:場[ば]:place
+年間:年間[ねんかん]:period of years
+素晴らしい:素晴[すば]らしい:"great, amazing"
+正しい:正[ただ]しい:correct
+運ぶ:運[はこ]ぶ:to carry
+求める:求[もと]める:to request
+苦しい:苦[くる]しい:painful
+今後:今後[こんご]:"from now on, hereafter"
+休み:休[やす]み:rest
+羨ましい:羨[うらや]ましい:envious
+遠慮:遠慮[えんりょ]:restraint
+以来:以来[いらい]:"since, henceforth"
+受け取る:受[う]け 取[と]る:to take
+最悪:最悪[さいあく]:worst
+意識:意識[いしき]:consciousness
+越える:越[こ]える:to pass (through/over)
+正面:正面[しょうめん]:front
+完璧:完璧[かんぺき]:perfect
+普段:普段[ふだん]:"usually, normally"
+誤解:誤解[ごかい]:misunderstanding
+下手:下手[へた]:poor (at)
+たとえ:たとえ:"even if, no matter (what)"
+固い:固[かた]い:hard
+きつい:きつい:tight
+空気:空気[くうき]:air
+具合:具合[ぐあい]:condition
+違い:違[ちが]い:difference
+お姉ちゃん:お 姉[ねえ]ちゃん:older sister (informal)
+ちなみに:ちなみに:by the way
+思い出:思[おも]い出[で]:memory
+内容:内容[ないよう]:contents
+なめる:なめる:"to look down on (someone), to make fun of"
+昼:昼[ひる]:"daytime, midday"
+去年:去年[きょねん]:last year
+温かい:温[あたた]かい:warm
+きっかけ:きっかけ:chance
+手前:手前[てまえ]:"before oneself, in front of one"
+バイト:バイト:part-time job
+年生:年生[ねんせい]:grade (school year)
+泳ぐ:泳[およ]ぐ:to swim
+着替える:着替[きが]える:change clothes
+男子:男子[だんし]:boy
+水着:水着[みずぎ]:swimsuit
+セリフ:セリフ:"speech, words"
+少女:少女[しょうじょ]:little girl
+会話:会話[かいわ]:conversation
+変態:変態[へんたい]:pervert
+衣装:衣装[いしょう]:clothing
+勝ち:勝[か]ち:victory
+恋愛:恋愛[れんあい]:love
+お弁当:お 弁当[べんとう]:box lunch
+制服:制服[せいふく]:uniform (clothing)
+開始:開始[かいし]:start
+禁止:禁止[きんし]:prohibited
+体調:体調[たいちょう]:body condition
+告白:告白[こくはく]:confession
+どきどき:どきどき:to beat fast (of one's heart) in excitement
+まし:まし:better
+中学:中学[ちゅうがく]:middle school
+用事:用事[ようじ]:errand
+泊まる:泊[と]まる:to stay overnight
+ガキ:ガキ:"brat (small, annoying kid)"
+全力:全力[ぜんりょく]:"all one's power (strength, energy, efforts)"
+指:指[ゆび]:finger
+話し掛ける:話[はな]し 掛[か]ける:to start a conversation
+反応:反応[はんのう]:"reaction, response"
+気合い:気合[きあ]い:"(fighting) spirit, motivation"
+試験:試験[しけん]:test
+やる気:やる 気[き]:"willingness (to do something), eagerness"
+勇気:勇気[ゆうき]:courage
+穴:穴[あな]:hole
+ありがたい:ありがたい:appreciated
+秒:秒[びょう]:second (time)
+廊下:廊下[ろうか]:hallway
+光:光[ひかり]:light
+まさに:まさに:"surely, certainly"
+初:初[はつ]:first
+終了:終了[しゅうりょう]:"end, termination"
+避ける:避[さ]ける:to avoid
+攻撃:攻撃[こうげき]:attack
+背中:背中[せなか]:back (human body)
+友人:友人[ゆうじん]:friend
+性格:性格[せいかく]:personality
+広い:広[ひろ]い:"wide, spacious"
+手伝い:手伝[てつだ]い:"help, assistance"
+遊園地:遊園地[ゆうえんち]:amusement park
+待ち合わせ:待[ま]ち 合[あ]わせ:appointment
+郵便局:郵便局[ゆうびんきょく]:post office
+引っ越す:引[ひ]っ越[こ]す:to move (house)
+教科書:教科書[きょうかしょ]:textbook
+文房具:文房具[ぶんぼうぐ]:stationary
+天井:天井[てんじょう]:ceiling
+投げる:投[な]げる:to throw
+飽きる:飽[あ]きる:"to get tired of, to lose interest in"
+完了:完了[かんりょう]:"completion, conclusion"
+過去:過去[かこ]:"the past, bygone days"
+触れる:触[ふ]れる:"to touch, to feel"
+微妙:微妙[びみょう]:"difficult, complex, subtle"
+詳しい:詳[くわ]しい:detailed
+消す:消[け]す:"to extinguish, to put out"
+まとめる:まとめる:to summarize
+比べる:比[くら]べる:to compare
+証明:証明[しょうめい]:"proof, testimony"
+満足:満足[まんぞく]:satisfaction
+才能:才能[さいのう]:talent
+永遠:永遠[えいえん]:eternity
+心臓:心臓[しんぞう]:heart
+勝利:勝利[しょうり]:victory
+季節:季節[きせつ]:season
+値段:値段[ねだん]:price
+預ける:預[あず]ける:to leave (in someone's keeping)
+与える:与[あた]える:to give (esp. to someone of lower status)
+慌てる:慌[あわ]てる:"to be flustered, to panic"
