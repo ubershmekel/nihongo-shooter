@@ -4,6 +4,9 @@ export default {
   build: {
     // Do not inline images and assets to avoid the phaser error
     // "Local data URIs are not supported"
-    assetsInlineLimit: 0
+    assetsInlineLimit: 0,
+    // Phaser alone is ~1.3MB minified. Do not split it into its own chunk,
+    // `canvas-read-fix.ts` must run before phaser loads.
+    chunkSizeWarningLimit: 2000,
   },
 }

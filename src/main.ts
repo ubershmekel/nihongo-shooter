@@ -1,5 +1,6 @@
 import './style.css'
 
+import './canvas-read-fix';
 import 'phaser';
 import { MenuScene } from './menu-scene';
 import { GameScene } from './game-scene';
@@ -84,7 +85,7 @@ window.addEventListener('load', () => {
 
   // Analytics
   GameAnalytics.initialize('52e2232c1978d43ea0a92c8843b41cb5', '37d89161a925a776310beaac76278b047ea1df20');
-  GameAnalytics.setEnabledInfoLog(true);
+  GameAnalytics.setEnabledInfoLog(import.meta.env.DEV);
 
   // Skip the language selection scren if you already chose one
   const scenesList: typeof Phaser.Scene[] = [
