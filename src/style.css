@@ -14,6 +14,47 @@ body {
 }
 
 .window-controls {
-  /* 100vh - 96vh = 4vh, so the controls are invisible in ios fake fullscreen */
   margin-bottom: 4vh;
+}
+
+.exit-pseudo-fullscreen {
+  display: none;
+}
+
+/* Fake fullscreen for iPhones, which lack the fullscreen API.
+   `position: fixed` with `inset: 0` tracks the visible area even when
+   Safari's toolbars are showing, unlike `100vh`. */
+.pseudo-fullscreen,
+.pseudo-fullscreen body {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+.pseudo-fullscreen #app {
+  position: fixed;
+  top: env(safe-area-inset-top, 0);
+  right: env(safe-area-inset-right, 0);
+  bottom: env(safe-area-inset-bottom, 0);
+  left: env(safe-area-inset-left, 0);
+  height: auto;
+  z-index: 10;
+  background: #000020;
+  touch-action: none;
+}
+
+.pseudo-fullscreen .exit-pseudo-fullscreen {
+  display: block;
+  position: fixed;
+  top: calc(env(safe-area-inset-top, 0px) + 6px);
+  right: calc(env(safe-area-inset-right, 0px) + 6px);
+  z-index: 11;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 32px;
 }

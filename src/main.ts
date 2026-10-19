@@ -45,14 +45,38 @@ export class Game extends Phaser.Game {
   }
 }
 
+function canNativeFullscreen(game: Phaser.Game) {
+  // iPhones may expose parts of the fullscreen API without honoring it,
+  // `fullscreenEnabled` is what tells us if it actually works.
+  const enabled = document.fullscreenEnabled || (document as any).webkitFullscreenEnabled;
+  return enabled && game.scale.fullscreen.available;
+}
+
+function setPseudoFullscreen(game: Phaser.Game, on: boolean) {
+  // Pin the game to the visible viewport with CSS, see `.pseudo-fullscreen` in style.css
+  document.documentElement.classList.toggle('pseudo-fullscreen', on);
+  window.scrollTo(0, 0);
+  // Re-measure #app now instead of waiting for phaser's periodic check
+  game.scale.getParentBounds();
+  game.scale.refresh();
+}
+
 (window as any).toggleFullscreen = () => {
-  if (document["exitFullscreen"]) {
-    (window as any)._game.scale.toggleFullscreen();
+  const game: Phaser.Game = (window as any)._game;
+  const isPseudo = document.documentElement.classList.contains('pseudo-fullscreen');
+  if (!isPseudo && canNativeFullscreen(game)) {
+    game.scale.toggleFullscreen();
   } else {
-    // iphones do not support fullscreen, so just scroll down.
-    document.getElementById('app')?.scrollIntoView();
+    // iphones do not support fullscreen, so fake it.
+    setPseudoFullscreen(game, !isPseudo);
   }
 }
+
+window.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && document.documentElement.classList.contains('pseudo-fullscreen')) {
+    setPseudoFullscreen((window as any)._game, false);
+  }
+});
 
 window.addEventListener('load', () => {
   // Fix data from when the game only had japanese
@@ -78,5 +102,11 @@ window.addEventListener('load', () => {
   gameConfig.scene = scenesList;
 
   // Expose `_game` to allow debugging, mute button and fullscreen button
-  (window as any)._game = new Game(gameConfig);
+  const game = new Game(gameConfig);
+  (window as any)._game = game;
+
+  // Launched from the iOS home screen, go straight to the game.
+  if ((navigator as any).standalone) {
+    setPseudoFullscreen(game, true);
+  }
 });
