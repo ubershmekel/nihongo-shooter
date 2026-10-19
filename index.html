@@ -5,6 +5,13 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.5fcfc205.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- iPhones have no fullscreen API. "Add to Home Screen" is the only way to
+       hide the browser UI, these tags make that launch without Safari chrome. -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="Nihongo Shooter" />
+  <meta name="theme-color" content="#000020" />
   <title>Nihongo Shooter</title>
   <meta name="description" content="Zap aliens in space to learn Japanese/Spanish/French/German/... vocabulary.">
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,10 +29,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="./assets/index.03eb730c.js"></script>
-    <link rel="modulepreload" href="./assets/vendor.b8e6198f.js">
-    <link rel="stylesheet" href="./assets/index.86c05beb.css">
-  </head>
+  <script type="module" crossorigin src="./assets/index.c75d8a55.js"></script>
+  <link rel="stylesheet" href="./assets/index.11d4fad0.css">
+</head>
 
 <body>
   <h1>Nihongo Shooter</h1>
@@ -46,6 +52,7 @@
     <button onclick="window.location.reload(true)">refresh</button>
   </div>
   <div id="app"></div>
+  <button class="exit-pseudo-fullscreen" onclick="window.toggleFullscreen()" aria-label="exit fullscreen">&#x2715;</button>
   
 </body>
 
