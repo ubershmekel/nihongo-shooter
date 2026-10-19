@@ -14,6 +14,7 @@ import { ImageButton } from './image-button';
 import { languageSelectSceneKey } from './language-select-scene';
 import { UI, uiNameToFrame } from './fx-ui';
 import { whichStarFrame } from './scoring';
+import { enterFullscreenOnPhone } from './fullscreen';
 
 export const menuSceneKey = 'MenuScene';
 
@@ -106,6 +107,7 @@ export class MenuScene extends Phaser.Scene {
       const y = (1.4 + 1 * Math.floor(index / columnCount)) * gameHeight / 10;
       button.setXY(x, y);
       button.onPress = () => {
+        enterFullscreenOnPhone(this.game);
         this.sound.play('gasp');
         const sceneInfo: GameSceneProps = {
           level,

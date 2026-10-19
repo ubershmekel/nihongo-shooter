@@ -1,7 +1,8 @@
 
 body {
   margin: 0;
-  padding: 8px 8px 2px 8px;
+  /* Wide side margins so phones have room to scroll the page past the game */
+  padding: 8px 16px 2px 16px;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
